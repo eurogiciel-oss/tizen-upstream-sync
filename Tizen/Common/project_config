@@ -1,0 +1,413 @@
+################################################################################
+# OBS Project config for Tizen:Common
+#
+# RE contacts:
+# Stephane Desneux <stephane.desneux@open.eurogiciel.org>
+# Ronan Le Martret <ronan.lemartret@open.eurogiciel.org>
+# Jose Bollo <jose.bollo@open.eurogiciel.org>
+#
+# Git mirror for OBS config: review.tizen.org:scm/meta/build-config / branch tizen_common
+#
+# vim: set syntax=spec:
+################################################################################
+
+Patterntype: rpm-md comps
+Release: <CI_CNT>.<B_CNT>
+Support: build
+Support: build-compare build-mkbaselibs
+Support: rpmlint-mini rpmlint-tizen
+
+%global aarch64  aarch64 arm64 armv8
+
+%ifarch ${aarch64}
+%define _arch aarch64
+%endif
+
+############################# conflicts resolution #############################
+
+FileProvides: /usr/sbin/groupadd pwdutils
+Prefer: util-linux
+Prefer: libtapi-devel
+Prefer: libpci-devel
+
+############################# profile definition ###############################
+
+%define profile common
+%define _with_tizen 1
+
+Macros:
+%profile common
+%tizen_version 3.0
+%tizen 3.0
+%vendor tizen
+%_vendor tizen
+%_with_tizen 1
+
+%check exit 0
+%run_check_section 0
+%opensuse_bs 1
+%_default_patch_fuzz   2
+:Macros
+
+############################# display system ###################################
+
+########## display system selection ##########
+
+# selection of the display system
+# this selection is done for each repository
+#
+# flags combinations:
+# |----------------------------------------------------
+# | wayland |  x  | meaning
+# |----------------------------------------------------
+# |   0     |  1  | pure X11 platform(no wayland)
+# |   1     |  0  | pure wayland platform (no X11)
+# |   1     |  1  | wayland but X compatibility
+# |   0     |  0  | no X and no wayland
+# |----------------------------------------------------
+#
+# Owner: Stephane <stephane.desneux@open.eurogiciel.org>
+
+########## RDP flag ##########
+
+# enable/disable RDP (remote desktop protocol) for wayland
+# flag: _with_rdp, used in repositories
+# Affects: weston, freerdp
+# Owner: Manuel <manuel.bachmann@open.eurogiciel.org>
+
+########## mesa activation ##########
+
+%define _with_mesa 1
+Macros:
+%_with_mesa 1
+:Macros
+
+%ifarch %arm armv7l %{aarch64}
+   Substitute: mesa-devel pkgconfig(glesv2)
+   #FIXME Substitute: pkgconfig(egl)
+%endif
+
+############################# wayland repositories #############################
+
+%if "%_repository" == "ia32-wayland" || "%_repository" == "x86_64-wayland" || "%_repository" == "arm-wayland"|| "%_repository" == "arm"|| "%_repository" == "arm64" || "%_repository" == "arm64-wayland" || "%_repository" == "wayland" || "%_repository" == "standard"
+
+Substitute: pkgconfig(gles20)  pkgconfig(egl) pkgconfig(glesv2)
+Substitute: pkgconfig(gles11)  pkgconfig(egl) pkgconfig(glesv1) pkgconfig(gl)
+
+%define _with_wayland 1
+%define _with_rdp 1
+
+Macros:
+%_with_wayland 1
+%_with_rdp 1
+:Macros
+
+%endif
+
+############################# X11 repositories #################################
+
+%if "%_repository" == "ia32-x11" || "%_repository" == "x86_64-x11" || "%_repository" == "arm-x11" || "%_repository" == "arm64-x11" || "%_repository" == "x11"
+
+Substitute: pkgconfig(gles20) pkgconfig(egl) pkgconfig(glesv2) pkgconfig(gl)
+Substitute: pkgconfig(gles11) pkgconfig(egl) pkgconfig(glesv1_cm) pkgconfig(gl)
+
+%define _with_x 1
+
+Macros:
+%_with_x 1
+:Macros
+
+%endif
+
+############################# X+Wayland repositories ###########################
+
+%if "%_repository" == "ia32-xwayland" || "%_repository" == "x86_64-xwayland" || "%_repository" == "arm-xwayland" || "%_repository" == "arm64-xwayland" || "%_repository" == "xwayland"
+
+Substitute: pkgconfig(gles20) pkgconfig(egl) pkgconfig(glesv2) pkgconfig(gl)
+Substitute: pkgconfig(gles11) pkgconfig(egl) pkgconfig(glesv1_cm) pkgconfig(gl)
+
+%define _with_wayland 1
+%define _with_x 1
+
+Macros:
+%_with_wayland 1
+%_with_x 1
+:Macros
+
+%endif
+
+############################# emulator repositories ############################
+
+%if "%_repository" == "emulator32-wayland"
+
+Prefer: mesa-libGLESv2
+Prefer: libwayland-egl
+Prefer: libgbm
+Prefer: mesa-libGL
+Prefer: mesa-libEGL
+Prefer: emulator-yagl
+
+Substitute: pkgconfig(gles20)  pkgconfig(egl) pkgconfig(glesv2)
+Substitute: pkgconfig(gles11)  pkgconfig(egl) pkgconfig(glesv1) pkgconfig(gl)
+
+%define _with_wayland 1
+%define _with_emulator 1
+
+Macros:
+%_with_wayland 1
+%_with_emulator 1
+:Macros
+
+%endif
+
+############################# misc config flags ################################
+
+# This build macro controls the libdlog output. If enabled,
+# libdlog writes to Systemd Journal. If disabled, libdlog writes to kernel Android
+# logger FIFO. Affects: dlog.
+# Owner: Mikko <mikko.ylinen@intel.com>
+Macros:
+%_with_dlog_to_systemd_journal 1
+:Macros
+
+# Macro used to handle bluetooth popups without syspopup/bt-syspopup which needs OSP .
+# In IVI, this macro permits to address bluetooth notifications (using C API) to notification-service daemon.
+# Then homescreen is supposed to deal with those notifications and display relevant popups.
+# Affects: bluetooth-frwk
+# Owner: Corentin Lecouvey <corentin.lecouvey@open.eurogiciel.org>
+Macros:
+%_with_bluetooth_frwk_libnotification 1
+:Macros
+
+# This build macro controls whether the OS uses
+# legacy nfc-manager or neard enabled nfc-manager-neard. If enabled,
+# nfc-manager-neard is used. Affects: nfc CAPI, emulator-plugin-nfc
+# Owner: Arron Wang <arron.wang@intel.com>
+Macros:
+%_with_neard_nfc 1
+:Macros
+
+# Uses mobile-specific Samsung patches for PulseAudio. Tizen Mobile needs
+# this -> Tizen Mobile is compiled with this option.
+# Owner: Ismo Puustinen <ismo.puustinen@intel.com>
+# FIXME: Why this extra define in the obs config ?
+%define _with_pulseaudio_samsung_policy 1
+Macros:
+%_with_pulseaudio_samsung_policy 1
+:Macros
+
+# Activate introspection
+# This is needed on GuPNP to build Rygel correctly in IVI
+# Impacts potentially packages that use gobject-introspection
+# Owner: Mikko <mikko.ylinen@intel.com>
+Macros:
+%_with_introspection 1
+:Macros
+
+############################# build config #####################################
+
+%define gcc_version 48
+
+########## targets ##########
+
+%ifarch i586
+Target: i686-tizen-linux
+%endif
+
+%ifarch armv7hl
+Target: armv7hl-tizen-linux
+%endif
+
+%ifarch armv7l
+Target: armv7l-tizen-linux
+%endif
+
+%ifarch aarch64
+Target: aarch64-tizen-linux
+%endif
+
+########## cross build ##########
+
+%ifarch %arm armv7l
+Hostarch: x86_64
+# cross build support for the build hosts
+Preinstall: qemu-linux-user-cross-arm
+Keep: qemu-linux-user-cross-arm
+%endif
+
+%ifarch armv7hl
+Preinstall: qemu-accel-armv7hl
+Runscripts: qemu-accel-armv7hl
+Preinstall: libmount libblkid libuuid
+%endif
+
+%ifarch armv7l
+Preinstall: qemu-accel-armv7l-cross-arm
+Runscripts: qemu-accel-armv7l-cross-arm
+Preinstall: libmount libblkid libuuid
+%endif
+
+%ifarch aarch64
+Substitute: cross-aarch64-binutils  binutils
+Substitute: cross-aarch64-gcc48-icecream-backend gcc
+Preinstall: setup filesystem
+Preinstall: qemu-accel-aarch64-cross-arm
+Runscripts: qemu-accel-aarch64-cross-arm setup filesystem
+
+Preinstall: rpm rpm-build pam db4
+Preinstall: libncurses libmpc libmpfr libgmp cloog-isl
+Preinstall: python
+
+#hack to start build without proper binfmt
+Preinstall: !bbb-cross-arm
+Ignore:     bbb-cross-arm
+Preinstall: bash
+
+#provides until we can build libs correctly
+#FileProvides: libc.so.6 glibc
+#FileProvides: libc.so.6(GLIBC_2.4) glibc
+#FileProvides: libc.so.6(GLIBC_2.6) glibc
+#FileProvides: libc.so.6(GLIBC_2.7) glibc
+#FileProvides: libc.so.6(GLIBC_2.8) glibc
+#FileProvides: libc.so.6(GLIBC_2.11) glibc
+#FileProvides: libc.so.6(GLIBC_2.15) glibc
+#FileProvides: libc.so.6(GLIBC_2.17) glibc
+#FileProvides: ld-linux.so.3 glibc
+#FileProvides: ld-linux.so.3(GLIBC_2.4) glibc
+#FileProvides: ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) glibc
+#FileProvides: ld-linux-aarch64.so.1()(64bit) glibc
+#FileProvides: libdl.so.2 glibc
+#FileProvides: libdl.so.2(GLIBC_2.4) glibc
+#FileProvides: libcrypt.so.1 glibc
+#FileProvides: libcrypt.so.1(GLIBC_2.4) glibc
+#FileProvides: libm.so.6 glibc
+#FileProvides: libm.so.6(GLIBC_2.4) glibc
+#FileProvides: libpthread.so.0 glibc
+#FileProvides: libpthread.so.0(GLIBC_2.4) glibc
+#FileProvides: libacl.so.1 acl
+#FileProvides: liblua.so.5.1 liblua
+#FileProvides: liblzma.so.5 xz
+#FileProvides: libpopt.so.0 popt
+#FileProvides: libelf.so.1(ELFUTILS_1.0) libelf
+#FileProvides: libnsl.so.1 glibc
+#FileProvides: libnsl.so.1(GLIBC_2.4) glibc
+#FileProvides: libutil.so.1 glibc
+#FileProvides: libutil.so.1(GLIBC_2.4) glibc
+#FileProvides: libpopt.so.0(LIBPOPT_0) popt
+#FileProvides: libacl.so.1(ACL_1.0) acl
+#FileProvides: libz.so.1(ZLIB_1.2.3.3) zlib
+#FileProvides: libmagic.so.1 libmagic
+#FileProvides: libgmp.so.10 libgmp
+#FileProvides: libmpc.so.3 libmpc
+#FileProvides: libmpfr.so.4 libmpfr
+#FileProvides: libnspr4.so nspr
+#FileProvides: libplc4.so nspr
+#FileProvides: libplds4.so nspr
+#FileProvides: libsqlite3.so.0 sqlite
+#FileProvides: libattr.so.1 attr
+#FileProvides: libattr.so.1(ATTR_1.0) attr
+#FileProvides: libsmack.so.1 smack
+#FileProvides: libsmack.so.1(LIBSMACK_1.0) smack
+#FileProvides: libxml2.so.2 libxml2
+#FileProvides: libxml2.so.2(LIBXML2_2.4.30) libxml2
+#FileProvides: libxml2.so.2(LIBXML2_2.5.0) libxml2
+#FileProvides: libxml2.so.2(LIBXML2_2.6.0) libxml2
+#FileProvides: librpm.so.3()(64bit) rpm
+#FileProvides: librpmio.so.3()(64bit) rpm
+%endif # aarch64
+
+########## exports for different architectures ##########
+
+ExportFilter: ^qemu-linux-user.*\..*\.rpm$ . armv7l armv7hl aarch64
+
+ExportFilter: ^qemu-accel-armv7hl.*\..*\.rpm$ .  armv7hl
+ExportFilter: ^qemu-accel-armv7l.*\..*\.rpm$ .  armv7l
+ExportFilter: ^qemu-accel-aarch64.*\..*\.rpm$ .  aarch64
+
+ExportFilter: \.armv7l\.rpm$ armv7l
+ExportFilter: \.aarch64\.rpm$ aarch64
+ExportFilter: \.x86_64\.rpm$ x86_64
+
+########## buildroot config ##########
+
+Preinstall: setup filesystem
+RunScripts: setup
+
+Preinstall: bash bzip2 coreutils diffutils grep rpm
+Preinstall: glibc libacl libattr
+Preinstall: libcap
+Preinstall: libgcc_s1
+Preinstall: libpopt sed tar zlib
+Preinstall: libncurses libreadline
+Preinstall: libelf libbz2
+Preinstall: liblzma
+Preinstall: nss nspr libfreebl3 libsoftokn3
+Preinstall: libmagic
+Preinstall: liblua
+Preinstall: smack libsmack libxml2 libmagic  libmagic-data
+Preinstall: libsqlite
+Preinstall: rpm-security-plugin
+Preinstall: util-linux
+
+VMinstall: perl libmount libblkid libext2fs libuuid  grep libpcre util-linux
+
+%ifarch aarch64
+Support: cross-aarch64-binutils cross-aarch64-gcc48-icecream-backend
+%endif
+Required: binutils gcc glibc rpm-build libtool
+
+Support: glibc-locale
+Support: perl
+Support: hostname
+Support: cpio findutils
+Support: file findutils zlib bzip2
+Support: gzip hostname net-tools
+Support: make  patch sed  gawk tar grep coreutils pkg-config
+Support: m4  tzdata
+Support: util-linux
+Support: less
+Support: which  elfutils
+Support: update-alternatives
+
+# FIXME: TO REMOVE (? comes from IVI)
+Support: gcc-c++
+
+Keep: cpp%{gcc_version} gcc%{gcc_version} gcc%{gcc_version}-ada libstdc++%{gcc_version}
+Keep: libstdc++%{gcc_version}-devel gcc%{gcc_version}-c++
+Keep: cpp gcc libstdc++
+Keep: pam
+Keep: binutils cpp  libmagic-data file findutils gawk gcc  gcc-c++
+Keep: gdbm gzip libada libunwind  glibc-devel libpcre xz-lzma-compat
+Keep: make  gmp libcap groff cpio
+Keep: patch rpm-build  nss nspr elfutils python grep libgcc gcc-c++
+Keep: kernel-headers  perl-libs perl
+Keep: pkgconfig glib2 tizen-rpm-config
+Keep: libmpc libmpfr libppl libgmp libppl_c
+Keep: libcloog libppl libgmpxx
+Keep: nss-softokn-freebl libmagic libmagic-data
+Keep: setup
+Keep: update-alternatives
+Prefer: libstdc++%{gcc_version} libgcc%{gcc_version}
+Prefer: libstdc++%{gcc_version}-32bit libstdc++%{gcc_version}-64bit
+
+Substitute: gettext gettext-tools
+
+%ifarch x86_64
+Substitute: glibc-devel-32bit glibc-devel-32bit glibc-32bit
+%else
+Substitute: glibc-devel-32bit
+%endif
+
+########## compilation flags ##########
+
+#%__global_cflags -O2 -g2 -feliminate-unused-debug-types -pipe -Wall  -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector  --param=ssp-buffer-size=32 -Wformat -Wformat-security
+
+Optflags: x86_64 -O2 -g2 -feliminate-unused-debug-types -pipe -Wall  -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector  --param=ssp-buffer-size=32 -Wformat -Wformat-security -fmessage-length=0 -m64 -march=corei7 -msse4.2  -mtune=corei7-avx -mfpmath=sse -fasynchronous-unwind-tables -fno-omit-frame-pointer  -fipa-cp-clone
+
+#generic arm platform
+#Optflags: armv7l -O2 -g2 -feliminate-unused-debug-types -pipe -Wall  -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector  --param=ssp-buffer-size=32 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mtune=cortex-a8 -mlittle-endian  -mfpu=vfpv3 -mfloat-abi=softfp -D__SOFTFP__
+
+#activate neon FPU instructions set (crosswalk build)
+Optflags: armv7l -O2 -g2 -feliminate-unused-debug-types -pipe -Wall  -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector  --param=ssp-buffer-size=32 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mtune=cortex-a8 -mlittle-endian  -mfpu=neon -mfloat-abi=softfp -D__SOFTFP__
+
+Optflags: aarch64 -O2 -g2 -feliminate-unused-debug-types -pipe -Wall  -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector  -Wformat -Wformat-security -fmessage-length=0

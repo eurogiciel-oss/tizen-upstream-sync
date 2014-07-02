@@ -1,0 +1,42 @@
+<project name="Tizen:Common">
+  <title>Tizen:Common build for generic CPUs and devices.</title>
+  <description>See https://wiki.tizen.org/wiki/Common</description>
+  <person userid="marquiz" role="maintainer"/>
+  <person userid="ronan" role="maintainer"/>
+  <person userid="sdx" role="maintainer"/>
+  <person userid="sdx" role="bugowner"/>
+  <person userid="jobol" role="maintainer"/>
+  <build>
+    <disable arch="aarch64" repository="arm64-wayland"/>
+    <disable arch="i586" repository="arm-wayland"/>
+    <disable arch="x86_64" repository="arm-wayland"/>
+    <disable arch="i586" repository="x86_64-wayland"/>
+  </build>
+  <publish>
+    <disable arch="aarch64" repository="arm64-wayland"/>
+  </publish>
+  <debuginfo>
+    <enable/>
+  </debuginfo>
+  <useforbuild>
+    <disable arch="aarch64" repository="arm64-wayland"/>
+  </useforbuild>
+  <repository name="x86_64-wayland">
+    <arch>x86_64</arch>
+    <arch>i586</arch>
+  </repository>
+  <repository name="ia32-wayland">
+    <arch>i586</arch>
+  </repository>
+  <repository name="emulator32-wayland">
+    <arch>i586</arch>
+  </repository>
+  <repository name="arm64-wayland">
+    <arch>aarch64</arch>
+  </repository>
+  <repository name="arm-wayland">
+    <arch>armv7l</arch>
+    <arch>i586</arch>
+    <arch>x86_64</arch>
+  </repository>
+</project>
