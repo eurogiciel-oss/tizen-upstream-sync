@@ -32,7 +32,8 @@
   <project name="platform/upstream/bigreqsproto" revision="9c104bb0def203be5601759859eee7ddcef397bc" />
   <project name="platform/upstream/compositeproto" revision="e8c64e0d2d57ad2eb014866b5ca47fb8cb1e032c" />
   <project name="platform/upstream/damageproto" revision="b7578c9effd4ac538c57285b19276ac411d143d2" />
-  <project name="platform/upstream/dri2proto" revision="7dfb21765229ac5f7b5ed0bc4ab7ac99d209922c" />
+  <!-- (dri2proto is still in tizen wayland repos, keep it here just in case) -->
+  <!-- <project name="platform/upstream/dri2proto" revision="7dfb21765229ac5f7b5ed0bc4ab7ac99d209922c" /> -->
   <project name="platform/upstream/fixesproto" revision="f5b3e23ce67b02f6bdcaba8c94fb947df3b44d27" />
   <project name="platform/upstream/fontsproto" revision="548254d9e32659f3ce4b8bd71923dc1682f156f0" />
   <project name="platform/upstream/randrproto" revision="d12d69687b89345ec24cd3f5aa6a40445e8aef2c" />
@@ -44,7 +45,8 @@
   <project name="platform/upstream/xcmiscproto" revision="b2454d86879a9a789dcbec7e6d1bc46070373186" />
   <project name="platform/upstream/xf86vidmodeproto" revision="c6dc4413b970599246b9a2fe963ae35a7c454d27" />
   <project name="platform/upstream/xineramaproto" revision="aea15fbe2c5005f500bf632ba3f5a36b6d497f34" />
-  <project name="platform/upstream/xproto" revision="40de090d3918b98acc5bd9d7aaced2aeab5c8214" />
+  <!-- (xproto is still in tizen wayland repos, keep it here just in case) -->
+  <!-- <project name="platform/upstream/xproto" revision="40de090d3918b98acc5bd9d7aaced2aeab5c8214" /> -->
 
   <!-- libXdmcp (remote ressions, req. xproto) -->
   <project name="platform/upstream/libXdmcp" revision="02b885828d77900578190c299a2be81af3c86cf9" />
