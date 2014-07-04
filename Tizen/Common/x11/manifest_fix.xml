@@ -5,4 +5,8 @@
   
   <default remote="tizen-gerrit"/>
 
+
+  <project name="platform/upstream/libXau" revision="81badf2116fb92d5f39429d55c79831aa9d229ec" />
+
+
 </manifest>
