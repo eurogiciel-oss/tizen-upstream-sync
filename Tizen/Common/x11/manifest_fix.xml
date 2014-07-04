@@ -6,7 +6,47 @@
   <default remote="tizen-gerrit"/>
 
 
+  <!-- basic macros needed everywhere -->
+  <project name="platform/upstream/util-macros" revision="5eb8f5eba6ee91c9793badd0292c91e5f7d29b30" />
+
+  <!-- authentication protocol (xauth) -->
   <project name="platform/upstream/libXau" revision="81badf2116fb92d5f39429d55c79831aa9d229ec" />
 
+  <!-- XCB (basic X protocol, req. xauth) -->
+  <project name="platform/upstream/xcb-proto" revision="1e3e55a7eae8c22202172abb73e9f11fed4bb09e" />
+  <project name="platform/upstream/libxcb" revision="c2f821ce507873ad400483ae154bfa9a748c7f67" />
 
-</manifest>
+  <!-- random protos needed by libX11 -->
+  <project name="platform/upstream/kbproto" revision="2d1c9b944736dbbbc22facdbc2886566369c490d" />
+  <project name="platform/upstream/inputproto" revision="36f889d951b644cce20138154230beca1a1c5f33" />
+  <project name="platform/upstream/xextproto" revision="f2f56c9dbd1328a8d3d82983c02421c49a84ecc1" />
+  <project name="platform/upstream/xf86bigfontproto" revision="24933985e96eefd3142294d3c56f6d035d0d8dc2" />
+  <!-- libX11 (core X protocol, req. libXCB) -->
+  <project name="platform/upstream/libX11" revision="a14f45becf1703877859e79f3d8a0d5a058486f1" />
+
+  <!-- -->
+
+  <!-- random protos needed by libXdmcp, xorg-server -->
+  <project name="platform/upstream/x11proto-gesture" revision="b1ef59224dff857aae29fa5d08e79522419de675" />
+  <project name="platform/upstream/xf86dgaproto" revision="379e2c36919eea6ee4c3e464fb7b59010d1b2cb4" />
+  <project name="platform/upstream/bigreqsproto" revision="9c104bb0def203be5601759859eee7ddcef397bc" />
+  <project name="platform/upstream/compositeproto" revision="e8c64e0d2d57ad2eb014866b5ca47fb8cb1e032c" />
+  <project name="platform/upstream/damageproto" revision="b7578c9effd4ac538c57285b19276ac411d143d2" />
+  <project name="platform/upstream/dri2proto" revision="7dfb21765229ac5f7b5ed0bc4ab7ac99d209922c" />
+  <project name="platform/upstream/fixesproto" revision="f5b3e23ce67b02f6bdcaba8c94fb947df3b44d27" />
+  <project name="platform/upstream/fontsproto" revision="548254d9e32659f3ce4b8bd71923dc1682f156f0" />
+  <project name="platform/upstream/randrproto" revision="d12d69687b89345ec24cd3f5aa6a40445e8aef2c" />
+  <project name="platform/upstream/recordproto" revision="a49e8ebaed34dfc230be6c197702bcca900662c8" />
+  <project name="platform/upstream/renderproto" revision="29b3c24d1d4288edc923e0d1d3f87831d0a23a47" />
+  <project name="platform/upstream/resourceproto" revision="95c570f683c13ce14d2179281b6c81b0f8d245ca" />
+  <project name="platform/upstream/scrnsaverproto" revision="cbb042a55780a636f1bf1a09af6d767d1954a67e" />
+  <project name="platform/upstream/videoproto" revision="2478c6dad6eb971f58085327fe687116c749ceaf" />
+  <project name="platform/upstream/xcmiscproto" revision="b2454d86879a9a789dcbec7e6d1bc46070373186" />
+  <project name="platform/upstream/xf86vidmodeproto" revision="c6dc4413b970599246b9a2fe963ae35a7c454d27" />
+  <project name="platform/upstream/xineramaproto" revision="aea15fbe2c5005f500bf632ba3f5a36b6d497f34" />
+  <project name="platform/upstream/xproto" revision="40de090d3918b98acc5bd9d7aaced2aeab5c8214" />
+
+  <!-- libXdmcp (remote ressions, req. xproto) -->
+  <project name="platform/upstream/libXdmcp" revision="02b885828d77900578190c299a2be81af3c86cf9" />
+
+
