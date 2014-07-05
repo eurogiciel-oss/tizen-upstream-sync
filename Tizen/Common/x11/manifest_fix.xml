@@ -48,7 +48,7 @@
   <!-- <project name="platform/upstream/xproto" revision="40de090d3918b98acc5bd9d7aaced2aeab5c8214" /> -->
   <project name="platform/upstream/xf86driproto" revision="834d8c18da682803f79078782837e8bf6861a173" />
   <!-- updated to 1.4.17 for new Mesa (PUSH THIS INTO TIZEN ?) -->
-  <!-- <project name="platform/upstream/glproto" revision="" /> -->
+  <project path="glproto" name="Tarnyko/glproto" revision="620959c72dfea284af192a831f7ad40e81c2bb7c" remote="github"/>
 
   <!-- libXdmcp (remote ressions, req. xproto) -->
   <project name="platform/upstream/libXdmcp" revision="02b885828d77900578190c299a2be81af3c86cf9" />
@@ -58,6 +58,11 @@
 
   <!-- libXv (video extension, req. libXext) -->
   <project name="platform/upstream/libXv" revision="18404b82d4f94006027632e8a48d745608173d35" />
+
+  <project name="platform/upstream/libXfixes" revision="df36b39424fa6c7aa693fd6581b4298fc78ac24a" />
+  <project name="platform/upstream/libXdamage" revision="511de8af9e89e7624923b1f22a0a0a2babe2a223" />
+  <!-- Mesa (patched to re-include "mesa-libGL" packages, req. libXext, libXfixes, libXdamage) (PUSH THIS INTO TIZEN ?) -->
+  <project path="mesa" name="Tarnyko/mesa" revision="29e9cf6cdab88f9e045ef8380a00c34f8bdb9bad" remote="github"/>
 
   <project name="platform/upstream/libxkbfile" revision="f9f93fc29ce3d3d12b3c2d2d32693715a3b8a57a" />
   <project name="platform/upstream/xtrans" revision="6ac5dc9103fef855248b91693bce5186b125d3a0" />
