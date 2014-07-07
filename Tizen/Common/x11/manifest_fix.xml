@@ -50,7 +50,7 @@
   <!-- <project name="platform/upstream/xproto" revision="40de090d3918b98acc5bd9d7aaced2aeab5c8214" /> -->
   <project name="platform/upstream/xf86driproto" revision="834d8c18da682803f79078782837e8bf6861a173" />
   <!-- updated to 1.4.17 for new Mesa (PUSH THIS INTO TIZEN ?) -->
-  <project path="glproto" name="Tarnyko/glproto" revision="620959c72dfea284af192a831f7ad40e81c2bb7c" remote="github"/>
+  <project path="glproto" name="Tarnyko/glproto" revision="5903b304417886de32ad620ff8874998ddee4254" remote="github"/>
 
   <!-- libXdmcp (remote ressions, req. xproto) -->
   <project name="platform/upstream/libXdmcp" revision="02b885828d77900578190c299a2be81af3c86cf9" />
@@ -71,7 +71,7 @@
   <project name="platform/upstream/libXfixes" revision="df36b39424fa6c7aa693fd6581b4298fc78ac24a" />
   <project name="platform/upstream/libXdamage" revision="511de8af9e89e7624923b1f22a0a0a2babe2a223" />
   <!-- Mesa (patched to re-include "mesa-libGL" packages, req. libXext, libXfixes, libXdamage) (PUSH THIS INTO TIZEN ?) -->
-  <project path="mesa" name="Tarnyko/mesa" revision="29e9cf6cdab88f9e045ef8380a00c34f8bdb9bad" remote="github"/>
+  <project path="mesa" name="Tarnyko/mesa" revision="998120dd6ff5e32c832c07fd9fca55e7ae8a78da" remote="github"/>
 
   <!-- 4. Xorg -->
   <project name="platform/upstream/xorg-server" revision="fded9b992ad123e4616c7a27cd20f9861ea8bef8" />
