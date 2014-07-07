@@ -6,6 +6,8 @@
   <default remote="tizen-gerrit"/>
 
 
+  <!-- 1. libX11 -->
+
   <!-- basic macros needed everywhere -->
   <project name="platform/upstream/util-macros" revision="5eb8f5eba6ee91c9793badd0292c91e5f7d29b30" />
 
@@ -24,7 +26,7 @@
   <!-- libX11 (core X protocol, req. libXCB) -->
   <project name="platform/upstream/libX11" revision="a14f45becf1703877859e79f3d8a0d5a058486f1" />
 
-  <!-- -->
+  <!-- 2. protos, libXdmcp, libXext, libXv, libXfont -->
 
   <!-- random protos needed by libXdmcp, xorg-server -->
   <project name="platform/upstream/x11proto-gesture" revision="b1ef59224dff857aae29fa5d08e79522419de675" />
@@ -59,15 +61,19 @@
   <!-- libXv (video extension, req. libXext) -->
   <project name="platform/upstream/libXv" revision="18404b82d4f94006027632e8a48d745608173d35" />
 
+  <!-- libXfont (font handling, req. libX11, xproto, xtrans) -->
+  <project name="platform/upstream/libxkbfile" revision="f9f93fc29ce3d3d12b3c2d2d32693715a3b8a57a" />
+  <project name="platform/upstream/xtrans" revision="6ac5dc9103fef855248b91693bce5186b125d3a0" />
+  <project name="platform/upstream/libXfont" revision="1a17373f6c80e9d9958fae28ef7fc7bcfd5ddee7" />
+
+  <!-- 3. Mesa -->
+
   <project name="platform/upstream/libXfixes" revision="df36b39424fa6c7aa693fd6581b4298fc78ac24a" />
   <project name="platform/upstream/libXdamage" revision="511de8af9e89e7624923b1f22a0a0a2babe2a223" />
   <!-- Mesa (patched to re-include "mesa-libGL" packages, req. libXext, libXfixes, libXdamage) (PUSH THIS INTO TIZEN ?) -->
   <project path="mesa" name="Tarnyko/mesa" revision="29e9cf6cdab88f9e045ef8380a00c34f8bdb9bad" remote="github"/>
 
-  <project name="platform/upstream/libxkbfile" revision="f9f93fc29ce3d3d12b3c2d2d32693715a3b8a57a" />
-  <project name="platform/upstream/xtrans" revision="6ac5dc9103fef855248b91693bce5186b125d3a0" />
-
-  <!-- Xorg -->
+  <!-- 4. Xorg -->
   <project name="platform/upstream/xorg-server" revision="fded9b992ad123e4616c7a27cd20f9861ea8bef8" />
 
 
