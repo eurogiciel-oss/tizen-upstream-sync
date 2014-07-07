@@ -71,7 +71,7 @@
   <project name="platform/upstream/libXfixes" revision="df36b39424fa6c7aa693fd6581b4298fc78ac24a" />
   <project name="platform/upstream/libXdamage" revision="511de8af9e89e7624923b1f22a0a0a2babe2a223" />
   <!-- Mesa (patched to re-include "mesa-libGL" packages, req. libXext, libXfixes, libXdamage) (PUSH THIS INTO TIZEN ?) -->
-  <project path="mesa" name="Tarnyko/mesa" revision="998120dd6ff5e32c832c07fd9fca55e7ae8a78da" remote="github"/>
+  <project path="mesa" name="Tarnyko/mesa" revision="a5dfa9850893c09ab17a624f4caa596aa1610b73" remote="github"/>
 
   <!-- 4. Xorg -->
   <project name="platform/upstream/xorg-server" revision="fded9b992ad123e4616c7a27cd20f9861ea8bef8" />
