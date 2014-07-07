@@ -74,7 +74,38 @@
   <project path="mesa" name="Tarnyko/mesa" revision="tizen" remote="github"/>
 
   <!-- 4. Xorg -->
+
+  <!-- xkbcomp is required to compile keymaps needed at runtime -->
+  <project name="platform/upstream/xkbcomp" revision="6713ea36edc23a8fab612eca83205e227a3cf5fe" />
   <project name="platform/upstream/xorg-server" revision="fded9b992ad123e4616c7a27cd20f9861ea8bef8" />
+
+
+  <!-- -->
+
+  <!-- X. Drivers & Extensions-->
+
+  <!-- Intel video driver -->
+  <!-- xcb-util provides xcb-aux, libXrender req. renderproto, libXvMC req. libXext & libXv -->
+  <project name="platform/upstream/xcb-util" revision="d1664edb12840423101c48b5b282ac4acd9f6c74" />
+  <project name="platform/upstream/libXrender" revision="06b13e2073338749719f736a1042d782d45a21d5" />
+  <project name="platform/upstream/libXvMC" revision="64574a6a2fc68c5d47eeea4db3ff322c4a1325dd" />
+  <!-- updated to fix packaging and disable SNA (PUSH THIS INTO TIZEN ?) -->
+  <project name="platform/upstream/xf86-video-intel" revision="tizen" remote="github" />
+
+  <!-- -->
+
+  <!-- X Clients -->
+ 
+  <!-- Clients libraries -->
+  <project name="platform/upstream/libICE" revision="tizen" />
+  <project name="platform/upstream/libSM" revision="tizen" />  <!-- req. libICE -->
+  <project name="platform/upstream/libXt" revision="tizen" />  <!-- X Toolkit, req. libSM -->
+  <project name="platform/upstream/libXmu" revision="tizen" /> <!-- req. libXt -->
+  <project name="platform/upstream/libXpm" revision="tizen" /> <!-- X Pixmaps, req. libXt -->
+  <project name="platform/upstream/libXaw" revision="tizen" /> <!-- req. libXt, libXmu, libXpm -->
+
+  <!-- Clients -->
+  <project name="platform/upstream/xterm" revision="tizen" />
 
 
 </manifest>
