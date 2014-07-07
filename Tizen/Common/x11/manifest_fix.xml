@@ -23,8 +23,10 @@
   <project name="platform/upstream/inputproto" revision="36f889d951b644cce20138154230beca1a1c5f33" />
   <project name="platform/upstream/xextproto" revision="f2f56c9dbd1328a8d3d82983c02421c49a84ecc1" />
   <project name="platform/upstream/xf86bigfontproto" revision="24933985e96eefd3142294d3c56f6d035d0d8dc2" />
+
   <!-- libX11 (core X protocol, req. libXCB) -->
   <project name="platform/upstream/libX11" revision="a14f45becf1703877859e79f3d8a0d5a058486f1" />
+
 
   <!-- 2. protos, libXdmcp, libXext, libXv, libXfont -->
 
@@ -66,6 +68,7 @@
   <project name="platform/upstream/xtrans" revision="6ac5dc9103fef855248b91693bce5186b125d3a0" />
   <project name="platform/upstream/libXfont" revision="1a17373f6c80e9d9958fae28ef7fc7bcfd5ddee7" />
 
+
   <!-- 3. Mesa -->
 
   <project name="platform/upstream/libXfixes" revision="df36b39424fa6c7aa693fd6581b4298fc78ac24a" />
@@ -73,7 +76,11 @@
   <!-- Mesa (patched to re-include "mesa-libGL" packages, req. libXext, libXfixes, libXdamage) (PUSH THIS INTO TIZEN ?) -->
   <project path="mesa" name="Tarnyko/mesa" revision="tizen" remote="github"/>
 
+
   <!-- 4. Xorg -->
+
+  <!-- libXcursor (provides default cursor, req. libX11, libXfixes ) -->
+  <project name="platform/upstream/libXcursor" revision="e2cb7891d0e652199e0d6409cd3b64862a2e2cb8" />
 
   <!-- xkbcomp is required to compile keymaps needed at runtime -->
   <project name="platform/upstream/xkbcomp" revision="6713ea36edc23a8fab612eca83205e227a3cf5fe" />
@@ -84,28 +91,43 @@
 
   <!-- X. Drivers & Extensions-->
 
+  <!-- EVDEV driver, plug&play from the kernel -->
+  <project name="platform/upstream/xf86-input-evdev" revision="f5d0222399838dfa62d6dca03c1b5b82dec61b48" />
+
+  <!-- Keyboard driver -->
+  <project name="platform/upstream/xf86-input-keyboard" revision="e06d063182d738f21f2d99f9b23bea009c52baf3" />
+
+  <!-- Mouse driver -->
+  <!-- STUB -->
+
   <!-- Intel video driver -->
   <!-- xcb-util provides xcb-aux, libXrender req. renderproto, libXvMC req. libXext & libXv -->
   <project name="platform/upstream/xcb-util" revision="d1664edb12840423101c48b5b282ac4acd9f6c74" />
   <project name="platform/upstream/libXrender" revision="06b13e2073338749719f736a1042d782d45a21d5" />
   <project name="platform/upstream/libXvMC" revision="64574a6a2fc68c5d47eeea4db3ff322c4a1325dd" />
   <!-- updated to fix packaging and disable SNA (PUSH THIS INTO TIZEN ?) -->
-  <project name="platform/upstream/xf86-video-intel" revision="tizen" remote="github" />
+  <project path="xf86-video-intel" name="Tarnyko/xf86-video-intel" revision="tizen" remote="github" />
+
 
   <!-- -->
 
   <!-- X Clients -->
  
   <!-- Clients libraries -->
-  <project name="platform/upstream/libICE" revision="tizen" />
-  <project name="platform/upstream/libSM" revision="tizen" />  <!-- req. libICE -->
-  <project name="platform/upstream/libXt" revision="tizen" />  <!-- X Toolkit, req. libSM -->
-  <project name="platform/upstream/libXmu" revision="tizen" /> <!-- req. libXt -->
-  <project name="platform/upstream/libXpm" revision="tizen" /> <!-- X Pixmaps, req. libXt -->
-  <project name="platform/upstream/libXaw" revision="tizen" /> <!-- req. libXt, libXmu, libXpm -->
+  <project name="platform/upstream/xbitmaps" revision="5fd28428f6b03b3e65892dac563557debaafb92f" /> <!-- default bitmap files -->
+  <project name="platform/upstream/libICE" revision="754a5288034a779667c0f8216a3b1402a20bff54" />
+  <project name="platform/upstream/libSM" revision="f08d52e264b1ee9e6f7cf71bc45c32ccdb13aaee" />  <!-- req. libICE -->
+  <project name="platform/upstream/libXt" revision="e4c242bbce9248d2683285dbde117fa15f0cc96b" />  <!-- X Toolkit, req. libSM -->
+  <project name="platform/upstream/libXmu" revision="d3636de4f8aac6fd3d44c3ec3d481684be59ee0c" /> <!-- req. libXt -->
+  <project name="platform/upstream/libXpm" revision="942763be485b81a014aff1d893080655b056b666" /> <!-- X Pixmaps, req. libXt -->
+  <project name="platform/upstream/libXaw" revision="c32d26c2abe9dae191049ebff5d3c15ab28a4926" /> <!-- req. libXt, libXmu, libXpm -->
 
   <!-- Clients -->
-  <project name="platform/upstream/xterm" revision="tizen" />
+  <project name="platform/upstream/setxkbmap" revision="a15c2fa8c3d55e122ffb157271c6e3f65d38927c" /> <!-- req. libxkbfile -->
+  <project name="platform/upstream/xsetroot" revision="51bc5c0588663f7d26f99e418c016cdea93375f0" /> <!--req. libXcursor, xbitmaps, libXmu -->
+  <project name="platform/upstream/xauth" revision="15e8fed17b48199edf2ef6c06ca9993f9a7427f8" /> <!-- req. libXau, libXmu -->
+  <project name="platform/upstream/xhost" revision="0d14ae7c1368e74b6244b07580b90d268dba0a64" /> <!-- req. libXau, libXmu -->
+  <project name="platform/upstream/xterm" revision="3058ec265a422e64fe8efe49a7edd87666ce8930" />
 
 
 </manifest>
