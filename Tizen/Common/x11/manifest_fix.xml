@@ -137,6 +137,7 @@
   <project name="platform/upstream/libXrandr" revision="3f8677897dcb35a43392da6306350b1a9e46965f" />
   <project name="platform/upstream/libXinerama" revision="a50db959133480c52a3fa1f8c83235d2a4344ab1" />
   <project name="platform/core/uifw/libdri2" revision="35bfa52ddc1052dc0353d35f70ddb50d9e05c5f4" />
+  <project name="platform/upstream/xcb-util-keysyms" revision="137f3aacd5129dc99ce7d4047e2e2cb579c5908d" />
 
   <project name="platform/upstream/efl" revision="219d756d1920bc62f74db25900911bc60477fe33" />
   <project name="platform/upstream/elementary" revision="b92b97d80f2bdc64be66c9b7d6c79a4cdd35e7bb" />
