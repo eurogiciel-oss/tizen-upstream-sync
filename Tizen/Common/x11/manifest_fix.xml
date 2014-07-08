@@ -129,5 +129,10 @@
   <project name="platform/upstream/xhost" revision="0d14ae7c1368e74b6244b07580b90d268dba0a64" /> <!-- req. libXau, libXmu -->
   <project name="platform/upstream/xterm" revision="3058ec265a422e64fe8efe49a7edd87666ce8930" />
 
+  <!-- EFL -->
+  <project name="platform/upstream/efl" revision="219d756d1920bc62f74db25900911bc60477fe33" />
+  <project name="platform/upstream/elementary" revision="b92b97d80f2bdc64be66c9b7d6c79a4cdd35e7bb" />
+  <project path="enlightenment" name="Tarnyko/enlightenment" revision="tizen" remote="github" />
+
 
 </manifest>
