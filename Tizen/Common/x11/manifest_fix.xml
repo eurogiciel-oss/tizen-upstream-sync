@@ -38,7 +38,7 @@
   <project name="platform/upstream/damageproto" revision="b7578c9effd4ac538c57285b19276ac411d143d2" />
   <project name="platform/upstream/dri2proto" revision="7dfb21765229ac5f7b5ed0bc4ab7ac99d209922c" />
   <project name="platform/upstream/fixesproto" revision="f5b3e23ce67b02f6bdcaba8c94fb947df3b44d27" />
-  <project name="platform/upstream/fontsproto" revision="548254d9e32659f3ce4b8bd71923dc1682f156f0" />
+  <project path="fontsproto" name="Tarnyko/fontsproto" revision="tizen" remote="github" />
   <project name="platform/upstream/randrproto" revision="d12d69687b89345ec24cd3f5aa6a40445e8aef2c" />
   <project name="platform/upstream/recordproto" revision="a49e8ebaed34dfc230be6c197702bcca900662c8" />
   <project name="platform/upstream/renderproto" revision="29b3c24d1d4288edc923e0d1d3f87831d0a23a47" />
@@ -48,8 +48,7 @@
   <project name="platform/upstream/xcmiscproto" revision="b2454d86879a9a789dcbec7e6d1bc46070373186" />
   <project name="platform/upstream/xf86vidmodeproto" revision="c6dc4413b970599246b9a2fe963ae35a7c454d27" />
   <project name="platform/upstream/xineramaproto" revision="aea15fbe2c5005f500bf632ba3f5a36b6d497f34" />
-  <!-- (xproto is still in tizen wayland repos, keep it here just in case) -->
-  <!-- <project name="platform/upstream/xproto" revision="40de090d3918b98acc5bd9d7aaced2aeab5c8214" /> -->
+  <project path="xproto" name="Tarnyko/xproto" revision="tizen" remote="github" />
   <project name="platform/upstream/xf86driproto" revision="834d8c18da682803f79078782837e8bf6861a173" />
   <!-- updated to 1.4.17 for new Mesa (PUSH THIS INTO TIZEN ?) -->
   <project path="glproto" name="Tarnyko/glproto" revision="5903b304417886de32ad620ff8874998ddee4254" remote="github"/>
@@ -84,7 +83,7 @@
 
   <!-- xkbcomp is required to compile keymaps needed at runtime -->
   <project name="platform/upstream/xkbcomp" revision="6713ea36edc23a8fab612eca83205e227a3cf5fe" />
-  <project name="platform/upstream/xorg-server" revision="fded9b992ad123e4616c7a27cd20f9861ea8bef8" />
+  <project path="xorg-server" name="Tarnyko/xorg-server" revision="tizen" remote="github" />
 
 
   <!-- -->
