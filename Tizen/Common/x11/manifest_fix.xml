@@ -65,7 +65,7 @@
   <!-- libXfont (font handling, req. libX11, xproto, xtrans) -->
   <project name="platform/upstream/libxkbfile" revision="f9f93fc29ce3d3d12b3c2d2d32693715a3b8a57a" />
   <project name="platform/upstream/xtrans" revision="6ac5dc9103fef855248b91693bce5186b125d3a0" />
-  <project name="platform/upstream/libXfont" revision="1a17373f6c80e9d9958fae28ef7fc7bcfd5ddee7" />
+  <project path="libXfont" name="Tarnyko/libXfont" revision="tizen" remote="github" />
 
 
   <!-- 3. Mesa -->
