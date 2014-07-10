@@ -4,15 +4,16 @@
   <remote fetch="https://git.gitorious.org" name="gitorious-https"/>
   
   <default remote="tizen-gerrit"/>
-<!-- sdi2 -->
+
  <!--ail -->
  <project name="platform/core/appfw/ail" revision="7f95a2add09a89f8ab5865a682a1c9a26e50adbc" />
  <!-- aul-1 -->
  <project name="platform/core/appfw/aul-1" revision="a99be20c52913c694b5e7fe94fecdadcd708e881" />
+ <!-- crosswalk -->
+ <project name="platform/framework/web/crosswalk" revision="e03a1601f333afab13219fbcce3af6d11fead2b3" />
  <!-- pkgmgr-info -->
  <project name="platform/core/appfw/pkgmgr-info" revision="40029a4fb68529d2aab583386407fbb62eb70f50" />
  <!-- slp-pkgmgr -->
- <project name="platform/core/appfw/slp-pkgmgr" revision="88bb217a7e22ba0d756a133e47c15b257e95a7ee" />
- <!-- crosswalk -->
- <project name="platform/framework/web/crosswalk" revision="db3ced6e0143da4d8c92e330bb8ca4401723add4" />
+ <project name="platform/core/appfw/slp-pkgmgr" revision="8fff38b551e9e3c97bc8a490c41dcf0c04e26587" />
+
 </manifest>
