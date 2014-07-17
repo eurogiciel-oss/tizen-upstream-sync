@@ -8,12 +8,12 @@
  <!--ail -->
  <project name="platform/core/appfw/ail" revision="7f95a2add09a89f8ab5865a682a1c9a26e50adbc" />
  <!-- aul-1 -->
- <project name="platform/core/appfw/aul-1" revision="a99be20c52913c694b5e7fe94fecdadcd708e881" />
+ <project name="platform/core/appfw/aul-1" revision="a3a15900360bbb670195abd2884a1921faf951bd" />
  <!-- crosswalk -->
  <project name="platform/framework/web/crosswalk" revision="e03a1601f333afab13219fbcce3af6d11fead2b3" />
  <!-- pkgmgr-info -->
- <project name="platform/core/appfw/pkgmgr-info" revision="361728d9a93714ac683724321629a3c869cbd7e4" />
+ <project name="platform/core/appfw/pkgmgr-info" revision="95630508d5f23e08b005fa63aea02feee3f8d7e2" />
  <!-- slp-pkgmgr -->
- <project name="platform/core/appfw/slp-pkgmgr" revision="8fff38b551e9e3c97bc8a490c41dcf0c04e26587" />
+ <project name="platform/core/appfw/slp-pkgmgr" revision="1e0db412a243666a586ff2d17bc5f56212ad6ef5" />
 
 </manifest>
