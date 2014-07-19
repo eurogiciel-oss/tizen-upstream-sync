@@ -1,0 +1,8 @@
+<manifest xmlns:tz="http://tizen.org">
+  <remote fetch="ssh://review.tizen.org" name="tizen-gerrit" review="https://review.tizen.org/gerrit"/>
+  <remote fetch="ssh://git@github.com" name="github"/>
+  <remote fetch="https://git.gitorious.org" name="gitorious-https"/>
+  
+  <default remote="tizen-gerrit"/>
+
+</manifest>
