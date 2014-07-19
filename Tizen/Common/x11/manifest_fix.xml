@@ -147,9 +147,9 @@
   <project name="platform/core/uifw/libslp-utilx" path="platform/core/uifw/libslp-utilx" revision="a6c130f4acdcd8b0a833efd52feb279923828d0a"/>
   <project name="platform/upstream/libXft" path="platform/upstream/libXft" revision="70b203f3d8c70dc590e3619221c58626f851700b"/>
   <project name="platform/core/uifw/libslp-utilx" path="platform/core/uifw/libslp-utilx" revision="a6c130f4acdcd8b0a833efd52feb279923828d0a"/>
-  <project name="platform/adaptation/xorg-x11-drv-evdev" path="platform/adaptation/xorg-x11-drv-evdev" revision="d8b5ecf2a8e8ed7e3eec33365dbcc9fd2ac1ef10"/>
+  <project name="platform/adaptation/xorg-x11-drv-evdev" path="platform/adaptation/xorg-x11-drv-evdev" revision="fee64c0cdbfa0923f7b3633db13eb96755e04567"/>
   <project name="platform/upstream/xorg-cf-files" path="platform/upstream/xorg-cf-files" revision="a9fdd8632fe38d7db245e2505dc2adf7170395cd"/>
   <project name="platform/upstream/xorg-launch-helper" path="platform/upstream/xorg-launch-helper" revision="cbac26748e50e17db5c640e019aab4aa35ddabbd"/>
-  <project name="platform/upstream/xorg-server" path="platform/upstream/xorg-server" revision="4c0c5af8c6759f5c12bfaf35f14bdfd6f0dc7e83"/>
+  <project name="platform/upstream/xorg-server" path="platform/upstream/xorg-server" revision="fded9b992ad123e4616c7a27cd20f9861ea8bef8"/>
 
 </manifest>
