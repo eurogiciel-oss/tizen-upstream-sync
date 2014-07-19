@@ -1,0 +1,17 @@
+#!/bin/bash
+
+function downloadto() {
+	output=$1
+	shift
+
+	if "$@" >${output}.tmp; then
+		mv ${output}.tmp ${output}
+		echo "$output updated successfully"
+	else
+		rm ${output}.tmp
+		echo "Updating $output failed."
+	fi
+}
+
+downloadto project_config osc -A https://api.tizen.org meta prjconf Tizen:IVI 
+downloadto project_meta osc -A https://api.tizen.org meta prj Tizen:IVI 

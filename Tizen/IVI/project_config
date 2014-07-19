@@ -1,0 +1,201 @@
+Patterntype: rpm-md comps
+Release: <CI_CNT>.<B_CNT>
+Support: build
+Support: build-compare build-mkbaselibs
+Support: rpmlint-mini rpmlint-tizen
+
+FileProvides: /usr/sbin/groupadd pwdutils
+Prefer: util-linux
+#Prefer: nfc-manager
+#Prefer: nfc-manager-devel
+#Prefer: nfc-common-lib-devel
+#Prefer: nfc-common-lib
+#Prefer: nfc-client-lib
+#Prefer: nfc-client-lib-devel
+Prefer: libtapi-devel
+
+#| wayland |  x  | meaning
+#|---------------------------
+#|   0     |  1  | pure X11 platform(no wayland)
+#|   1     |  0  | pure wayland platform (no X11)
+#|   1     |  1  | wayland but X compatibility
+#|   0     |  0  | no X and no wayland
+
+# mesa
+Substitute: pkgconfig(gles20)  pkgconfig(egl) pkgconfig(glesv2)
+Substitute: pkgconfig(gles11)  pkgconfig(egl) pkgconfig(glesv1) pkgconfig(gl)
+%define _with_wayland 1
+Macros:
+%_with_wayland 1
+:Macros
+
+############################# emulator repository ############################
+
+%if "%_repository" == "emulator"
+
+Prefer: mesa-libGLESv2
+Prefer: libwayland-egl
+Prefer: libgbm
+Prefer: mesa-libGL
+Prefer: mesa-libEGL
+Prefer: emulator-yagl
+
+%define _with_emulator 1
+
+Macros:
+%_with_emulator 1
+:Macros
+
+%endif
+
+%define _with_pulseaudio_samsung_policy 1
+%define _with_tizen 1
+%define _with_mesa 1
+%define gcc_version 48
+%define profile common
+
+%ifarch i586
+Target: i686-tizen-linux
+%endif
+
+%ifarch armv7hl
+Target: armv7hl-tizen-linux
+%endif
+
+%ifarch armv7l
+Target: armv7l-tizen-linux
+%endif
+
+%ifarch %arm armv7l
+Hostarch: x86_64
+# cross build support for the build hosts
+Preinstall: qemu-linux-user-cross-arm
+Keep: qemu-linux-user-cross-arm
+%endif
+
+%ifarch armv7hl
+Preinstall: qemu-accel-armv7hl
+Runscripts: qemu-accel-armv7hl
+Preinstall: libmount libblkid libuuid
+%endif
+%ifarch armv7l
+Preinstall: qemu-accel-armv7l-cross-arm
+Runscripts: qemu-accel-armv7l-cross-arm
+Preinstall: libmount libblkid libuuid
+%endif
+%ifarch armv7el
+Preinstall: qemu-accel-armv7el
+Runscripts: qemu-accel-armv7el
+Preinstall: libmount libblkid libuuid
+%endif
+
+ExportFilter: ^qemu-linux-user-.*\.i686\.rpm$ . armv7l
+ExportFilter: ^qemu-accel-armv7l.*\.i686\.rpm$ .  armv7l
+ExportFilter: \.armv7l\.rpm$ armv7l
+ExportFilter: \.x86_64\.rpm$ x86_64
+
+Preinstall: setup filesystem
+RunScripts: setup
+
+Preinstall: bash bzip2 coreutils diffutils grep rpm
+Preinstall: glibc libacl libattr
+Preinstall: libcap
+Preinstall: libgcc_s1
+Preinstall: libpopt sed tar zlib
+Preinstall: libncurses libreadline
+Preinstall: libelf libbz2
+Preinstall: liblzma
+Preinstall: nss nspr libfreebl3 libsoftokn3
+Preinstall: libmagic
+Preinstall: liblua
+Preinstall: smack libsmack libxml2 libmagic  libmagic-data
+Preinstall: libsqlite
+Preinstall: rpm-security-plugin
+Preinstall: util-linux
+
+VMinstall: perl libmount libblkid libext2fs libuuid  grep libpcre util-linux
+
+Required: binutils gcc glibc rpm-build libtool
+
+Support: glibc-locale
+Support: perl
+Support: hostname
+Support: cpio findutils
+Support: file findutils zlib bzip2
+Support: gzip hostname net-tools
+Support: make  patch sed  gawk tar grep coreutils pkg-config
+Support: m4  tzdata
+Support: util-linux
+Support: less
+Support: which  elfutils
+Support: update-alternatives
+
+# TO REMOVE
+Support: gcc-c++
+
+Keep: cpp%{gcc_version} gcc%{gcc_version} gcc%{gcc_version}-ada libstdc++%{gcc_version}
+Keep: libstdc++%{gcc_version}-devel gcc%{gcc_version}-c++
+Keep: cpp gcc libstdc++
+Keep: pam
+Keep: binutils cpp  libmagic-data file findutils gawk gcc  gcc-c++
+Keep: gdbm gzip libada libunwind  glibc-devel libpcre xz-lzma-compat
+Keep: make  gmp libcap groff cpio
+Keep: patch rpm-build  nss nspr elfutils python grep libgcc gcc-c++
+Keep: kernel-headers  perl-libs perl
+Keep: pkgconfig glib2 tizen-rpm-config
+Keep: libmpc libmpfr libppl libgmp libppl_c
+Keep: libcloog libppl libgmpxx
+Keep: nss-softokn-freebl libmagic libmagic-data
+Keep: setup
+Keep: update-alternatives
+Prefer: libstdc++%{gcc_version} libgcc%{gcc_version}
+Prefer: libstdc++%{gcc_version}-32bit libstdc++%{gcc_version}-64bit
+
+Substitute: gettext gettext-tools
+
+
+%ifarch x86_64
+Substitute: glibc-devel-32bit glibc-devel-32bit glibc-32bit
+%else
+Substitute: glibc-devel-32bit
+%endif
+
+
+#%__global_cflags -O2 -g2 -feliminate-unused-debug-types -pipe -Wall  -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector  --param=ssp-buffer-size=32 -Wformat -Wformat-security
+
+Optflags: x86_64 -O2 -g2 -feliminate-unused-debug-types -pipe -Wall  -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector  --param=ssp-buffer-size=32 -Wformat -Wformat-security -fmessage-length=0 -m64 -march=corei7 -msse4.2  -mtune=corei7-avx -mfpmath=sse -fasynchronous-unwind-tables -fno-omit-frame-pointer  -fipa-cp-clone
+
+Optflags: armv7l -O2 -g2 -feliminate-unused-debug-types -pipe -Wall  -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector  --param=ssp-buffer-size=32 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mtune=cortex-a8 -mlittle-endian  -mfpu=vfpv3 -mfloat-abi=softfp -D__SOFTFP__
+
+Macros:
+
+%profile ivi
+%_with_ivi 1
+%_with_wayland 1
+%_with_tizen 1
+%_with_mesa 1
+%_with_desktop 1
+%check exit 0
+%run_check_section 0
+%opensuse_bs 1
+%_default_patch_fuzz   2
+%_with_wrt_option_bluetooth 1
+%_with_wrt_option_msg_port 1
+%_with_wrt_option_call_history 1
+%_with_bluetooth_frwk_libnotification 1
+%_with_audio_session_manager 1
+%_with_audio_session_manager_with_murphy 1
+%_with_dlog_to_systemd_journal 1
+%_with_wrt_option_eds 1
+%_with_wrt_option_nfc 1
+%_with_neard_nfc 1
+%_with_introspection 1
+%_with_icosyscon 0
+%_with_pulseaudio_samsung_policy 1
+
+%tizen_version 3.0
+%tizen 3.0
+
+%vendor tizen
+%_vendor tizen
+

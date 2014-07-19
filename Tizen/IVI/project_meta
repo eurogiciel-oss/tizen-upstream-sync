@@ -1,0 +1,25 @@
+<project name="Tizen:IVI">
+  <title>Tizen IVI</title>
+  <description>The Tizen IVI project provides a Free and Open-Source Software (FOSS) OS development platform for IVI embedded computing systems. Leveraging the Tizen code base for mobile computers and handsets and extending its functionality into vehicles, the Tizen IVI solution will enable modern portable applications providing rich Internet and multimedia experiences to consumers while they travel.</description>
+  <person userid="tizenrobot" role="maintainer"/>
+  <person userid="marquiz" role="maintainer"/>
+  <person userid="bartosh" role="maintainer"/>
+  <person userid="bartosh" role="bugowner"/>
+  <person userid="sdx" role="maintainer"/>
+  <build>
+    <disable arch="i586" repository="arm"/>
+  </build>
+  <debuginfo>
+    <enable/>
+  </debuginfo>
+  <repository name="emulator">
+    <arch>i586</arch>
+  </repository>
+  <repository name="atom">
+    <arch>i586</arch>
+  </repository>
+  <repository name="arm">
+    <arch>armv7l</arch>
+    <arch>i586</arch>
+  </repository>
+</project>
