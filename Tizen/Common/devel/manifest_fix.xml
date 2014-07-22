@@ -5,10 +5,7 @@
   
   <default remote="tizen-gerrit"/>
 
- <project name="platform/framework/web/crosswalk" revision="5fabe5fb1f490490fab842be91d0c92975631008" />
- <project name="platform/framework/web/tizen-extensions-crosswalk" revision="18148cb6320e89e82451e34278e7bf731fd9b1e4" />
- <project name="platform/framework/web/weston" revision="4bffaaa6408b29d637274f2af28338c08b9bebac" />
- <project name="platform/framework/web/efl" revision="a153a378d4914a4a86479864c5bf01b88d615ae1" />
- <project name="profile/ivi/Modello_Homescreen" revision="4becb3c675da8f5dd5fd7c3c03e404abf86a3028" />
+  <!-- https://review.tizen.org/gerrit/24819 -->
+  <project name="platform/core/appfw/aul-1" revision="0450da295eb1b203d493783ec8296d06bb4b5590" />
 
 </manifest>
