@@ -155,4 +155,7 @@
   <project name="platform/upstream/SDL" revision="f36220ce48d8d3333eaecfb4cedc431253019ba6"/>
   <project name="platform/upstream/libva" revision="4d01a64ddb349f6ac4853dc55e2dc7bace634826"/>
 
+  <!-- for xwalk: provide pkgconfig(scim) -->
+  <project name="platform/core/uifw/isf" revision="fc17f2238651bff9e3c334557d95112ed58728de"/>
+
 </manifest>
