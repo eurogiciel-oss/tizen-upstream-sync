@@ -73,7 +73,8 @@
   <project name="platform/upstream/libXfixes" revision="df36b39424fa6c7aa693fd6581b4298fc78ac24a" />
   <project name="platform/upstream/libXdamage" revision="511de8af9e89e7624923b1f22a0a0a2babe2a223" />
   <!-- Mesa (patched to re-include "mesa-libGL" packages, req. libXext, libXfixes, libXdamage) (PUSH THIS INTO TIZEN ?) -->
-  <project path="mesa" name="Tarnyko/mesa" revision="tizen" remote="github"/>
+  <project name="platform/upstream/mesa" revision="e989aa78a95152bcdcea30cb4a9e0c718b761e22" />
+  <project name="platform/upstream/xorg-server" path="platform/upstream/xorg-server" revision="fded9b992ad123e4616c7a27cd20f9861ea8bef8"/>
 
 
   <!-- 4. Xorg -->
@@ -150,6 +151,8 @@
   <project name="platform/adaptation/xorg-x11-drv-evdev" path="platform/adaptation/xorg-x11-drv-evdev" revision="fee64c0cdbfa0923f7b3633db13eb96755e04567"/>
   <project name="platform/upstream/xorg-cf-files" path="platform/upstream/xorg-cf-files" revision="a9fdd8632fe38d7db245e2505dc2adf7170395cd"/>
   <project name="platform/upstream/xorg-launch-helper" path="platform/upstream/xorg-launch-helper" revision="cbac26748e50e17db5c640e019aab4aa35ddabbd"/>
-  <project name="platform/upstream/xorg-server" path="platform/upstream/xorg-server" revision="fded9b992ad123e4616c7a27cd20f9861ea8bef8"/>
+
+  <project name="platform/upstream/SDL" revision="f36220ce48d8d3333eaecfb4cedc431253019ba6"/>
+  <project name="platform/upstream/libva" revision="4d01a64ddb349f6ac4853dc55e2dc7bace634826"/>
 
 </manifest>
