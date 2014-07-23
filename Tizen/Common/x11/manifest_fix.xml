@@ -86,6 +86,11 @@
   <project path="xorg-server" name="Tarnyko/xorg-server" revision="tizen" remote="github" />
 
 
+  <!-- 5. Crosswalk fix -->
+
+ <!-- crosswalk -->
+ <project name="platform/framework/web/crosswalk" revision="ee5dabe0dcea701858e303251d5a457537031ebc" />
+ 
   <!-- -->
 
   <!-- X. Drivers & Extensions-->
