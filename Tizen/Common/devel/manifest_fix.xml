@@ -10,5 +10,11 @@
 
   <!-- https://review.tizen.org/gerrit/#/c/25017/ -->
   <project name="platform/core/connectivity/data-router" revision="153de0caca2abec6c47f245960b115a98cdc09c7" />
+  
+  <!-- https://review.tizen.org/gerrit/#/c/25033 -->
+  <project name="platform/core/security/security-server" revision="75d370cf66344448837cf91d7c7f3a5531ad7c02" />
+
+  <!-- https://review.tizen.org/gerrit/#/c/25036/ -->
+  <project name="platform/core/security/security-manager" revision="be9f67e0554d4cf7f7008dd1731d7dcef2341424" />
 
 </manifest>
