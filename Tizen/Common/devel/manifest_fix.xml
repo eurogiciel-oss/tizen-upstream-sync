@@ -8,4 +8,7 @@
   <!-- https://review.tizen.org/gerrit/24819 -->
   <project name="platform/core/appfw/aul-1" revision="0450da295eb1b203d493783ec8296d06bb4b5590" />
 
+  <!-- https://review.tizen.org/gerrit/#/c/25017/ -->
+  <project name="platform/core/connectivity/data-router" revision="153de0caca2abec6c47f245960b115a98cdc09c7" />
+
 </manifest>
