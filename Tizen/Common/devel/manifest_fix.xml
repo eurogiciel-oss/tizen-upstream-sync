@@ -20,7 +20,7 @@
   <!-- https://review.tizen.org/gerrit/#/c/23039/ -->
   <project name="platform/upstream/libva" revision="27bd11d0ced331ac5885664ed35e4f66f77164f9" />
 
-
-https://review.tizen.org/gerrit/gitweb?p=platform/upstream/libva-intel-driver.git;a=commit;h=baf8014908958dcfecc58ad87ee91359d4e6981d  
+  <!-- https://review.tizen.org/gerrit/#/c/23043/ -->
+  <project name="platform/upstream/libva-intel-driver" revision="baf8014908958dcfecc58ad87ee91359d4e6981d" />
 
 </manifest>
