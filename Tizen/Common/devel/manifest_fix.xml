@@ -5,22 +5,16 @@
   
   <default remote="tizen-gerrit"/>
 
-  <!-- https://review.tizen.org/gerrit/24819 -->
+  <!-- https://review.tizen.org/gerrit/24819 (sdx) -->
   <project name="platform/core/appfw/aul-1" revision="0450da295eb1b203d493783ec8296d06bb4b5590" />
 
-  <!-- https://review.tizen.org/gerrit/#/c/25017/ -->
-  <project name="platform/core/connectivity/data-router" revision="153de0caca2abec6c47f245960b115a98cdc09c7" />
-  
-  <!-- https://review.tizen.org/gerrit/#/c/25033 -->
-  <project name="platform/core/security/security-server" revision="75d370cf66344448837cf91d7c7f3a5531ad7c02" />
-
-  <!-- https://review.tizen.org/gerrit/#/c/25036/ -->
-  <project name="platform/core/security/security-manager" revision="be9f67e0554d4cf7f7008dd1731d7dcef2341424" />
-
-  <!-- https://review.tizen.org/gerrit/#/c/23039/ -->
+  <!-- https://review.tizen.org/gerrit/#/c/23039/ (pcoval) -->
   <project name="platform/upstream/libva" revision="27bd11d0ced331ac5885664ed35e4f66f77164f9" />
 
-  <!-- https://review.tizen.org/gerrit/#/c/23043/ -->
+  <!-- https://review.tizen.org/gerrit/#/c/23043/ (pcoval) -->
   <project name="platform/upstream/libva-intel-driver" revision="baf8014908958dcfecc58ad87ee91359d4e6981d" />
+
+  <!-- https://review.tizen.org/gerrit/25162 (sdx) -->
+  <project name="platform/upstream/meta-generic" revision="e166598ba06e504262b9ab19fc435b46b64ed2d8" />
 
 </manifest>
