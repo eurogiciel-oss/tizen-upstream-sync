@@ -9,7 +9,7 @@
   <!-- 1. libX11 -->
 
   <!-- basic macros needed everywhere -->
-  <project name="platform/upstream/util-macros" revision="34e88a33bddd5b6136fe63a0133cdb2f879aafb7" />
+  <project name="platform/upstream/util-macros" revision="5eb8f5eba6ee91c9793badd0292c91e5f7d29b30" />
 
   <!-- authentication protocol (xauth) -->
   <project name="platform/upstream/libXau" revision="0ad5adc9f4f3a5879010316794aef20a195bf788" />
