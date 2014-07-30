@@ -9,7 +9,7 @@
   <!-- 1. libX11 -->
 
   <!-- basic macros needed everywhere -->
-  <project name="platform/upstream/util-macros" revision="5eb8f5eba6ee91c9793badd0292c91e5f7d29b30" />
+  <project name="platform/upstream/util-macros" revision="34e88a33bddd5b6136fe63a0133cdb2f879aafb7" />
 
   <!-- authentication protocol (xauth) -->
   <project name="platform/upstream/libXau" revision="0ad5adc9f4f3a5879010316794aef20a195bf788" />
@@ -22,7 +22,7 @@
   <project name="platform/upstream/kbproto" revision="91984b2451bf9bfd4e6e9998c79ab4f3cd95e8a7" />
   <project name="platform/upstream/inputproto" revision="c5b0aa0defb80c6db09537165162a52ccebb306a" />
   <project name="platform/upstream/xextproto" revision="ce50e41481466f13f8a071241f1938123f33d2ce" />
-  <project name="platform/upstream/xf86bigfontproto" revision="24933985e96eefd3142294d3c56f6d035d0d8dc2" />
+  <project name="platform/upstream/xf86bigfontproto" revision="506ff96b11bc76fb0bf0e081fbd4e224008945e6" />
 
   <!-- libX11 (core X protocol, req. libXCB) -->
   <project name="platform/upstream/libX11" revision="a14f45becf1703877859e79f3d8a0d5a058486f1" />
@@ -136,8 +136,8 @@
   <project name="platform/core/uifw/libdri2" revision="35bfa52ddc1052dc0353d35f70ddb50d9e05c5f4" />
   <project name="platform/upstream/xcb-util-keysyms" revision="137f3aacd5129dc99ce7d4047e2e2cb579c5908d" />
 
-  <project name="platform/upstream/efl" revision="219d756d1920bc62f74db25900911bc60477fe33" />
-  <project name="platform/upstream/elementary" revision="b92b97d80f2bdc64be66c9b7d6c79a4cdd35e7bb" />
+  <project name="platform/upstream/efl" revision="44c41170575d811cc18c8ea57de593f7f4c46129" />
+  <project name="platform/upstream/elementary" revision="48de6fe3127b0e8da306d0fa0b181469b101e3af" />
 
   <!-- sdx added misc packages -->
   <project name="platform/upstream/libGLU" path="platform/upstream/libGLU" revision="d254a3454dc4625a9e89634bb20bfb8c3afb8a87"/>
@@ -149,16 +149,20 @@
   <project name="platform/upstream/xorg-launch-helper" path="platform/upstream/xorg-launch-helper" revision="cbac26748e50e17db5c640e019aab4aa35ddabbd"/>
 
   <project name="platform/upstream/SDL" revision="f36220ce48d8d3333eaecfb4cedc431253019ba6"/>
-  <project name="platform/upstream/libva" revision="4d01a64ddb349f6ac4853dc55e2dc7bace634826"/>
+  <project name="platform/upstream/libva" revision="6623d209d5ab2914d4473fe799d888a7dbb57c94"/>
 
 
  <!-- crosswalk -->
- <project name="platform/framework/web/crosswalk" revision="ee5dabe0dcea701858e303251d5a457537031ebc" />
+ <project name="platform/framework/web/crosswalk" revision="802d61891a4a43c623c00b5fee3bfa001f6f3399" />
 
 
   <project path="enlightenment" name="Tarnyko/enlightenment" revision="tizen" remote="github" />
   <project path="xf86-video-intel" name="Tarnyko/xf86-video-intel" revision="tizen" remote="github" />
+
+<!--
   <project path="glproto" name="Tarnyko/glproto" revision="5903b304417886de32ad620ff8874998ddee4254" remote="github"/>
+-->
+  <project name="platform/upstream/glproto" revision="d98946dcbb934aa0b1d1a013f01559049821b169" />
 
   <!-- updated by Boram Park: devel/x11 branches  
   <project path="xorg-server" name="Tarnyko/xorg-server" revision="tizen" remote="github" />
