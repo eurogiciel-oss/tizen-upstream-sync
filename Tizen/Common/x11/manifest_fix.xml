@@ -150,6 +150,7 @@
 
   <project name="platform/upstream/SDL" revision="f36220ce48d8d3333eaecfb4cedc431253019ba6"/>
   <project name="platform/upstream/libva" revision="6623d209d5ab2914d4473fe799d888a7dbb57c94"/>
+  <project name="platform/upstream/libva-intel-driver" revision="baf8014908958dcfecc58ad87ee91359d4e6981d"/>
 
 
  <!-- crosswalk -->
