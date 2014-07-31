@@ -181,4 +181,9 @@
 <!-- } User:rzr -->
 
 
+  <!-- { User:sdx - copied from T/C/devel/manifest_fix.xml -->
+  <project name="profile/common/meta" revision="63f276f464cc8f07a4ac46fd40f95e39d8c333a7" />
+  <project name="platform/upstream/meta-generic" revision="e166598ba06e504262b9ab19fc435b46b64ed2d8" />
+  <!-- } User:sdx -->
+
 </manifest>
