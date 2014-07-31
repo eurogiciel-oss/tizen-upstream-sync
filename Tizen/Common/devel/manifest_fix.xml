@@ -18,7 +18,7 @@
   <project name="platform/upstream/meta-generic" revision="e166598ba06e504262b9ab19fc435b46b64ed2d8" />
 
   <!-- kernel-common (sdx) -->
-  <project name="profile/common/kernel-common" revision="70b1c97c148e265f719936007b8d649b9cb10bc4" />
+  <project name="profile/common/kernel-common" revision="757e763dab7c558a807e3fe6a4e83cb1d8ec4221" />
 
 
 </manifest>
