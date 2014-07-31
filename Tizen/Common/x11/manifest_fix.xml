@@ -169,7 +169,6 @@
   <project path="fontsproto" name="Tarnyko/fontsproto" revision="tizen" remote="github" />
   <project path="libXfont" name="Tarnyko/libXfont" revision="tizen" remote="github" />
   -->
-  <project name="platform/upstream/xorg-server" revision="1a21c698fa30055bfeb644e1f8be6e745d76ba9d" />
   <project name="platform/upstream/xproto" revision="47b9072b84b0689282d888868a02dce7c828bf8d" />
   <project name="platform/upstream/fontsproto" revision="3e2662ffe58812005cf07849ac587e7de3979c4a" />
   <project name="platform/upstream/libXfont" revision="eaf79c7946d9cc5ec7e27958e3096127f50f181d" />
