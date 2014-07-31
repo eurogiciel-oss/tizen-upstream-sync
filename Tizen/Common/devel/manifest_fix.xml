@@ -17,8 +17,10 @@
   <!-- https://review.tizen.org/gerrit/25162 (sdx) -->
   <project name="platform/upstream/meta-generic" revision="e166598ba06e504262b9ab19fc435b46b64ed2d8" />
 
+  <!-- sandbox/sdx/devel -->
+  <project name="profile/common/meta" revision="63f276f464cc8f07a4ac46fd40f95e39d8c333a7" />
+
   <!-- kernel-common (sdx) -->
   <project name="profile/common/kernel-common" revision="757e763dab7c558a807e3fe6a4e83cb1d8ec4221" />
-
 
 </manifest>
