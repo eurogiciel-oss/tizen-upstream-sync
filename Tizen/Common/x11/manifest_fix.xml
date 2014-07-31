@@ -149,8 +149,6 @@
   <project name="platform/upstream/xorg-launch-helper" path="platform/upstream/xorg-launch-helper" revision="cbac26748e50e17db5c640e019aab4aa35ddabbd"/>
 
   <project name="platform/upstream/SDL" revision="f36220ce48d8d3333eaecfb4cedc431253019ba6"/>
-  <project name="platform/upstream/libva" revision="6623d209d5ab2914d4473fe799d888a7dbb57c94"/>
-  <project name="platform/upstream/libva-intel-driver" revision="baf8014908958dcfecc58ad87ee91359d4e6981d"/>
 
 
  <!-- crosswalk -->
@@ -158,7 +156,7 @@
 
 
   <project path="enlightenment" name="Tarnyko/enlightenment" revision="tizen" remote="github" />
-  <project path="xf86-video-intel" name="Tarnyko/xf86-video-intel" revision="tizen" remote="github" />
+
 
   <project path="glproto" name="Tarnyko/glproto" revision="5903b304417886de32ad620ff8874998ddee4254" remote="github"/>
 <!--
@@ -175,5 +173,13 @@
   <project name="platform/upstream/xproto" revision="47b9072b84b0689282d888868a02dce7c828bf8d" />
   <project name="platform/upstream/fontsproto" revision="3e2662ffe58812005cf07849ac587e7de3979c4a" />
   <project name="platform/upstream/libXfont" revision="eaf79c7946d9cc5ec7e27958e3096127f50f181d" />
+  
+<!-- { User:rzr  -->
+  <project name="platform/upstream/libva" revision="e05c2c1d23d9b1d8b21a0f9e67ace4d8960d6df3"/>
+  <project name="platform/upstream/libva-intel-driver" revision="baf8014908958dcfecc58ad87ee91359d4e6981d"/>
+  <project path="xf86-video-intel" name="rzr/xf86-video-intel" revision="67cea0fb671ffa9903eb4683d1daa42881a8aac2" remote="github" />
+  <project name="platform/upstream/xorg-server" revision="1653928b0ea0ba683c688a777be90dd3f47362c5"/>
+<!-- } User:rzr -->
+
 
 </manifest>
