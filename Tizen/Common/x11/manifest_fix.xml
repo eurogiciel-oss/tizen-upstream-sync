@@ -160,10 +160,10 @@
   <project path="enlightenment" name="Tarnyko/enlightenment" revision="tizen" remote="github" />
   <project path="xf86-video-intel" name="Tarnyko/xf86-video-intel" revision="tizen" remote="github" />
 
-<!--
   <project path="glproto" name="Tarnyko/glproto" revision="5903b304417886de32ad620ff8874998ddee4254" remote="github"/>
--->
+<!--
   <project name="platform/upstream/glproto" revision="d98946dcbb934aa0b1d1a013f01559049821b169" />
+-->
 
   <!-- updated by Boram Park: devel/x11 branches  
   <project path="xorg-server" name="Tarnyko/xorg-server" revision="tizen" remote="github" />
