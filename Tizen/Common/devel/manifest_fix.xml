@@ -21,6 +21,6 @@
   <project name="profile/common/meta" revision="6c9d3ef05c698b427e82b66d35572d751a292de6" />
 
   <!-- kernel-common (sdx) -->
-  <project name="profile/common/kernel-common" revision="757e763dab7c558a807e3fe6a4e83cb1d8ec4221" />
+  <project name="profile/common/kernel-common" revision="28df1e8bc1b3317cc44af4c886aed36428769978" />
 
 </manifest>
