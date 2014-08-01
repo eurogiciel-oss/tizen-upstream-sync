@@ -177,7 +177,7 @@
   <project name="platform/upstream/libva" revision="e05c2c1d23d9b1d8b21a0f9e67ace4d8960d6df3"/>
   <project name="platform/upstream/libva-intel-driver" revision="baf8014908958dcfecc58ad87ee91359d4e6981d"/>
   <!-- https://review.tizen.org/gerrit/#/c/25271/ -->
-  <project name="platform/upstream/xf86-video-intel" revision="67cea0fb671ffa9903eb4683d1daa42881a8aac2"/>
+  <project name="platform/upstream/xf86-video-intel" revision="06496cc53d902de7e1a0c3cdf0542f0ccfe51d96"/>
   <project name="platform/upstream/xorg-server" revision="1653928b0ea0ba683c688a777be90dd3f47362c5"/>
 <!-- } User:rzr -->
 
