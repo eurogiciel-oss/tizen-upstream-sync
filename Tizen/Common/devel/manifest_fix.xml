@@ -20,6 +20,12 @@
   <!-- sandbox/sdx/devel -->
   <project name="profile/common/meta" revision="6c9d3ef05c698b427e82b66d35572d751a292de6" />
 
+  <!-- https://review.tizen.org/gerrit/25478 (sdx) -->
+  <project name="platform/upstream/kickstarter" revision="ffae953899b06ccd95e18b96a87894a36e9e331e" />
+
+  <!-- https://review.tizen.org/gerrit/25479 (sdx) -->
+  <project name="platform/upstream/image-configurations" revision="d3b43b4768e2c1f71b85ce9e3035c33abe27153d" />
+
   <!-- kernel-common (sdx) -->
   <project name="profile/common/kernel-common" revision="28df1e8bc1b3317cc44af4c886aed36428769978" />
 
