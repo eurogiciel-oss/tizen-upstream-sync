@@ -5,8 +5,8 @@
   
   <default remote="tizen-gerrit"/>
 
-  <!-- https://review.tizen.org/gerrit/24819 (sdx) -->
-  <project name="platform/core/appfw/aul-1" revision="0450da295eb1b203d493783ec8296d06bb4b5590" />
+  <!-- https://review.tizen.org/gerrit/24819 (sdx) /https://review.tizen.org/gerrit/25514/ (bdurand) -->
+  <project name="platform/core/appfw/aul-1" revision="d838a56140a1051b0a3a7934322152cb989f0d94" />
 
   <!-- https://review.tizen.org/gerrit/#/c/23039/ (pcoval) -->
   <project name="platform/upstream/libva" revision="27bd11d0ced331ac5885664ed35e4f66f77164f9" />
