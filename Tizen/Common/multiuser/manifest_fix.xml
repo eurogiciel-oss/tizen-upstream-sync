@@ -10,7 +10,7 @@
  <!-- aul-1 -->
  <project name="platform/core/appfw/aul-1" revision="a3a15900360bbb670195abd2884a1921faf951bd" />
  <!-- crosswalk -->
- <project name="platform/framework/web/crosswalk" revision="e2cc8a9d71aea69e7d075505879edfc216dad864" />
+ <project name="platform/framework/web/crosswalk" revision="3d4ec4571c7e90bd419bc045292135ff7a0cb72c" />
  <!-- pkgmgr-info -->
  <project name="platform/core/appfw/pkgmgr-info" revision="ac514ac8a0fa6882d94eb17f37448f762f763603" />
  <!-- slp-pkgmgr -->
