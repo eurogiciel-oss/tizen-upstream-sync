@@ -12,7 +12,7 @@
   <project name="platform/upstream/meta-generic" revision="e166598ba06e504262b9ab19fc435b46b64ed2d8" />
 
   <!-- sandbox/sdx/devel -->
-  <project name="profile/common/meta" revision="6c9d3ef05c698b427e82b66d35572d751a292de6" />
+  <project name="profile/common/meta" revision="4bdc6597ca134247fb62db1cce70fed582d2346f" />
 
   <!-- https://review.tizen.org/gerrit/25478 (sdx) -->
   <project name="platform/upstream/kickstarter" revision="ffae953899b06ccd95e18b96a87894a36e9e331e" />
