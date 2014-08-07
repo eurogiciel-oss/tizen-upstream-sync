@@ -183,8 +183,14 @@
 
 
   <!-- { User:sdx - copied from T/C/devel/manifest_fix.xml -->
-  <project name="profile/common/meta" revision="4bdc6597ca134247fb62db1cce70fed582d2346f" />
-  <project name="platform/upstream/meta-generic" revision="e166598ba06e504262b9ab19fc435b46b64ed2d8" />
+    <!-- https://review.tizen.org/gerrit/25479 (sdx) -->
+	<project name="platform/upstream/image-configurations" revision="d3b43b4768e2c1f71b85ce9e3035c33abe27153d" />
+    <project name="platform/upstream/package-groups" revision="a412af818c937e4e4abf2f18f8b0333fe1cd276e" />
+    <!-- https://review.tizen.org/gerrit/25162 (sdx) -->
+    <project name="platform/upstream/meta-generic" revision="e166598ba06e504262b9ab19fc435b46b64ed2d8" />
+      
+    <!-- sandbox/sdx/devel -->
+    <project name="profile/common/meta" revision="4bdc6597ca134247fb62db1cce70fed582d2346f" />
   <!-- } User:sdx -->
 
 </manifest>
