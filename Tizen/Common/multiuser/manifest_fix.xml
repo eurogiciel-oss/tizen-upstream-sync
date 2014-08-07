@@ -6,7 +6,7 @@
   <default remote="tizen-gerrit"/>
 
  <!--ail -->
- <project name="platform/core/appfw/ail" revision="4adec7bf2dd30b0e716f1ea48d398dc02426a37b" />
+ <project name="platform/core/appfw/ail" revision="d27e9f2d1cae4bb12d51ab1f264aef868ca211f0" />
  <!-- aul-1 -->
  <project name="platform/core/appfw/aul-1" revision="a3a15900360bbb670195abd2884a1921faf951bd" />
  <!-- crosswalk -->
