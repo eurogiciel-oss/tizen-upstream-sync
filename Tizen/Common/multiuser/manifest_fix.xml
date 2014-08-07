@@ -12,7 +12,7 @@
  <!-- crosswalk -->
  <project name="platform/framework/web/crosswalk" revision="b286cba6f6909c618a35cf79270240a2342a3d5f" />
  <!-- pkgmgr-info -->
- <project name="platform/core/appfw/pkgmgr-info" revision="ac514ac8a0fa6882d94eb17f37448f762f763603" />
+ <project name="platform/core/appfw/pkgmgr-info" revision="47ee7575bddd040aa4fa84b7e9e83b1791c1b1d4" />
  <!-- slp-pkgmgr -->
  <project name="platform/core/appfw/slp-pkgmgr" revision="1e0db412a243666a586ff2d17bc5f56212ad6ef5" />
 
