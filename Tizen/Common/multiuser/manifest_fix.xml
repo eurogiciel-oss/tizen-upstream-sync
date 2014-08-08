@@ -10,10 +10,10 @@
  <!-- aul-1 -->
  <project name="platform/core/appfw/aul-1" revision="a3a15900360bbb670195abd2884a1921faf951bd" />
  <!-- crosswalk -->
- <project name="platform/framework/web/crosswalk" revision="5da4e78d8512ee104e529b7d44ce32c255049fcf" />
+ <project name="platform/framework/web/crosswalk" revision="6edabcd7e93d350314d796825ca9b10f91b77708" />
  <!-- pkgmgr-info -->
- <project name="platform/core/appfw/pkgmgr-info" revision="7b1423c4bd3afbcc4398794f886a535b1cfecf2a" />
+ <project name="platform/core/appfw/pkgmgr-info" revision="94f50cf5b816c1e420bb308a2eeed677e9332339" />
  <!-- slp-pkgmgr -->
- <project name="platform/core/appfw/slp-pkgmgr" revision="ad413509660aa189e30c572077de1014373228a9" />
+ <project name="platform/core/appfw/slp-pkgmgr" revision="e0945dba208e23b27970628f48e0e515bc7b7534" />
 
 </manifest>
