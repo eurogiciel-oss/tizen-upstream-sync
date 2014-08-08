@@ -6,13 +6,13 @@
   <default remote="tizen-gerrit"/>
 
  <!--ail -->
- <project name="platform/core/appfw/ail" revision="2cc70a10b811fc1a0a2b30145ffb0adc0c6d3508" />
+ <project name="platform/core/appfw/ail" revision="8b1b8f814610e769af32426f6e68f155e048c353" />
  <!-- aul-1 -->
- <project name="platform/core/appfw/aul-1" revision="5d422d45cce399c62c5cbff474fc5966d90657cb" />
+ <project name="platform/core/appfw/aul-1" revision="b54c8b70d656faf9f30c55f22768ad4476cff114" />
  <!-- crosswalk -->
  <project name="platform/framework/web/crosswalk" revision="13c545097a576b43678626ea52808b7912fe6bd7" />
  <!-- pkgmgr-info -->
- <project name="platform/core/appfw/pkgmgr-info" revision="e6e0137720755b16f927e6f2e868c9407df3f5a2" />
+ <project name="platform/core/appfw/pkgmgr-info" revision="ad42ffda9dca3480ccb3062b00324df6c10008f1" />
  <!-- slp-pkgmgr -->
  <project name="platform/core/appfw/slp-pkgmgr" revision="d9f757865bc8867b45917aee960ef9b94239c166" />
 
