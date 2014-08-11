@@ -8,7 +8,7 @@
  <!--ail -->
  <project name="platform/core/appfw/ail" revision="b2983dfe693dbeabed656e99e4fe36e945a1d6db" />
  <!-- aul-1 -->
- <project name="platform/core/appfw/aul-1" revision="2397f8df2fb06ed0222bd07cbac24eaf3d29ea66" />
+ <project name="platform/core/appfw/aul-1" revision="33faaaa1d1d72ed982c1c2454457858a24bea405" />
  <!-- slp-pkgmgr -->
  <project name="platform/core/appfw/slp-pkgmgr" revision="49ae5e572e65622c11a08540aabd44d7114998a1" />
  <!-- pkgmgr-info -->
