@@ -6,14 +6,14 @@
   <default remote="tizen-gerrit"/>
 
  <!--ail -->
- <project name="platform/core/appfw/ail" revision="962fbf6433ed78293b78ed6f9b38deadd175dfc2" />
+ <project name="platform/core/appfw/ail" revision="b2983dfe693dbeabed656e99e4fe36e945a1d6db" />
  <!-- aul-1 -->
- <project name="platform/core/appfw/aul-1" revision="d7e2faddc7a91aab8254c10b8b9d39e93f96fa7b" />
- <!-- crosswalk -->
- <project name="platform/framework/web/crosswalk" revision="935dcca2d6785cafee2fa17a4131b47c489a11a0" />
- <!-- pkgmgr-info -->
- <project name="platform/core/appfw/pkgmgr-info" revision="bc70efc0f45c0eee8049a3f3c0c42e6634e3aa51" />
+ <project name="platform/core/appfw/aul-1" revision="2397f8df2fb06ed0222bd07cbac24eaf3d29ea66" />
  <!-- slp-pkgmgr -->
- <project name="platform/core/appfw/slp-pkgmgr" revision="78fe714f08456f88cb22b7b48af44e25b41273d8" />
+ <project name="platform/core/appfw/slp-pkgmgr" revision="49ae5e572e65622c11a08540aabd44d7114998a1" />
+ <!-- pkgmgr-info -->
+ <project name="platform/core/appfw/pkgmgr-info" revision="cd978a4e2b0486ea34dc6e431bb2000dc41b983a" />
+ <!-- crosswalk -->
+ <project name="platform/framework/web/crosswalk" revision="64e6b5e6cdebc6b683a3507498457e64512a40d2" />
 
 </manifest>
