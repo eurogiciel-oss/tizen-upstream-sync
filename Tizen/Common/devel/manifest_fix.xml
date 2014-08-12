@@ -6,7 +6,7 @@
   <default remote="tizen-gerrit"/>
 
   <!-- https://review.tizen.org/gerrit/24819 (sdx) /https://review.tizen.org/gerrit/25514/ (bdurand) -->
-  <project name="platform/core/appfw/aul-1" revision="d838a56140a1051b0a3a7934322152cb989f0d94" />
+  <project name="platform/core/appfw/aul-1" revision="8883c78cc88ce3fcc8de8185bd9898cafa40eee8" />
 
   <!-- https://review.tizen.org/gerrit/25478 (sdx) -->
   <project name="platform/upstream/kickstarter" revision="ffae953899b06ccd95e18b96a87894a36e9e331e" />
