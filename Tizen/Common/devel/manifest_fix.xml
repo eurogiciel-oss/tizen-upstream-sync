@@ -8,24 +8,21 @@
   <!-- https://review.tizen.org/gerrit/24819 (sdx) /https://review.tizen.org/gerrit/25514/ (bdurand) -->
   <project name="platform/core/appfw/aul-1" revision="8883c78cc88ce3fcc8de8185bd9898cafa40eee8" />
 
-  <!-- https://review.tizen.org/gerrit/25478 (sdx) -->
-  <project name="platform/upstream/kickstarter" revision="ffae953899b06ccd95e18b96a87894a36e9e331e" />
-
-  <!-- { User:sdx - setup all meta/image/patterns etc. -->
-    <!-- https://review.tizen.org/gerrit/25479 (sdx) -->
-	<project name="platform/upstream/image-configurations" revision="d3b43b4768e2c1f71b85ce9e3035c33abe27153d" />
-    <project name="platform/upstream/package-groups" revision="a412af818c937e4e4abf2f18f8b0333fe1cd276e" />
-    <!-- https://review.tizen.org/gerrit/25162 (sdx) -->
-    <project name="platform/upstream/meta-generic" revision="e166598ba06e504262b9ab19fc435b46b64ed2d8" />
-      
-    <!-- sandbox/sdx/devel -->
-    <project name="profile/common/meta" revision="4bdc6597ca134247fb62db1cce70fed582d2346f" />
-  <!-- } -->
-
-  <!-- kernel-common (sdx) -->
-  <project name="profile/common/kernel-common" revision="28df1e8bc1b3317cc44af4c886aed36428769978" />
 
   <!-- connman (sdx) pending submission submit/tizen/20140807.060945 -->
   <project name="platform/upstream/connman" revision="4b207913fb85121227bfa9acddcc3dc21e320f34" />
+
+
+
+  <!-- { User:sdx - setup all meta/image/patterns etc. -->
+    <project name="platform/upstream/kickstarter" revision="e9403a6c80ccafe3066558fbbac73e8b64d03278" />
+	<project name="platform/upstream/image-configurations" revision="d3b43b4768e2c1f71b85ce9e3035c33abe27153d" />
+    <project name="platform/upstream/package-groups" revision="a412af818c937e4e4abf2f18f8b0333fe1cd276e" />
+    <project name="platform/upstream/meta-generic" revision="e166598ba06e504262b9ab19fc435b46b64ed2d8" />
+    <project name="profile/common/meta" revision="03c3c4ccf324f0d7c7236beb320128eed1ed0881" />
+    <project name="profile/common/kernel-common" revision="28df1e8bc1b3317cc44af4c886aed36428769978" />
+  <!-- } -->
+
+
 
 </manifest>
