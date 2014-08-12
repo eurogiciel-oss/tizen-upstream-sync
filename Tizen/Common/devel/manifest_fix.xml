@@ -20,7 +20,7 @@
     <project name="platform/upstream/package-groups" revision="a412af818c937e4e4abf2f18f8b0333fe1cd276e" />
     <project name="platform/upstream/meta-generic" revision="e166598ba06e504262b9ab19fc435b46b64ed2d8" />
     <project name="profile/common/meta" revision="03c3c4ccf324f0d7c7236beb320128eed1ed0881" />
-    <project name="profile/common/kernel-common" revision="28df1e8bc1b3317cc44af4c886aed36428769978" />
+    <project name="profile/common/kernel-common" revision="5bc653f72a77157d21d6b22428d492fbcb58a9ce" />
   <!-- } -->
 
 
