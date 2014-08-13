@@ -8,13 +8,16 @@
   <!-- meta-generic (sandbox/sdx/devel) -->
   <project name="platform/upstream/meta-generic" revision="089a525613c9e38bd9a85296f53a6ba0075d30ff" />
 
-  <!-- crosswalk -->
+  <!-- crosswalk (sandbox/sdi2/multiuser2) -->
   <project name="platform/framework/web/crosswalk" revision="67035d800a0c2b4dfbd24c0fa023c667abd7de84" />
 
-  <!-- ail -->
+  <!-- ail (sandbox/sdi2/multiuseruid) -->
   <project name="platform/core/appfw/ail" revision="c8a25d80a3423e08718ee31176a24b91ee0cf5a0" />
 
-  <!-- pkgmgr-info -->
+  <!-- pkgmgr-info (sandbox/sdi2/multiuseruid) -->
   <project name="platform/core/appfw/pkgmgr-info" revision="d3c55f5605681f7791b2b14286642ded7f806a04" />
+  
+  <!-- slp-pkgmgr (sandbox/sdi2/multiuser2) -->
+  <project name="platform/core/appfw/slp-pkgmgr" revision="f73b042a8f289540736569f41cb8a66d6caa63b2" />
 
 </manifest>
