@@ -9,6 +9,6 @@
   <project name="platform/core/appfw/aul-1" revision="d88504c461aa9eca05d171611ec97a03226acbe6" />
 
   <!-- meta-generic (https://review.tizen.org/gerrit/26000) -->
-  <project name="platform/upstream/meta-generic" revision="92b124ccc4935d512956f04bdbfbdf265c6b98eb" />
+  <project name="platform/upstream/meta-generic" revision="10f735f6159c4c1a5fb09b9d1da00b6a286f454c" />
 
 </manifest>
