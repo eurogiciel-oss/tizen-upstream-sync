@@ -9,6 +9,12 @@
   <project name="platform/upstream/meta-generic" revision="089a525613c9e38bd9a85296f53a6ba0075d30ff" />
 
   <!-- crosswalk -->
-  <project name="platform/framework/web/crosswalk" revision="64e6b5e6cdebc6b683a3507498457e64512a40d2" />
+  <project name="platform/framework/web/crosswalk" revision="c1df1cd934763fa4c409e17a7f829446e7ed2e5d" />
+
+  <!-- ail -->
+  <project name="platform/core/appfw/ail" revision="c8a25d80a3423e08718ee31176a24b91ee0cf5a0" />
+
+  <!-- pkgmgr-info -->
+  <project name="platform/core/appfw/pkgmgr-info" revision="d3c55f5605681f7791b2b14286642ded7f806a04" />
 
 </manifest>
