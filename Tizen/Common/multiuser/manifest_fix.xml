@@ -9,7 +9,7 @@
   <project name="platform/upstream/meta-generic" revision="089a525613c9e38bd9a85296f53a6ba0075d30ff" />
 
   <!-- crosswalk -->
-  <project name="platform/framework/web/crosswalk" revision="c1df1cd934763fa4c409e17a7f829446e7ed2e5d" />
+  <project name="platform/framework/web/crosswalk" revision="c0266db2cebef61fceeb01d230d0deb824de3fe9" />
 
   <!-- ail -->
   <project name="platform/core/appfw/ail" revision="c8a25d80a3423e08718ee31176a24b91ee0cf5a0" />
