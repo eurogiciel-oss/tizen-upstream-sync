@@ -5,6 +5,9 @@
   
   <default remote="tizen-gerrit"/>
 
+  <!-- meta-generic (sandbox/sdx/devel) -->
+  <project name="platform/upstream/meta-generic" revision="089a525613c9e38bd9a85296f53a6ba0075d30ff" />
+
   <!-- crosswalk -->
   <project name="platform/framework/web/crosswalk" revision="64e6b5e6cdebc6b683a3507498457e64512a40d2" />
 
