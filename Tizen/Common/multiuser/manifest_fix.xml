@@ -5,16 +5,11 @@
   
   <default remote="tizen-gerrit"/>
 
-  <!-- crosswalk (sandbox/sdi2/multiuser2) -->
-  <project name="platform/framework/web/crosswalk" revision="7f565ad7ab56f8df12dfb33b47abc91d7deed012" />
-
-  <!-- ail (sandbox/sdi2/multiuseruid) -->
-  <project name="platform/core/appfw/ail" revision="c8a25d80a3423e08718ee31176a24b91ee0cf5a0" />
-
-  <!-- pkgmgr-info (sandbox/sdi2/multiuseruid) -->
-  <project name="platform/core/appfw/pkgmgr-info" revision="d3c55f5605681f7791b2b14286642ded7f806a04" />
-  
-  <!-- slp-pkgmgr (sandbox/sdi2/multiuser2) -->
-  <project name="platform/core/appfw/slp-pkgmgr" revision="f73b042a8f289540736569f41cb8a66d6caa63b2" />
+  <!-- { submit/tizen_common/20140814.134251 -->
+	  <project name="platform/framework/web/crosswalk" revision="5673cd6d052a37011c4fdc962a711368344066ff" />
+	  <project name="platform/core/appfw/ail" revision="132f817dfa1b64127ba83bdab1d9c7fed898e6a5" />
+	  <project name="platform/core/appfw/pkgmgr-info" revision="aeebd6dc48865c2c08e1939b1cff40266cd4a229" />
+	  <project name="platform/core/appfw/slp-pkgmgr" revision="9a44802501ebfd17fbd908a09cf96e89e926c5ba" />
+  <!-- } -->
 
 </manifest>
