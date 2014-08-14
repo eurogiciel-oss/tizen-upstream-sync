@@ -11,7 +11,7 @@
 
 
   <!-- crosswalk (sandbox/sdi2/multiuser2) -->
-  <project name="platform/framework/web/crosswalk" revision="67035d800a0c2b4dfbd24c0fa023c667abd7de84" />
+  <project name="platform/framework/web/crosswalk" revision="77cd06675c33f529b91ee07095be9dd238500dbd" />
 
   <!-- ail (sandbox/sdi2/multiuseruid) -->
   <project name="platform/core/appfw/ail" revision="c8a25d80a3423e08718ee31176a24b91ee0cf5a0" />
