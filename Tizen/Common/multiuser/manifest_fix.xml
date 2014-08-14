@@ -5,11 +5,6 @@
   
   <default remote="tizen-gerrit"/>
 
-  <!-- meta-generic (https://review.tizen.org/gerrit/26000) -->
-  <project name="platform/upstream/meta-generic" revision="10f735f6159c4c1a5fb09b9d1da00b6a286f454c" />
-
-
-
   <!-- crosswalk (sandbox/sdi2/multiuser2) -->
   <project name="platform/framework/web/crosswalk" revision="7f565ad7ab56f8df12dfb33b47abc91d7deed012" />
 
