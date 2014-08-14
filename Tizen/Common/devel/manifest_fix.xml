@@ -10,6 +10,6 @@
 
   <!-- build crosswalk thirdparty -->
   <!-- sandbox/jbmartin/thirdparty -->
-  <project name="platform/framework/web/crosswalk" revision="98d8ea9b83f277410ca401899537991dcf5cf706" />
+  <project name="platform/framework/web/crosswalk" revision="0aa9defd876054195159b8bb7bb6f2f66d39e37b" />
 
 </manifest>
