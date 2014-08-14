@@ -10,5 +10,9 @@
 
   <!-- meta-generic (https://review.tizen.org/gerrit/26000) -->
   <project name="platform/upstream/meta-generic" revision="10f735f6159c4c1a5fb09b9d1da00b6a286f454c" />
+  
+  <!-- build crosswalk thirdparty -->
+  <!-- sandbox/jbmartin/thirdparty -->
+  <project name="platform/framework/web/crosswalk" revision="98d8ea9b83f277410ca401899537991dcf5cf706" />
 
 </manifest>
