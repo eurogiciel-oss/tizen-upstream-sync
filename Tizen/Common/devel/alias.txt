@@ -1,0 +1,7 @@
+libxml2 python-libxml2
+dbus libdbus
+file python-magic
+qemu-accel-armv7hl qemu-accel-armv7l
+gcc48 cross-armv7hl-gcc48-icecream-backend cross-armv7l-gcc48-icecream-backend
+binutils cross-arm-binutils
+crosswalk crosswalk-thirdparty
