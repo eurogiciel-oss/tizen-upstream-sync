@@ -6,8 +6,8 @@
   <default remote="tizen-gerrit"/>
 
   <!-- { submit/tizen_common/20140814.134251 -->
-  <!-- sandbox/sdi2/multiuseruid2 -->
-  	  <project name="platform/framework/web/crosswalk" revision="704642d5c46676ca8b13b4fd6ce5886f079bddc5" />
+  <!-- up crosswalk to 9.37.193.0-->
+  	  <project name="platform/framework/web/crosswalk" revision="4fee63df537421c603f77ca21697822ddfbd302e" />
 	  <project name="platform/core/appfw/ail" revision="132f817dfa1b64127ba83bdab1d9c7fed898e6a5" />
 	  <project name="platform/core/appfw/pkgmgr-info" revision="aeebd6dc48865c2c08e1939b1cff40266cd4a229" />
 	  <project name="platform/core/appfw/slp-pkgmgr" revision="9a44802501ebfd17fbd908a09cf96e89e926c5ba" />
