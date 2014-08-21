@@ -7,11 +7,11 @@
 
   <!-- { submit/tizen_common/20140814.134251 -->
   <!-- up crosswalk to 9.37.193.0-->
-  	  <project name="platform/framework/web/crosswalk" revision="4fee63df537421c603f77ca21697822ddfbd302e" />
+  	  <project name="platform/framework/web/crosswalk" revision="d8fe41432536ab686fd97fde8e1e815aca012452" />
   <!-- sandbox/sdi2/multiuseruid-->
-	  <project name="platform/core/appfw/ail" revision="9709d1121fc3a89ca73555990abf5d5f3ad590e9" />
+	  <project name="platform/core/appfw/ail" revision="d8458b5c3d33db349b65a4a9444882c71d45d727" />
   <!-- sandbox/sdi2/multiuseruid-->
-	  <project name="platform/core/appfw/pkgmgr-info" revision="56c0382bfcbaa50432799365942f7d248468f6a9" />
+	  <project name="platform/core/appfw/pkgmgr-info" revision="9b8b9c0bc05ec28a906866d813bbb881b2f81ba0" />
 	  <project name="platform/core/appfw/slp-pkgmgr" revision="9a44802501ebfd17fbd908a09cf96e89e926c5ba" />
   <!-- } -->
 
