@@ -179,6 +179,7 @@
   <project name="platform/upstream/libva-intel-driver" revision="baf8014908958dcfecc58ad87ee91359d4e6981d"/>
   <!-- https://review.tizen.org/gerrit/#/c/25271/ -->
   <project name="platform/upstream/xf86-video-intel" revision="06496cc53d902de7e1a0c3cdf0542f0ccfe51d96"/>
+  <project name="platform/upstream/efl" revision="3f079ceb621486130b948c5cdaa8ffbbe8083262"/>
 <!-- } User:rzr -->
 
 
