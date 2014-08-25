@@ -7,12 +7,15 @@
 
   <!-- { submit/tizen_common/20140814.134251 -->
   <!-- up crosswalk to 9.37.193.0-->
-  	  <project name="platform/framework/web/crosswalk" revision="d8fe41432536ab686fd97fde8e1e815aca012452" />
+  	  <project name="platform/framework/web/crosswalk" revision="da92f93edd37de2f2ddb21324313021f7e9fef2a" />
   <!-- sandbox/sdi2/multiuseruid-->
-	  <project name="platform/core/appfw/ail" revision="d8458b5c3d33db349b65a4a9444882c71d45d727" />
+	  <project name="platform/core/appfw/ail" revision="4f2375d57350fe77171f7460f3473880374514dc" />
   <!-- sandbox/sdi2/multiuseruid-->
-	  <project name="platform/core/appfw/pkgmgr-info" revision="9b8b9c0bc05ec28a906866d813bbb881b2f81ba0" />
-	  <project name="platform/core/appfw/slp-pkgmgr" revision="9a44802501ebfd17fbd908a09cf96e89e926c5ba" />
+	  <project name="platform/core/appfw/pkgmgr-info" revision="0c5d6f18a15376e5b918645ea53be753c9669a43" />
+  <!-- sandbox/sdi2/multiuser2-->	  
+	  <project name="platform/core/appfw/slp-pkgmgr" revision="b5098228645a7a45cbe52031013356068d019e21" />
+  <!-- sandbox/sdi2/multiuseruid-->
+	  <project name="platform/core/api/package-manager" revision="5d10e86df88d0f68bcf4ec9f6367ba258f428c0b" />
   <!-- } -->
 
 </manifest>
