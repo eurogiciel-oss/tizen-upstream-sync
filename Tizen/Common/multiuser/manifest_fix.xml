@@ -4,18 +4,4 @@
   <remote fetch="https://git.gitorious.org" name="gitorious-https"/>
   
   <default remote="tizen-gerrit"/>
-
-  <!-- { submit/tizen_common/20140814.134251 -->
-  <!-- up crosswalk to 9.37.193.0-->
-  	  <project name="platform/framework/web/crosswalk" revision="f3a238c411051cafa948df1bae70bf58ba20db12" />
-  <!-- sandbox/sdi2/multiuseruid-->
-	  <project name="platform/core/appfw/ail" revision="4f2375d57350fe77171f7460f3473880374514dc" />
-  <!-- sandbox/sdi2/multiuseruid-->
-	  <project name="platform/core/appfw/pkgmgr-info" revision="0c5d6f18a15376e5b918645ea53be753c9669a43" />
-  <!-- sandbox/sdi2/multiuser2-->	  
-	  <project name="platform/core/appfw/slp-pkgmgr" revision="b5098228645a7a45cbe52031013356068d019e21" />
-  <!-- sandbox/sdi2/multiuseruid-->
-	  <project name="platform/core/api/package-manager" revision="5d10e86df88d0f68bcf4ec9f6367ba258f428c0b" />
-  <!-- } -->
-
 </manifest>
