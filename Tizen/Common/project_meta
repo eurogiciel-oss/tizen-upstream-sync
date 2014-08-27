@@ -7,22 +7,32 @@
   <person userid="sdx" role="bugowner"/>
   <person userid="jobol" role="maintainer"/>
   <build>
-    <disable arch="aarch64" repository="arm64-wayland"/>
     <disable arch="i586" repository="arm-wayland"/>
     <disable arch="x86_64" repository="arm-wayland"/>
     <disable arch="i586" repository="x86_64-wayland"/>
+    <disable repository="arm64-wayland"/>
+    <disable arch="i586" repository="x86_64-x11"/>
+    <disable arch="i586" repository="arm-x11"/>
+    <disable arch="x86_64" repository="arm-x11"/>
   </build>
   <publish>
-    <disable arch="aarch64" repository="arm64-wayland"/>
+    <disable repository="arm64-wayland"/>
   </publish>
   <debuginfo>
     <enable/>
   </debuginfo>
   <useforbuild>
-    <disable arch="aarch64" repository="arm64-wayland"/>
+    <disable repository="arm64-wayland"/>
   </useforbuild>
+  <repository name="x86_64-x11">
+    <arch>x86_64</arch>
+    <arch>i586</arch>
+  </repository>
   <repository name="x86_64-wayland">
     <arch>x86_64</arch>
+    <arch>i586</arch>
+  </repository>
+  <repository name="ia32-x11">
     <arch>i586</arch>
   </repository>
   <repository name="ia32-wayland">
@@ -33,6 +43,11 @@
   </repository>
   <repository name="arm64-wayland">
     <arch>aarch64</arch>
+  </repository>
+  <repository name="arm-x11">
+    <arch>armv7l</arch>
+    <arch>i586</arch>
+    <arch>x86_64</arch>
   </repository>
   <repository name="arm-wayland">
     <arch>armv7l</arch>

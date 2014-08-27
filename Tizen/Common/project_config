@@ -207,6 +207,9 @@ Macros:
 ############################# build config #####################################
 
 %define gcc_version 48
+Macros:
+%gcc_version 48
+:Macros
 
 ########## targets ##########
 
