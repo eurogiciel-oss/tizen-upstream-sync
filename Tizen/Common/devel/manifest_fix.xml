@@ -5,9 +5,6 @@
   
   <default remote="tizen-gerrit"/>
 
-  <!-- https://review.tizen.org/gerrit/24819 (sdx) /https://review.tizen.org/gerrit/25514/ (bdurand) -->
-  <project name="platform/core/appfw/aul-1" revision="d88504c461aa9eca05d171611ec97a03226acbe6" />
-
   <!-- build crosswalk thirdparty -->
   <!-- sandbox/jbmartin/thirdparty -->
   <project name="platform/framework/web/crosswalk" revision="665eb266fbe3ce1a8b3309e0f29557fd7fcb746c" />
