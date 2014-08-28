@@ -4,4 +4,7 @@
   <remote fetch="https://git.gitorious.org" name="gitorious-https"/>
   
   <default remote="tizen-gerrit"/>
+  <project name="platform/core/appfw/pkgmgr-info" revision="4a1d06cb2cfc4514a64259430ec71eb473e6dc09" />   
+  <project name="platform/core/appfw/ail" revision="fdf86adb05e142b1e5190ec43556a51f0831bc32" />
+
 </manifest>
