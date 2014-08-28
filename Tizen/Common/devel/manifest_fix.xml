@@ -15,7 +15,7 @@
 
   <!-- #{ sdx -->
 	  <!-- EFI support -->
-	  <project name="profile/common/meta" revision="87c6e940a427027c4f08cb1a87c7b2ca868a5b00" />
+	  <project name="profile/common/meta" revision="a8e5f8754c4c0ca21905daa6841cfc18940bff4c" />
   <!-- #} sdx -->
   
 </manifest>
