@@ -4,5 +4,5 @@
   <remote fetch="https://git.gitorious.org" name="gitorious-https"/>
   
   <default remote="tizen-gerrit"/>
-
+ <project name="platform/core/appfw/slp-pkgmgr" revision="ab7801f28b1591a377a58c805f12d09d54d3c773" />
 </manifest>
