@@ -18,4 +18,17 @@
   <!-- #{ sdx -->
   <!-- #} sdx -->
   
+  <!-- Modello packages -->
+  <project name="profile/ivi/Modello_AMBSimulator" revision="43f878b5e2e103c4fa8fd169600cc7cd81c761d0" />
+  <project name="profile/ivi/Modello_Appmanager" revision="24feccf415a3cf9300262a3ff7cdbe316afacad1" />
+  <project name="profile/ivi/Modello_Common" revision="ab86039eaa4c452464fc0e5dbd459fada58e1082" />
+  <project name="profile/ivi/Modello_Dashboard" revision="84072ca1ad946e2dab57404c96b7b16f32526f3a" />
+  <project name="profile/ivi/Modello_Homescreen" revision="910082584eda27963772610cd244a64ee72e41a6" />
+  <project name="profile/ivi/Modello_Hvac" revision="07a56bec7d3adb61d717326a199524a4dce28bd2" />
+  <project name="profile/ivi/Modello_Installer" revision="b10378221e624ef03ada52bbccd6e4fc6f43370b" />
+  <project name="profile/ivi/Modello_Multimediaplayer" revision="c4bb6a9773f27415adb1d7bd255f2ab5ac549434" />
+  <project name="profile/ivi/Modello_Nav" revision="89e7e7adcec485b1ffc8da33d2fbcded50b3df3c" />
+  <project name="profile/ivi/Modello_Phone" revision="2aae49875dba76afbefac8b76d6ce505f94be9ab" />
+  <project name="profile/ivi/Modello_SDL" revision="ca736df169a33e30e7bdb2a7b37307a67d3d7ba7" />
+  
 </manifest>
