@@ -5,5 +5,12 @@
   
   <default remote="tizen-gerrit"/>
   <!-- sandbox/sdi2/multiuser2 create tizenglobalapp user -->
- <project name="platform/core/appfw/slp-pkgmgr" revision="22b6db4b61a861767a8c6554ef5f0f4623a0f849" />
+ <project name="platform/core/appfw/slp-pkgmgr" revision="2ddbf014a27426fd6b1d1d8e2aaa10cf6d3db14f" />-->
+ <project name="platform/core/appfw/tizen-platform-config" revision="9cba854c38144774c16d1b01fa23fd882bb19dab" />
+ <project name="platform/core/appfw/ail" revision="c04c1d31db38993e9bc9744cd1ac4221dd2e643b" />
+ <project name="platform/core/api/package-manager" revision="6156c06f2bd35e6de0e728c8ac5159485689c96f" />
+ <project name="platform/core/appfw/aul-1" revision="f3d7f912d7406d11ce6cfb974c6aa6eed05be767" />
+  <!-- HEAD:sandbox/sdi2/multiuseruid -->
+ <project name="platform/core/appfw/pkgmgr-info" revision="ff904954a1a87b181c9a4ec856354248027d65e0" />
+
 </manifest>
