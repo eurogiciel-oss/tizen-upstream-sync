@@ -5,11 +5,11 @@
   
   <default remote="tizen-gerrit"/>
   <!-- sandbox/sdi2/multiuser2 create tizenglobalapp user -->
- <project name="platform/core/appfw/slp-pkgmgr" revision="2ddbf014a27426fd6b1d1d8e2aaa10cf6d3db14f" />-->
+ <project name="platform/core/appfw/slp-pkgmgr" revision="55c1d9a50930b001a229fce211052c67d6fa3199" />-->
  <project name="platform/core/appfw/tizen-platform-config" revision="9cba854c38144774c16d1b01fa23fd882bb19dab" />
- <project name="platform/core/appfw/ail" revision="c04c1d31db38993e9bc9744cd1ac4221dd2e643b" />
- <project name="platform/core/api/package-manager" revision="6156c06f2bd35e6de0e728c8ac5159485689c96f" />
- <project name="platform/core/appfw/aul-1" revision="f3d7f912d7406d11ce6cfb974c6aa6eed05be767" />
+ <project name="platform/core/appfw/ail" revision="b96c472b10b95b908e0dcba7d1094502f611a26e" />
+ <project name="platform/core/api/package-manager" revision="914e49d2c2d64f8c0cbc4a8ed6fce02e46c6df48" />
+ <project name="platform/core/appfw/aul-1" revision="dd2c92299ff55d7fde615d4b20299ba87dd6e17c" />
   <!-- HEAD:sandbox/sdi2/multiuseruid -->
  <project name="platform/core/appfw/pkgmgr-info" revision="ff904954a1a87b181c9a4ec856354248027d65e0" />
 
