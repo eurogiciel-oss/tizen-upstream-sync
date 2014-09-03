@@ -13,7 +13,7 @@
   <project name="platform/upstream/glib" revision="a8711702c0292fc74678b5d2a395d49c105fe0b2" />
   <project name="platform/upstream/efl" revision="2dec2b9dcbf4329ad06ed87a8bc34c067be3c55d" />
   <project name="platform/upstream/elementary" revision="e24feaefd5fa523c8a16869cf74041fd1193b243" />
-  <project name="framework/uifw/efl-theme-tizen" revision="28ececbd0728935c5fa5488d9f9a1f7f2d97fc6c" />
+  <project name="platform/core/uifw/efl-theme-tizen" revision="0a73a759713629cc732738680d8208aec6b5abec" />
   <!-- #} pcoval -->
 
   <!-- #{ sdx -->
