@@ -4,13 +4,21 @@
   <remote fetch="https://git.gitorious.org" name="gitorious-https"/>
   
   <default remote="tizen-gerrit"/>
-  <!-- sandbox/sdi2/multiuser2 create tizenglobalapp user -->
- <project name="platform/core/appfw/slp-pkgmgr" revision="00dc15e1baf3958a264638aa6d0b2ec3f208cbea" />-->
+  
+  <!-- create tizenglobalapp user and change GLOBAL_USER
+ <!--sandbox/sdi2/multiuser2 
+ <project name="platform/core/appfw/slp-pkgmgr" revision="00dc15e1baf3958a264638aa6d0b2ec3f208cbea" />
  <project name="platform/core/appfw/tizen-platform-config" revision="9cba854c38144774c16d1b01fa23fd882bb19dab" />
  <project name="platform/core/appfw/ail" revision="c7a1a7a077a827c7bea2d98d4d4c3ecddebf86d8" />
  <project name="platform/core/api/package-manager" revision="914e49d2c2d64f8c0cbc4a8ed6fce02e46c6df48" />
  <project name="platform/core/appfw/aul-1" revision="dd2c92299ff55d7fde615d4b20299ba87dd6e17c" />
-  <!-- HEAD:sandbox/sdi2/multiuseruid -->
+  <!-- HEAD:sandbox/sdi2/multiuseruid
  <project name="platform/core/appfw/pkgmgr-info" revision="ff904954a1a87b181c9a4ec856354248027d65e0" />
+ -->
+ 
+ <!-- remove chsmack + fix mkdir directory -->
+ <project name="platform/core/appfw/ail" revision="7751ab1c0613d0d3bf0b11223e82856434e1ef23" />
+  <!-- HEAD:sandbox/sdi2/multiuser2 -->
+ <project name="platform/core/appfw/pkgmgr-info" revision="f37dbe47c040eb1a6b1a0dbea420f3f44a38b3c5" />
 
 </manifest>
