@@ -14,6 +14,6 @@
  <project name="platform/core/appfw/aul-1" revision="dd2c92299ff55d7fde615d4b20299ba87dd6e17c" />
   <!-- HEAD:sandbox/sdi2/multiuseruid -->
  <project name="platform/core/appfw/pkgmgr-info" revision="89d97ed351a743f2b2efe564c26de3a0ca87d016" />
- <project name="platform/framework/web/crosswalk" revision="ed984c94baa389dad02e731108a9f863fe9527a5" />
+ <project name="platform/framework/web/crosswalk" revision="8e703886146a8f80f4cad96acf8f6c1fc223d14c" />
 
 </manifest>
