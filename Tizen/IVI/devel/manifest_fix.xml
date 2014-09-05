@@ -5,4 +5,7 @@
   
   <default remote="tizen-gerrit"/>
 
+  <project name="platform/upstream/nspr" revision="eb3250667e57c381f5504128757d2d1b988ef8cf"/>
+
+
 </manifest>
