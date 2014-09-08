@@ -5,6 +5,8 @@
   
   <default remote="tizen-gerrit"/>
 
+  <project name="platform/upstream/rpm" revision="f89638679bc72541591f4cf32241fffae19f54ea" />
+  
   <!-- build crosswalk thirdparty -->
   <!-- sandbox/jbmartin/thirdparty -->
   <project name="platform/framework/web/crosswalk" revision="2841ff7ac6f02b5c425ce827b2c76a57d76afd01" />
