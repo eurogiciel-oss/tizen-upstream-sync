@@ -15,5 +15,5 @@
   <!-- HEAD:sandbox/sdi2/multiuseruid -->
  <project name="platform/core/appfw/pkgmgr-info" revision="89d97ed351a743f2b2efe564c26de3a0ca87d016" />
  <project name="platform/framework/web/crosswalk" revision="ed984c94baa389dad02e731108a9f863fe9527a5" />
-
+ <project name="platform/core/security/security-manager" revision="500e05ab70dfdb6bbcd01d4fcd47d18c858a29e6" />
 </manifest>
