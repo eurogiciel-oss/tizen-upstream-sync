@@ -17,7 +17,8 @@
  <project name="platform/core/security/security-manager" revision="500e05ab70dfdb6bbcd01d4fcd47d18c858a29e6" />
  
  <!-- HEAD:sandbox/jbmartin/thirdparty -->
- <project name="platform/framework/web/crosswalk" revision="416d1b407558a0602392c8d9340a4252213b6508" />
+ <!--<project name="platform/framework/web/crosswalk" revision="416d1b407558a0602392c8d9340a4252213b6508" />-->
+ <project name="platform/framework/web/crosswalk" revision="8a1ed7c5fb7d1b475496aecca46ea376c10b22f5" />
  
   <!-- HEAD:sandbox/jbmartin/multiuser -->
   <project name="platform/core/multimedia/media-server" revision="b357f0fecc9b933b5f51c92bd8ad6b4cc22676eb" />
