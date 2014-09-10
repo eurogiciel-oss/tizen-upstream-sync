@@ -30,5 +30,5 @@
   <project name="platform/core/messaging/msg-service" revision="9af5ed7f5de49f5a9071c3a4d6abc2c557f6b3c7" />
 
   <!-- sdx: fixes for perms -->
-  <project name="platform/upstream/meta-generic" revision="87c5c5ae25c97a7c5a6d56f06676b4ed86d42010"/>
+  <project name="platform/upstream/meta-generic" revision="dddf50debcb60af70b63ed69ca3feae753a11521"/>
 </manifest>
