@@ -8,7 +8,7 @@
   <!-- create tizenglobalapp user and change GLOBAL_USER -->
  <!--sandbox/sdi2/multiuser2 -->
  <project name="platform/core/appfw/slp-pkgmgr" revision="1d727222a03bba84e8f6d05e8c5a31659cbea14d" />
- <project name="platform/core/appfw/ail" revision="61e3bd422d0304b7b1cdad30598fdb672d0321ea" />
+ <project name="platform/core/appfw/ail" revision="12514dde63f610719a40b94b6b947264c62d3075" />
  <project name="platform/core/api/package-manager" revision="914e49d2c2d64f8c0cbc4a8ed6fce02e46c6df48" />
  <project name="platform/framework/web/tizen-extensions-crosswalk" revision="7ed38d71f868a66a8b299ddf8101ccf97921a814" />
  <project name="platform/core/appfw/aul-1" revision="624633ca061475a063812e853f6748f92399fe59" />
