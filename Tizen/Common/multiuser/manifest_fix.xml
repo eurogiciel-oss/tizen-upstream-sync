@@ -28,4 +28,7 @@
   <project name="platform/core/multimedia/libmedia-service" revision="b62c86b183ad071d0b2fdeda197c95adaa2e92f9" />
   <project name="platform/core/api/media-content" revision="0c6551c664fa186f0ef249ac42fcb6287524e6de" />
   <project name="platform/core/messaging/msg-service" revision="9af5ed7f5de49f5a9071c3a4d6abc2c557f6b3c7" />
+
+  <!-- sdx: fixes for perms -->
+  <project name="platform/upstream/meta-generic" revision="87c5c5ae25c97a7c5a6d56f06676b4ed86d42010"/>
 </manifest>
