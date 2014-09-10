@@ -22,7 +22,7 @@
  <project name="platform/framework/web/crosswalk" revision="8a1ed7c5fb7d1b475496aecca46ea376c10b22f5" />
  
   <!-- HEAD:sandbox/jbmartin/multiuser -->
-  <project name="platform/core/multimedia/media-server" revision="51711224e5fce972272845217c98f1e94758f4b9" />
+  <project name="platform/core/multimedia/media-server" revision="8a3993ac5b7057ce0b475bf1e52d262865d09258" />
   <project name="platform/core/multimedia/libmedia-thumbnail" revision="a846ca23fd7e237c0f385b839c0065720ed7a51e" />
   <project name="platform/core/multimedia/libmedia-service" revision="b62c86b183ad071d0b2fdeda197c95adaa2e92f9" />
   <project name="platform/core/api/media-content" revision="0c6551c664fa186f0ef249ac42fcb6287524e6de" />
