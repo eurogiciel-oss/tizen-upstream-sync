@@ -1,0 +1,4 @@
+<manifest xmlns:tz="http://tizen.org">
+  <remote fetch="ssh://review.tizen.org" name="tizen-gerrit" review="https://review.tizen.org/gerrit"/>
+  <default remote="tizen-gerrit"/>
+</manifest>
