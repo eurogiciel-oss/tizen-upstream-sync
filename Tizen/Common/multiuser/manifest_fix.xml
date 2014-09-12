@@ -14,6 +14,11 @@
  <project name="platform/core/appfw/aul-1" revision="bf0a564c94925f3ec876416df9cdc7df6ae8de1b" />
  <project name="platform/core/api/app-manager" revision="a8a3e7217f7e06a299c150f73a1c13dde12713bc" />
  <project name="platform/core/appfw/tizen-platform-config" revision="4cf226218ef865b4d81be929ed685539de5cecaa"/>
+ 
+  <project name="platform/core/appfw/app-svc" revision="1f4e0b2ae8d4bdf4d948dd88cbb9d4f55d3a4f09" />
+  <project name="platform/core/appfw/app-core" revision="e5f6d089e4315d5cf1eabede1876ffebbf01b7f1" />
+  <project name="platform/core/api/notification" revision="c667a7e1b02dbf169388d6046b6f67ef18787153">
+
   <!-- HEAD:sandbox/sdi2/multiuseruid -->
  <project name="platform/core/appfw/pkgmgr-info" revision="b8d097136a9da57fd6f5df46f6e61ac008d14622" />
  <project name="platform/core/security/security-manager" revision="500e05ab70dfdb6bbcd01d4fcd47d18c858a29e6" />
