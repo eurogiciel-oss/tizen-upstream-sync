@@ -15,7 +15,7 @@
  <project name="platform/core/api/app-manager" revision="a8a3e7217f7e06a299c150f73a1c13dde12713bc" />
  <project name="platform/core/appfw/tizen-platform-config" revision="4cf226218ef865b4d81be929ed685539de5cecaa"/>
   <!-- HEAD:sandbox/sdi2/multiuseruid -->
- <project name="platform/core/appfw/pkgmgr-info" revision="58a78dddfbc9d05c87da2d86d862ac5fbae3c80a" />
+ <project name="platform/core/appfw/pkgmgr-info" revision="db0462c882ef121805a5405ba8484ff933b1b3fc" />
  <project name="platform/core/security/security-manager" revision="500e05ab70dfdb6bbcd01d4fcd47d18c858a29e6" />
  
  <!-- HEAD:sandbox/jbmartin/thirdparty -->
