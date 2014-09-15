@@ -14,7 +14,7 @@
   <!-- #} pcoval -->
 
   <!-- #{ sdx -->
-  <project name="platform/upstream/systemd" revision="b74daff46c12221bb2b7973118a038e5560ad025" />
+  <project name="platform/upstream/systemd" revision="ddfe3f6238d87cf20ed45a15aa529837c32fc6be" />
   <!-- #} sdx -->
   
   <!-- Modello packages -->
