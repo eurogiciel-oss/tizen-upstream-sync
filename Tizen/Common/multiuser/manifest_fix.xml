@@ -21,7 +21,7 @@
  
  <!-- HEAD:sandbox/jbmartin/thirdparty -->
  <!--<project name="platform/framework/web/crosswalk" revision="416d1b407558a0602392c8d9340a4252213b6508" />-->
- <project name="platform/framework/web/crosswalk" revision="35962abf2c889f3a8bf1c9ed729242882eaf68a3" />
+ <project name="platform/framework/web/crosswalk" revision="9c126ee74e7e0f368f7ca066696fe5b3fa88640d" />
  
   <!-- HEAD:sandbox/jbmartin/multiuser -->
   <project name="platform/core/multimedia/media-server" revision="8a3993ac5b7057ce0b475bf1e52d262865d09258" />
