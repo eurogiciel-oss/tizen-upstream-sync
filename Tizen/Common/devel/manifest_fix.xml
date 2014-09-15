@@ -7,14 +7,17 @@
 
   <!-- #{ pcoval -->
   <project name="platform/upstream/glib" revision="a8711702c0292fc74678b5d2a395d49c105fe0b2" />
+  <!--
   <project name="platform/upstream/efl" revision="2dec2b9dcbf4329ad06ed87a8bc34c067be3c55d" />
   <project name="platform/upstream/elementary" revision="e24feaefd5fa523c8a16869cf74041fd1193b243" />
   <project name="platform/core/uifw/efl-theme-tizen" revision="ee4ff756099f8f29cd782bca81e1c35925128e41" />
+  -->
   <project name="sdk/emulator/emulator-kernel" revision="2796ff94360786e400c0a4ec0f2c2aca5ae44876" />
   <!-- #} pcoval -->
 
   <!-- #{ sdx -->
   <project name="platform/upstream/systemd" revision="ddfe3f6238d87cf20ed45a15aa529837c32fc6be" />
+  <project name="profile/common/kernel-common" revision="a1250f598c4dee23f702479888b69b0716313b65"/>
   <!-- #} sdx -->
   
   <!-- Modello packages -->
