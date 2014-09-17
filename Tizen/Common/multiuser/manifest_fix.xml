@@ -6,6 +6,8 @@
   <default remote="tizen-gerrit"/>
   
 
+ <project name="platform/framework/web/crosswalk" revision="400a6e8963c9add54baca7dcf594d996b70e4d67" />
+
  <project name="platform/core/security/security-manager" revision="500e05ab70dfdb6bbcd01d4fcd47d18c858a29e6" />
 
   <!-- HEAD:sandbox/jbmartin/multiuser -->
