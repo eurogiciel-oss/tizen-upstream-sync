@@ -7,8 +7,9 @@
   
 
  <project name="platform/framework/web/crosswalk" revision="400a6e8963c9add54baca7dcf594d996b70e4d67" />
-
  <project name="platform/core/security/security-manager" revision="500e05ab70dfdb6bbcd01d4fcd47d18c858a29e6" />
+ <project name="platform/core/appfw/slp-pkgmgr" revision="857a213c9177ab8cd381288d37c8f1049578ad5e" />
+ <project name="platform/core/appfw/pkgmgr-info" revision="73c25fe8648d18262fa163501435d1bb923369ba" />
 
   <!-- HEAD:sandbox/jbmartin/multiuser -->
   <project name="platform/core/multimedia/media-server" revision="8a3993ac5b7057ce0b475bf1e52d262865d09258" />
