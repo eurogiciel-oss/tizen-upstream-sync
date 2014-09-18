@@ -17,7 +17,7 @@
 
   <!-- #{ sdx -->
   <project name="platform/upstream/systemd" revision="ddfe3f6238d87cf20ed45a15aa529837c32fc6be" />
-  <project name="profile/common/kernel-common" revision="a1250f598c4dee23f702479888b69b0716313b65"/>
+  <project name="profile/common/kernel-common" revision="fe8f7d183a9611890bb14a795f8aa5f8aa61d13e"/>
   <!-- #} sdx -->
   
   <!-- Modello packages -->
