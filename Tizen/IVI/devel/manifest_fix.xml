@@ -7,5 +7,19 @@
 
   <project name="platform/upstream/nspr" revision="eb3250667e57c381f5504128757d2d1b988ef8cf"/>
 
+  <project name="platform/framework/web/tizen-extensions-crosswalk" revision="7ed38d71f868a66a8b299ddf8101ccf97921a814"/>
+  <project name="platform/core/appfw/pkgmgr-info" revision="73c25fe8648d18262fa163501435d1bb923369ba"/>
+  <project name="platform/core/appfw/aul-1" revision="833f555ebea572e2411204362ee17f84e74512dd"/>
+  <project name="platform/core/appfw/slp-pkgmgr" revision="857a213c9177ab8cd381288d37c8f1049578ad5e"/>
+  <project name="platform/core/api/package-manager" revision="f3bb3a3ca795f4c38fbf51a3c6696d342b0cf0eb"/>
+  <project name="platform/core/appfw/tizen-platform-config" revision="4cf226218ef865b4d81be929ed685539de5cecaa"/>
+  <project name="platform/framework/web/crosswalk" revision="400a6e8963c9add54baca7dcf594d996b70e4d67"/>
+  <project name="platform/core/appfw/tizen-platform-config" revision="4cf226218ef865b4d81be929ed685539de5cecaa"/>
+  <project name="platform/core/appfw/ail" revision="b5306fc32c824c1620cb7beebeb8908d8121cac1"/>
+  <project name="platform/core/api/app-manager" revision="a75ddb92d8ea619e4d8ebb953fe14ded11ba8214"/>
+  <project name="profile/ivi/ico-uxf-homescreen" revision="ac2d66c70bf19d3813b53dc85df9a8aefcb7a510"/>
+
+
+
 
 </manifest>
