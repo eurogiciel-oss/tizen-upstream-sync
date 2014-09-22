@@ -17,6 +17,7 @@
 
   <!-- #{ sdx -->
   <project name="platform/upstream/systemd" revision="ddfe3f6238d87cf20ed45a15aa529837c32fc6be" />
+  <project name="platform/upstream/tizen-release" revision="0e72b5f82655aa857b6fd53b7f6456de4ced0c1f"/>
   <!-- #} sdx -->
   
   <!-- Modello packages -->
