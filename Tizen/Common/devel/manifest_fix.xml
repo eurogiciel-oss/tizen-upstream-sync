@@ -16,13 +16,18 @@
   <!-- #} pcoval -->
 
   <!-- #{ sdx -->
-  <project name="platform/upstream/systemd" revision="ddfe3f6238d87cf20ed45a15aa529837c32fc6be" />
+<!--  <project name="platform/upstream/systemd" revision="ddfe3f6238d87cf20ed45a15aa529837c32fc6be" />
+-->
   <project name="platform/upstream/tizen-release" revision="0e72b5f82655aa857b6fd53b7f6456de4ced0c1f"/>
+  <!-- #} sdx -->
+
+  <!-- #{ jobol -->
   <project name="platform/core/appfw/tizen-platform-wrapper" revision="8cafa2e05f5d004b17633a8426cfe5472cd41739"/>
   <project name="platform/core/appfw/tizen-platform-config" revision="cc2253260a9dfe32c1da6e5f7c42e0aca6de9dc3"/>
   <project name="platform/core/system/dlog" revision="c43bce370f4aaa09f48df4e2c1d2b99f133526d0"/>
+  <project name="platform/core/appfw/vconf" revision="2aec7370b127cb8c69284967d33217841a25259f"/>
 
-  <!-- #} sdx -->
+  <!-- #} jobol -->
   
   <!-- Modello packages -->
   <project name="profile/ivi/Modello_AMBSimulator" revision="43f878b5e2e103c4fa8fd169600cc7cd81c761d0" />
