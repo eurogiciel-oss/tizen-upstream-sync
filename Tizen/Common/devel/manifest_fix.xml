@@ -29,6 +29,8 @@
   <project name="platform/core/appfw/tizen-platform-wrapper" revision="c085c25c97cf7e13a9ca539495e457cb33f217aa"/>
   <project name="platform/core/appfw/tizen-platform-config" revision="4367f56cdcd5dea828e2fa17a2b781e6395a9ee9"/>
   <project name="platform/core/system/dlog" revision="c43bce370f4aaa09f48df4e2c1d2b99f133526d0"/>
+  <project name="platform/upstream/csf-framework" revision="7d91336a8894dff81cf5b3dbd7bcf9f636bf3929"/>
+
 
   <!-- #} jobol -->
   
