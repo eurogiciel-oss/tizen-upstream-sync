@@ -20,20 +20,8 @@
   <!-- #{ sdx -->
 <!--  <project name="platform/upstream/systemd" revision="ddfe3f6238d87cf20ed45a15aa529837c32fc6be" />
 -->
-  <project name="platform/upstream/tizen-release" revision="82b3815f6c160e39c5a562eb7ae177447ee737fa"/>
-
-  <project name="platform/upstream/meta-generic" revision="ac79211e8125b1aa2897201f715d0d77bbfc4c9f"/>
   <!-- #} sdx -->
 
-  <!-- #{ jobol -->
-  <project name="platform/core/appfw/tizen-platform-wrapper" revision="c085c25c97cf7e13a9ca539495e457cb33f217aa"/>
-  <project name="platform/core/appfw/tizen-platform-config" revision="4367f56cdcd5dea828e2fa17a2b781e6395a9ee9"/>
-  <project name="platform/core/system/dlog" revision="c43bce370f4aaa09f48df4e2c1d2b99f133526d0"/>
-  <project name="platform/upstream/csf-framework" revision="7d91336a8894dff81cf5b3dbd7bcf9f636bf3929"/>
-
-
-  <!-- #} jobol -->
-  
   <!-- Modello packages -->
   <project name="profile/ivi/Modello_AMBSimulator" revision="43f878b5e2e103c4fa8fd169600cc7cd81c761d0" />
   <project name="profile/ivi/Modello_Appmanager" revision="24feccf415a3cf9300262a3ff7cdbe316afacad1" />
