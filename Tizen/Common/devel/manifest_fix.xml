@@ -22,10 +22,9 @@
   <!-- #} sdx -->
 
   <!-- #{ jobol -->
-  <project name="platform/core/appfw/tizen-platform-wrapper" revision="8cafa2e05f5d004b17633a8426cfe5472cd41739"/>
-  <project name="platform/core/appfw/tizen-platform-config" revision="cc2253260a9dfe32c1da6e5f7c42e0aca6de9dc3"/>
+  <project name="platform/core/appfw/tizen-platform-wrapper" revision="c085c25c97cf7e13a9ca539495e457cb33f217aa"/>
+  <project name="platform/core/appfw/tizen-platform-config" revision="4367f56cdcd5dea828e2fa17a2b781e6395a9ee9"/>
   <project name="platform/core/system/dlog" revision="c43bce370f4aaa09f48df4e2c1d2b99f133526d0"/>
-  <project name="platform/core/appfw/vconf" revision="2aec7370b127cb8c69284967d33217841a25259f"/>
 
   <!-- #} jobol -->
   
