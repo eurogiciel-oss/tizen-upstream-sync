@@ -12,13 +12,17 @@
   <project name="platform/upstream/elementary" revision="e24feaefd5fa523c8a16869cf74041fd1193b243" />
   <project name="platform/core/uifw/efl-theme-tizen" revision="ee4ff756099f8f29cd782bca81e1c35925128e41" />
   -->
+<!--
   <project name="sdk/emulator/emulator-kernel" revision="2796ff94360786e400c0a4ec0f2c2aca5ae44876" />
+-->
   <!-- #} pcoval -->
 
   <!-- #{ sdx -->
 <!--  <project name="platform/upstream/systemd" revision="ddfe3f6238d87cf20ed45a15aa529837c32fc6be" />
 -->
-  <project name="platform/upstream/tizen-release" revision="0e72b5f82655aa857b6fd53b7f6456de4ced0c1f"/>
+  <project name="platform/upstream/tizen-release" revision="82b3815f6c160e39c5a562eb7ae177447ee737fa"/>
+
+  <project name="platform/upstream/meta-generic" revision="ac79211e8125b1aa2897201f715d0d77bbfc4c9f"/>
   <!-- #} sdx -->
 
   <!-- #{ jobol -->
