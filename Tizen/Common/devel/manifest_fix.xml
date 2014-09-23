@@ -20,6 +20,7 @@
   <project name="platform/upstream/tizen-release" revision="0e72b5f82655aa857b6fd53b7f6456de4ced0c1f"/>
   <project name="platform/core/appfw/tizen-platform-wrapper" revision="8cafa2e05f5d004b17633a8426cfe5472cd41739"/>
   <project name="platform/core/appfw/tizen-platform-config" revision="cc2253260a9dfe32c1da6e5f7c42e0aca6de9dc3"/>
+  <project name="platform/core/system/dlog" revision="c43bce370f4aaa09f48df4e2c1d2b99f133526d0"/>
 
   <!-- #} sdx -->
   
