@@ -5,6 +5,6 @@
   
   <default remote="tizen-gerrit"/>
 
-  
+  <project name="eurogiciel-oss/toybox" revision="9ed73eb6fee46464f875947527c894617ab7e868" remote="github"/>
   
 </manifest>
