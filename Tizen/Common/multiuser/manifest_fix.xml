@@ -12,6 +12,7 @@
  <!-- checking mkdir error -->
  <project name="platform/core/appfw/ail" revision="303fbebe73956128779d4b7d9aae6e4b9801d01c" />
  <project name="platform/core/appfw/pkgmgr-info" revision="35e2e607eba05b7254b8cd197575796c9456c5c0" />
+ <project name="platform/core/appfw/slp-pkgmgr" revision="040179590ace5463ecc0a4ef220cd0e821de7b9e" />
 
   <!-- HEAD:sandbox/jbmartin/multiuser -->
   <project name="platform/core/multimedia/media-server" revision="8a3993ac5b7057ce0b475bf1e52d262865d09258" />
