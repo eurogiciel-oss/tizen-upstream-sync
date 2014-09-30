@@ -12,7 +12,7 @@
   <project name="platform/upstream/elementary" revision="e24feaefd5fa523c8a16869cf74041fd1193b243" />
   <project name="platform/core/uifw/efl-theme-tizen" revision="ee4ff756099f8f29cd782bca81e1c35925128e41" />
   -->
-  <project name="sdk/emulator/emulator-kernel" revision="aa6756f23627da560d7f9bb156fff239007a1067" />
+  <project name="sdk/emulator/emulator-kernel" revision="f55f75426752cd2cf7a0ffa34206347320c6fc10" />
   <!-- #} pcoval -->
 
   <!-- #{ sdx -->
