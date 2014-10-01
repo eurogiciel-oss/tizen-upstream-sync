@@ -13,6 +13,7 @@
   <project name="platform/core/uifw/efl-theme-tizen" revision="ee4ff756099f8f29cd782bca81e1c35925128e41" />
   -->
   <project name="sdk/emulator/emulator-kernel" revision="49c76e5788ab2c656291e5bd4962521c8887e23e" />
+  <project name="platform/kernel/linux-3.10" revision="tizen" />
   <!-- #} pcoval -->
 
   <!-- #{ sdx -->
