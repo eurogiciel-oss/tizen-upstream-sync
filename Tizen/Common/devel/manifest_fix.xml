@@ -16,8 +16,7 @@
   <!-- #} pcoval -->
 
   <!-- #{ sdx -->
-<!--  <project name="platform/upstream/systemd" revision="ddfe3f6238d87cf20ed45a15aa529837c32fc6be" />
--->
+  <project name="platform/core/appfw/ail" revision="88f4c1ee80bc1eda2556d4a6cd661f1a1ea4ae68"/>
   <!-- #} sdx -->
 
   <!-- Modello packages -->
