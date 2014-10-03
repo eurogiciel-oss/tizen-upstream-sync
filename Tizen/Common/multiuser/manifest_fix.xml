@@ -6,12 +6,13 @@
   <default remote="tizen-gerrit"/>
   
 
- <project name="platform/framework/web/crosswalk" revision="400a6e8963c9add54baca7dcf594d996b70e4d67" />
+ <!-- <project name="platform/framework/web/crosswalk" revision="400a6e8963c9add54baca7dcf594d996b70e4d67" />
  <project name="platform/core/security/security-manager" revision="500e05ab70dfdb6bbcd01d4fcd47d18c858a29e6" />
- <project name="platform/core/appfw/slp-pkgmgr" revision="857a213c9177ab8cd381288d37c8f1049578ad5e" />
+ <project name="platform/core/appfw/slp-pkgmgr" revision="857a213c9177ab8cd381288d37c8f1049578ad5e" /> -->
+
  <!-- checking mkdir error -->
- <project name="platform/core/appfw/ail" revision="771b922920316d25b5dfc5c5fb2372b7a4eeadca" />
- <project name="platform/core/appfw/pkgmgr-info" revision="3aaf9c2244563530e06155dc044abb8f0f863a8d" />
+ <project name="platform/core/appfw/ail" revision="1ae8ef2ff816ad2ff8f37df9350b1bc3cbbd024a" />
+ <project name="platform/core/appfw/pkgmgr-info" revision="85359f91a2d67c4adef0fe4f6f2aa05dc5262b8a" />
  <project name="platform/core/appfw/slp-pkgmgr" revision="fe75aa91e271408675fd71c1cd6774bfd9086c33" />
 
   <!-- HEAD:sandbox/jbmartin/multiuser -->
