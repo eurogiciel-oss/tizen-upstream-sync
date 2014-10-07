@@ -14,6 +14,10 @@
   -->
   <!-- #} pcoval -->
 
+  <!-- sdx { -->
+      <project name="platform/upstream/gcc" revision="9f145e690e38329b2068978cb319f0dc02b700e0"/>
+  <!-- } -->
+
   <!-- Modello packages -->
   <project name="profile/ivi/Modello_AMBSimulator" revision="43f878b5e2e103c4fa8fd169600cc7cd81c761d0" />
   <project name="profile/ivi/Modello_Appmanager" revision="24feccf415a3cf9300262a3ff7cdbe316afacad1" />
