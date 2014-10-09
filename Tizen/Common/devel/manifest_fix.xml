@@ -15,7 +15,9 @@
   <!-- #} pcoval -->
 
   <!-- sdx { -->
+<!--
       <project name="platform/upstream/gcc" revision="9f145e690e38329b2068978cb319f0dc02b700e0"/>
+-->
 	  <project name="platform/upstream/gcc49" revision="c1a2391012d08d61368e5597c092615036977f42"/>
   <!-- } -->
 

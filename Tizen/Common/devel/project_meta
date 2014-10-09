@@ -1,0 +1,54 @@
+<project name="Tizen:Common:devel">
+  <title>Tizen:Common:Devel - LOCAL DEVEL PROJECT FOR GENERAL PURPOSE</title>
+  <description>This is the devel project for Tizen:Common&#13;
+&#13;
+This project is synchronized with upstream projet https://build.tizen.org/project/show?project=Tizen%3ACommon every day at 23:00 (CEST)&#13;
+&#13;
+IMPORTANT: on this project, Upstream manifests used to generate the _service files for every package are also amended with the fixes stored in tizen-upstream-sync git: https://github.com/eurogiciel-oss/tizen-upstream-sync</description>
+  <person userid="kooltux" role="bugowner"/>
+  <person userid="jobol" role="maintainer"/>
+  <person userid="kooltux" role="maintainer"/>
+  <person userid="ronan" role="maintainer"/>
+  <build>
+    <disable arch="i586" repository="x86_64-wayland"/>
+    <disable arch="i586" repository="x86_64-x11"/>
+    <disable repository="arm-wayland"/>
+    <disable repository="arm-x11"/>
+    <disable arch="i586" repository="arm-wayland"/>
+    <disable arch="i586" repository="arm-x11"/>
+    <disable arch="x86_64" repository="arm-wayland"/>
+    <disable arch="x86_64" repository="arm-x11"/>
+    <enable/>
+  </build>
+  <debuginfo>
+    <enable/>
+  </debuginfo>
+  <repository name="x86_64-x11">
+    <arch>x86_64</arch>
+    <arch>i586</arch>
+  </repository>
+  <repository name="x86_64-wayland">
+    <arch>x86_64</arch>
+    <arch>i586</arch>
+  </repository>
+  <repository name="ia32-x11">
+    <arch>i586</arch>
+  </repository>
+  <repository name="ia32-wayland">
+    <arch>i586</arch>
+  </repository>
+  <repository name="emulator32-wayland">
+    <arch>i586</arch>
+  </repository>
+  <repository name="arm-x11">
+    <arch>armv7l</arch>
+    <arch>i586</arch>
+    <arch>x86_64</arch>
+  </repository>
+  <repository name="arm-wayland">
+    <arch>armv7l</arch>
+    <arch>i586</arch>
+    <arch>x86_64</arch>
+  </repository>
+</project>
+
