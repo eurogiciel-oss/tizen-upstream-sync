@@ -1,5 +1,5 @@
 crosswalk fourreux
-crosswalk-thirdparty fourreux
+crosswalk-bin fourreux
 kernel-common fourreux
 gcc fourreux
 gcc48 fourreux
