@@ -8,6 +8,6 @@
   <project name="eurogiciel-oss/toybox" revision="9ed73eb6fee46464f875947527c894617ab7e868" remote="github"/>
   
   <!-- file 5.11 -> 5.18 https://bugs.tizen.org/jira/browse/TC-1814 -->
-  <project name="plaform/upstream/file" revision="1930755d1c20a5ffd1a7fdbfc98be3551fbee569" remote="tizen-gerrit"/>
+  <!-- <project name="plaform/upstream/file" revision="1930755d1c20a5ffd1a7fdbfc98be3551fbee569" remote="tizen-gerrit"/> -->
   
 </manifest>
