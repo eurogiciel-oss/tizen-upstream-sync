@@ -23,5 +23,7 @@
   <project name="plaform/upstream/zlib" revision="7dca3c9f73a36e8c2725d075155af9ae8df7c4e6" remote="tizen-gerrit"/>
   <!-- flac 1.2.1 -> 1.3.0 https://bugs.tizen.org/jira/browse/TC-1815 -->
   <project name="plaform/upstream/flac" revision="7a18f055d335e9a848f959fd1ce24f588070473b" remote="tizen-gerrit"/>
+  <!-- glibc 2.18 -> 2.20 https://bugs.tizen.org/jira/browse/TC-1825 -->
+  <project name="plaform/upstream/glibc" revision="3f40ea95392162b5e8424d1c0fdc564ec63cf376" remote="tizen-gerrit"/>
 
 </manifest>
