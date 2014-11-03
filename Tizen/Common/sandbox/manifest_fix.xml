@@ -25,5 +25,7 @@
   <project name="plaform/upstream/flac" revision="7a18f055d335e9a848f959fd1ce24f588070473b" remote="tizen-gerrit"/>
   <!-- glibc 2.18 -> 2.20 https://bugs.tizen.org/jira/browse/TC-1825 -->
   <project name="plaform/upstream/glibc" revision="3f40ea95392162b5e8424d1c0fdc564ec63cf376" remote="tizen-gerrit"/>
+  <!-- json-c 0.10 -> 0.11 https://bugs.tizen.org/jira/browse/TC-1831 -->
+  <project name="plaform/upstream/json-c" revision="5c6d8ebd4d04cbc0c28cbb093f72942eb69e2209" remote="tizen-gerrit"/>
 
 </manifest>
