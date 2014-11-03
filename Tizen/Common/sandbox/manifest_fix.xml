@@ -12,7 +12,7 @@
   <!-- file 5.11 -> 5.18 https://bugs.tizen.org/jira/browse/TC-1814 -->
   <project name="plaform/upstream/file" revision="bc5cddb477b34ecfca4b717e616b67dea6d0d038" remote="tizen-gerrit"/>
   <!-- elfutils 0.155 -> 0.158 https://bugs.tizen.org/jira/browse/TC-1947 -->
-  <project name="plaform/upstream/elfutils" revision="4044d4d9dbd275dea5e6291c78763782b19dd77b" remote="tizen-gerrit"/>
+  <project name="plaform/upstream/elfutils" revision="b83697b4bbb728afea1dcf0bddf099ac31c5d8c1" remote="tizen-gerrit"/>
   <!-- readline 5.2 -> 6.3 https://bugs.tizen.org/jira/browse/TC-1867 -->
   <project name="plaform/upstream/readline" revision="7cf3317b0e4fe4df4fe78b7d8c7d99dfa002238d" remote="tizen-gerrit"/>
   <!-- curl 7.32.0 -> 7.37.1 https://bugs.tizen.org/jira/browse/TC-1807 -->
