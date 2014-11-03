@@ -27,5 +27,7 @@
   <project name="plaform/upstream/glibc" revision="3f40ea95392162b5e8424d1c0fdc564ec63cf376" remote="tizen-gerrit"/>
   <!-- json-c 0.10 -> 0.11 https://bugs.tizen.org/jira/browse/TC-1831 -->
   <project name="plaform/upstream/json-c" revision="5c6d8ebd4d04cbc0c28cbb093f72942eb69e2209" remote="tizen-gerrit"/>
+  <!-- gnome-common 3.7.4 -> 3.12.0 https://bugs.tizen.org/jira/browse/TC-1916 -->
+  <project name="plaform/upstream/gnome-common" revision="18fac0ee1e0fe1758d1d92450e6f287475dcfb5f" remote="tizen-gerrit"/>
 
 </manifest>
