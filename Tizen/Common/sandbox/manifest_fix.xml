@@ -31,5 +31,7 @@
   <project name="plaform/upstream/gnome-common" revision="18fac0ee1e0fe1758d1d92450e6f287475dcfb5f" remote="tizen-gerrit"/>
   <!-- kmod 15 -> 18 https://bugs.tizen.org/jira/browse/TC-1921 -->
   <project name="plaform/upstream/kmod" revision="a2ef79f3f784c3c04f94bbccb1e8bfb015c6b571" remote="tizen-gerrit"/>
+  <!-- bison 2.6.2 -> 2.7.1 https://bugs.tizen.org/jira/browse/TC-1803 -->
+  <project name="plaform/upstream/bison" revision="13dcecaf61271ca8463192979beec8cad08be70a" remote="tizen-gerrit"/>
 
 </manifest>
