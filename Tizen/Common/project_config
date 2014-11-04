@@ -17,12 +17,6 @@ Support: build
 Support: build-compare build-mkbaselibs
 Support: rpmlint-mini rpmlint-tizen
 
-%global aarch64  aarch64 arm64 armv8
-
-%ifarch ${aarch64}
-%define _arch aarch64
-%endif
-
 ############################# conflicts resolution #############################
 
 FileProvides: /usr/sbin/groupadd pwdutils
@@ -35,10 +29,19 @@ Prefer: libpci-devel
 %define profile common
 %define _with_tizen 1
 
+# %release_name and %tizen_full_version are used in platform/upstream/tizen-release
+
 Macros:
 %profile common
-%tizen_version 3.0
-%tizen 3.0
+%release_name Tizen3/Common
+
+%tizen_version_major 3
+%tizen_version_minor 0
+%tizen_version_patch 0
+
+%tizen_version %{tizen_version_major}.%{tizen_version_minor}
+%tizen_full_version %{tizen_version}.%{tizen_version_patch}
+%tizen %tizen_version
 %vendor tizen
 %_vendor tizen
 %_with_tizen 1
@@ -60,10 +63,10 @@ Macros:
 # |----------------------------------------------------
 # | wayland |  x  | meaning
 # |----------------------------------------------------
-# |   0     |  1  | pure X11 platform(no wayland)
-# |   1     |  0  | pure wayland platform (no X11)
+# |         |  1  | pure X11 platform(no wayland)
+# |   1     |     | pure wayland platform (no X11)
 # |   1     |  1  | wayland but X compatibility
-# |   0     |  0  | no X and no wayland
+# |         |     | no X and no wayland
 # |----------------------------------------------------
 #
 # Owner: Stephane <stephane.desneux@open.eurogiciel.org>
@@ -82,7 +85,7 @@ Macros:
 %_with_mesa 1
 :Macros
 
-%ifarch %arm armv7l %{aarch64}
+%ifarch %arm armv7l aarch64
    Substitute: mesa-devel pkgconfig(glesv2)
    #FIXME Substitute: pkgconfig(egl)
 %endif
@@ -206,9 +209,9 @@ Macros:
 
 ############################# build config #####################################
 
-%define gcc_version 48
+%define gcc_version 49
 Macros:
-%gcc_version 48
+%gcc_version 49
 :Macros
 
 ########## targets ##########
@@ -251,72 +254,10 @@ Preinstall: libmount libblkid libuuid
 %endif
 
 %ifarch aarch64
-Substitute: cross-aarch64-binutils  binutils
-Substitute: cross-aarch64-gcc48-icecream-backend gcc
-Preinstall: setup filesystem
-Preinstall: qemu-accel-aarch64-cross-arm
-Runscripts: qemu-accel-aarch64-cross-arm setup filesystem
-
-Preinstall: rpm rpm-build pam db4
-Preinstall: libncurses libmpc libmpfr libgmp cloog-isl
-Preinstall: python
-
-#hack to start build without proper binfmt
-Preinstall: !bbb-cross-arm
-Ignore:     bbb-cross-arm
-Preinstall: bash
-
-#provides until we can build libs correctly
-#FileProvides: libc.so.6 glibc
-#FileProvides: libc.so.6(GLIBC_2.4) glibc
-#FileProvides: libc.so.6(GLIBC_2.6) glibc
-#FileProvides: libc.so.6(GLIBC_2.7) glibc
-#FileProvides: libc.so.6(GLIBC_2.8) glibc
-#FileProvides: libc.so.6(GLIBC_2.11) glibc
-#FileProvides: libc.so.6(GLIBC_2.15) glibc
-#FileProvides: libc.so.6(GLIBC_2.17) glibc
-#FileProvides: ld-linux.so.3 glibc
-#FileProvides: ld-linux.so.3(GLIBC_2.4) glibc
-#FileProvides: ld-linux-aarch64.so.1(GLIBC_2.17)(64bit) glibc
-#FileProvides: ld-linux-aarch64.so.1()(64bit) glibc
-#FileProvides: libdl.so.2 glibc
-#FileProvides: libdl.so.2(GLIBC_2.4) glibc
-#FileProvides: libcrypt.so.1 glibc
-#FileProvides: libcrypt.so.1(GLIBC_2.4) glibc
-#FileProvides: libm.so.6 glibc
-#FileProvides: libm.so.6(GLIBC_2.4) glibc
-#FileProvides: libpthread.so.0 glibc
-#FileProvides: libpthread.so.0(GLIBC_2.4) glibc
-#FileProvides: libacl.so.1 acl
-#FileProvides: liblua.so.5.1 liblua
-#FileProvides: liblzma.so.5 xz
-#FileProvides: libpopt.so.0 popt
-#FileProvides: libelf.so.1(ELFUTILS_1.0) libelf
-#FileProvides: libnsl.so.1 glibc
-#FileProvides: libnsl.so.1(GLIBC_2.4) glibc
-#FileProvides: libutil.so.1 glibc
-#FileProvides: libutil.so.1(GLIBC_2.4) glibc
-#FileProvides: libpopt.so.0(LIBPOPT_0) popt
-#FileProvides: libacl.so.1(ACL_1.0) acl
-#FileProvides: libz.so.1(ZLIB_1.2.3.3) zlib
-#FileProvides: libmagic.so.1 libmagic
-#FileProvides: libgmp.so.10 libgmp
-#FileProvides: libmpc.so.3 libmpc
-#FileProvides: libmpfr.so.4 libmpfr
-#FileProvides: libnspr4.so nspr
-#FileProvides: libplc4.so nspr
-#FileProvides: libplds4.so nspr
-#FileProvides: libsqlite3.so.0 sqlite
-#FileProvides: libattr.so.1 attr
-#FileProvides: libattr.so.1(ATTR_1.0) attr
-#FileProvides: libsmack.so.1 smack
-#FileProvides: libsmack.so.1(LIBSMACK_1.0) smack
-#FileProvides: libxml2.so.2 libxml2
-#FileProvides: libxml2.so.2(LIBXML2_2.4.30) libxml2
-#FileProvides: libxml2.so.2(LIBXML2_2.5.0) libxml2
-#FileProvides: libxml2.so.2(LIBXML2_2.6.0) libxml2
-#FileProvides: librpm.so.3()(64bit) rpm
-#FileProvides: librpmio.so.3()(64bit) rpm
+Hostarch: x86_64
+Preinstall: qemu-accel-aarch64-cross-aarch64
+Runscripts: qemu-accel-aarch64-cross-aarch64
+Preinstall: libmount libblkid libuuid
 %endif # aarch64
 
 ########## exports for different architectures ##########
@@ -354,9 +295,6 @@ Preinstall: util-linux
 
 VMinstall: perl libmount libblkid libext2fs libuuid  grep libpcre util-linux
 
-%ifarch aarch64
-Support: cross-aarch64-binutils cross-aarch64-gcc48-icecream-backend
-%endif
 Required: binutils gcc glibc rpm-build libtool
 
 Support: glibc-locale

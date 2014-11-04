@@ -10,20 +10,17 @@
     <disable arch="i586" repository="arm-wayland"/>
     <disable arch="x86_64" repository="arm-wayland"/>
     <disable arch="i586" repository="x86_64-wayland"/>
-    <disable repository="arm64-wayland"/>
     <disable arch="i586" repository="x86_64-x11"/>
     <disable arch="i586" repository="arm-x11"/>
     <disable arch="x86_64" repository="arm-x11"/>
+    <disable arch="i586" repository="arm64-wayland"/>
+    <disable arch="x86_64" repository="arm64-wayland"/>
+    <disable arch="x86_64" repository="arm64-x11"/>
+    <disable arch="i586" repository="arm64-x11"/>
   </build>
-  <publish>
-    <disable repository="arm64-wayland"/>
-  </publish>
   <debuginfo>
     <enable/>
   </debuginfo>
-  <useforbuild>
-    <disable repository="arm64-wayland"/>
-  </useforbuild>
   <repository name="x86_64-x11">
     <arch>x86_64</arch>
     <arch>i586</arch>
@@ -41,8 +38,15 @@
   <repository name="emulator32-wayland">
     <arch>i586</arch>
   </repository>
+  <repository name="arm64-x11">
+    <arch>aarch64</arch>
+    <arch>i586</arch>
+    <arch>x86_64</arch>
+  </repository>
   <repository name="arm64-wayland">
     <arch>aarch64</arch>
+    <arch>i586</arch>
+    <arch>x86_64</arch>
   </repository>
   <repository name="arm-x11">
     <arch>armv7l</arch>

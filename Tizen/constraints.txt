@@ -1,6 +1,8 @@
 crosswalk fourreux
 crosswalk-bin fourreux
 kernel-common fourreux
+linux-3.10 fourreux
+llvm fourreux
 gcc fourreux
-gcc48 fourreux
+gcc49 fourreux
 mesa fourreux
