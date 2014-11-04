@@ -6,9 +6,9 @@
   <default remote="tizen-gerrit"/>
   
 
- <!-- Move rep .config -->
-  <project name="platform/framework/web/crosswalk" revision="865266c7f6f2d680b6d5f8b54133b7c408972f3e" />
-
+ <!-- Move rep .config + manifest in reviews-->
+  <project name="platform/framework/web/crosswalk" revision="510859205a34418570188d8aad37d509db4a10a1" />
+  <project name="platform/core/appfw/pkgmgr-info" revision="8520892ca6bdaf4d076d94a1b013e42f67ebd90b" />
   <!-- HEAD:sandbox/jbmartin/multiuser -->
   <project name="platform/core/multimedia/media-server" revision="8a3993ac5b7057ce0b475bf1e52d262865d09258" />
   <project name="platform/core/multimedia/libmedia-thumbnail" revision="a846ca23fd7e237c0f385b839c0065720ed7a51e" />

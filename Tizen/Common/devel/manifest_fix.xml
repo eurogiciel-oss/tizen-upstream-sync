@@ -6,7 +6,6 @@
   <default remote="tizen-gerrit"/>
 
   <!-- #{ pcoval -->
-  <project name="platform/upstream/glib" revision="a8711702c0292fc74678b5d2a395d49c105fe0b2" />
   <!--
   <project name="platform/upstream/efl" revision="2dec2b9dcbf4329ad06ed87a8bc34c067be3c55d" />
   <project name="platform/upstream/elementary" revision="e24feaefd5fa523c8a16869cf74041fd1193b243" />
