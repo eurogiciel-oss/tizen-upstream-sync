@@ -43,5 +43,7 @@
   <project name="platform/upstream/xkeyboard-config" revision="9160dd8fffa5b93efe9a8fc24803adb78694b0de" remote="tizen-gerrit"/>
   <!-- libxkbcommon 0.4.1 -> 0.4.3 https://bugs.tizen.org/jira/browse/TC-1846 -->
   <project name="platform/upstream/libxkbcommon" revision="0c1caa8eda0ee1cbe943422dd90c327d6ac53a90" remote="tizen-gerrit"/>
+  <!-- mpfr 3.1.1 -> 3.1.2 https://bugs.tizen.org/jira/browse/TC-1852 -->
+  <project name="platform/upstream/mpfr" revision="cfa9d0afd5ce2f29843e232d2acc777f961a0052" remote="tizen-gerrit"/>
 
 </manifest>
