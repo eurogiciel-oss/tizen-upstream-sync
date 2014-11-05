@@ -37,4 +37,8 @@
   <project name="platform/upstream/gdbm" revision="0bb6e7e07a3afb3beebda0a3faa3432b7576742d" remote="tizen-gerrit"/>
   <!-- tzdata 2012 -> 2014h https://bugs.tizen.org/jira/browse/TC-1875 -->
   <project name="platform/upstream/tzdata" revision="7d50fa562a1dafd2453021f633cb9236998d9ea1" remote="tizen-gerrit"/>
+  <!-- zeromq 3.1.0 -> 4.0.4 https://bugs.tizen.org/jira/browse/TC-1881 -->
+  <project name="platform/upstream/zeromq" revision="249ee52211d66d03896ddc4dd8e8eab4593d536a" remote="tizen-gerrit"/>
+
+  
 </manifest>
