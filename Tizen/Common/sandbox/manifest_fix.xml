@@ -41,6 +41,7 @@
   <project name="platform/upstream/zeromq" revision="249ee52211d66d03896ddc4dd8e8eab4593d536a" remote="tizen-gerrit"/>
   <!-- xkeyboard-config 2.11 -> 2.12 https://bugs.tizen.org/jira/browse/TC-1879 -->
   <project name="platform/upstream/xkeyboard-config" revision="9160dd8fffa5b93efe9a8fc24803adb78694b0de" remote="tizen-gerrit"/>
+  <!-- libxkbcommon 0.4.1 -> 0.4.3 https://bugs.tizen.org/jira/browse/TC-1846 -->
+  <project name="platform/upstream/libxkbcommon" revision="0c1caa8eda0ee1cbe943422dd90c327d6ac53a90" remote="tizen-gerrit"/>
 
-  
 </manifest>
