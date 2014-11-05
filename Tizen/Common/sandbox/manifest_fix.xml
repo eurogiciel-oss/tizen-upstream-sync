@@ -49,5 +49,7 @@
   <project name="platform/upstream/mtdev" revision="4d4e92c4733dc04d8cef1e91881d46ecca391b73" remote="tizen-gerrit"/>
   <!-- mtools 4.0.17 -> 4.0.18 https://bugs.tizen.org/jira/browse/TC-1854 -->
   <project name="platform/upstream/mtools" revision="2809716ec62d959d26b67cddce6cd9a0b4c75851" remote="tizen-gerrit"/>
+  <!-- glib-networking 2.36.2 -> 2.38.0 https://bugs.tizen.org/jira/browse/TC-1824 -->
+  <project name="platform/upstream/glib-networking" revision="2298a0d5897f23b2025884d6a1058ab3de3cd9b3" remote="tizen-gerrit"/>
 
 </manifest>
