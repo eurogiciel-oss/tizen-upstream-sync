@@ -39,6 +39,8 @@
   <project name="platform/upstream/tzdata" revision="7d50fa562a1dafd2453021f633cb9236998d9ea1" remote="tizen-gerrit"/>
   <!-- zeromq 3.1.0 -> 4.0.4 https://bugs.tizen.org/jira/browse/TC-1881 -->
   <project name="platform/upstream/zeromq" revision="249ee52211d66d03896ddc4dd8e8eab4593d536a" remote="tizen-gerrit"/>
+  <!-- xkeyboard-config 2.11 -> 2.12 https://bugs.tizen.org/jira/browse/TC-1879 -->
+  <project name="platform/upstream/xkeyboard-config" revision="9160dd8fffa5b93efe9a8fc24803adb78694b0de" remote="tizen-gerrit"/>
 
   
 </manifest>
