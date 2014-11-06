@@ -14,7 +14,7 @@
   <!-- elfutils 0.155 -> 0.158 https://bugs.tizen.org/jira/browse/TC-1947 -->
   <project name="platform/upstream/elfutils" revision="5a80b233c939d45e03ab6fe3a80399b67ed535cb" remote="tizen-gerrit"/>
   <!-- readline 5.2 -> 6.3 https://bugs.tizen.org/jira/browse/TC-1867 -->
-  <project name="platform/upstream/readline" revision="7cf3317b0e4fe4df4fe78b7d8c7d99dfa002238d" remote="tizen-gerrit"/>
+  <project name="platform/upstream/readline" revision="f9389b0735a1915a469b62b0db10a9bd41ef5d61" remote="tizen-gerrit"/>
   <!-- curl 7.32.0 -> 7.37.1 https://bugs.tizen.org/jira/browse/TC-1807 -->
   <project name="platform/upstream/curl" revision="7139999d78512b4ce3120eafe921710d10d22f13" remote="tizen-gerrit"/>
   <!-- xz 5.0.3 -> 5.1.3 https://bugs.tizen.org/jira/browse/TC-1880 -->
