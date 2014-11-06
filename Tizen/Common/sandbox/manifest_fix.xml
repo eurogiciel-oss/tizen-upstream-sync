@@ -53,5 +53,7 @@
   <project name="platform/upstream/glib-networking" revision="2298a0d5897f23b2025884d6a1058ab3de3cd9b3" remote="tizen-gerrit"/>
   <!-- psmisc 22.20 -> 22.21 https://bugs.tizen.org/jira/browse/TC-1865 -->
   <project name="platform/upstream/psmisc" revision="b7084161ba627d4ba05184cb4f4304c52da830bb" remote="tizen-gerrit"/>
+  <!-- kbd 1.15.3 -> 2.0.2 https://bugs.tizen.org/jira/browse/TC-1920 -->
+  <project name="platform/upstream/kbd" revision="d341762fcf19abba26a0e9d3821444bdccdbf9b8" remote="tizen-gerrit"/>
 
 </manifest>
