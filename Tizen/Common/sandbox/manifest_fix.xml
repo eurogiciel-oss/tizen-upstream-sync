@@ -63,5 +63,7 @@
   <project name="platform/upstream/docbook-xsl-stylesheets" revision="d278c2ef3ca0ba1a9c2fdc423705c74e02f2d67a" remote="tizen-gerrit"/>
   <!-- dbus-python 1.1.1 -> 1.2.0 https://bugs.tizen.org/jira/browse/TC-1946 -->
   <project name="platform/upstream/dbus-python" revision="0e094639e715a6d4b8dee0736fdc305b9d31776b" remote="tizen-gerrit"/>
+  <!-- sed 4.2.1 -> 4.2.2 https://bugs.tizen.org/jira/browse/TC-1869 -->
+  <project name="platform/upstream/sed" revision="3789316d1186bd7ffc8d06873bce1c5c56b322c7" remote="tizen-gerrit"/>
 
 </manifest>
