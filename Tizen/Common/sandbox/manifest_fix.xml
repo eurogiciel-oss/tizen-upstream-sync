@@ -61,5 +61,7 @@
   <project name="platform/upstream/boost" revision="03087a87dc4586a5dd1ed43db88ed52c22327c88" remote="tizen-gerrit"/>
   <!-- docbook-xsl-stylesheets 1.77.1 -> 1.78.1 https://bugs.tizen.org/jira/browse/TC-1915 -->
   <project name="platform/upstream/docbook-xsl-stylesheets" revision="d278c2ef3ca0ba1a9c2fdc423705c74e02f2d67a" remote="tizen-gerrit"/>
+  <!-- dbus-python 1.1.1 -> 1.2.0 https://bugs.tizen.org/jira/browse/TC-1946 -->
+  <project name="platform/upstream/dbus-python" revision="0e094639e715a6d4b8dee0736fdc305b9d31776b" remote="tizen-gerrit"/>
 
 </manifest>
