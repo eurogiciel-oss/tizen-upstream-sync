@@ -59,5 +59,7 @@
   <project name="platform/upstream/libtirpc" revision="96a4bd07f66a802c13bfde21f667e3ba9beb60d0" remote="tizen-gerrit"/>
   <!-- boost 1.51.0 -> 1.56.0 https://bugs.tizen.org/jira/browse/TC-1804 -->
   <project name="platform/upstream/boost" revision="03087a87dc4586a5dd1ed43db88ed52c22327c88" remote="tizen-gerrit"/>
+  <!-- docbook-xsl-stylesheets 1.77.1 -> 1.78.1 https://bugs.tizen.org/jira/browse/TC-1915 -->
+  <project name="platform/upstream/docbook-xsl-stylesheets" revision="d278c2ef3ca0ba1a9c2fdc423705c74e02f2d67a" remote="tizen-gerrit"/>
 
 </manifest>
