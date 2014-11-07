@@ -69,5 +69,7 @@
   <project name="platform/upstream/usbutils" revision="391665ffa9c37671adad62c87e818cfb95fe699a" remote="tizen-gerrit"/>
   <!-- dbus 1.6.12 -> 1.6.18 https://bugs.tizen.org/jira/browse/TC-1812 -->
   <project name="platform/upstream/dbus" revision="d915ac14441fcacca7cc416e5b08b135755e13dd" remote="tizen-gerrit"/>
+  <!-- fontconfig 2.10.91 -> 2.11.1 https://bugs.tizen.org/jira/browse/TC-1818 -->
+  <project name="platform/upstream/fontconfig" revision="ab1693bb8aaecf2e8e89a764915030ad0e3f9a03" remote="tizen-gerrit"/>
 
 </manifest>
