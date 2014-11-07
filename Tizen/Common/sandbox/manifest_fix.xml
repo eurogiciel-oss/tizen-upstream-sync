@@ -67,5 +67,7 @@
   <project name="platform/upstream/sed" revision="3789316d1186bd7ffc8d06873bce1c5c56b322c7" remote="tizen-gerrit"/>
   <!-- usbutils 006 -> 007 https://bugs.tizen.org/jira/browse/TC-1876 -->
   <project name="platform/upstream/usbutils" revision="391665ffa9c37671adad62c87e818cfb95fe699a" remote="tizen-gerrit"/>
+  <!-- dbus 1.6.12 -> 1.6.18 https://bugs.tizen.org/jira/browse/TC-1812 -->
+  <project name="platform/upstream/dbus" revision="d915ac14441fcacca7cc416e5b08b135755e13dd" remote="tizen-gerrit"/>
 
 </manifest>
