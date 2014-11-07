@@ -71,5 +71,7 @@
   <project name="platform/upstream/dbus" revision="d915ac14441fcacca7cc416e5b08b135755e13dd" remote="tizen-gerrit"/>
   <!-- fontconfig 2.10.91 -> 2.11.1 https://bugs.tizen.org/jira/browse/TC-1818 -->
   <project name="platform/upstream/fontconfig" revision="ab1693bb8aaecf2e8e89a764915030ad0e3f9a03" remote="tizen-gerrit"/>
+  <!-- ofono 1.14 -> 1.15 https://bugs.tizen.org/jira/browse/TC-1857 -->
+  <project name="platform/upstream/ofono" revision="48f0ba1d7222470dcb1096ded59d3b8539877b4b" remote="tizen-gerrit"/>
 
 </manifest>
