@@ -83,5 +83,7 @@
   <project name="platform/upstream/pixman" revision="833ca1b811c7d9b6f49158ee33d283d5f93b995e" remote="tizen-gerrit"/>
   <!-- json-glib 1.0.0 https://bugs.tizen.org/jira/browse/TC-1919 -->
   <project name="platform/upstream/json-glib" revision="c2537be56b8a54814ab4d5cb416d61460849e3dd" remote="tizen-gerrit"/>
+  <!-- libpcap 1.6.1 https://bugs.tizen.org/jira/browse/TC-1839 -->
+  <project name="platform/upstream/libpcap" revision="889666f80115d138322ec15b1a3a7c282f939a22" remote="tizen-gerrit"/>
 
 </manifest>
