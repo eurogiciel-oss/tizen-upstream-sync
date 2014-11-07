@@ -73,5 +73,11 @@
   <project name="platform/upstream/fontconfig" revision="ab1693bb8aaecf2e8e89a764915030ad0e3f9a03" remote="tizen-gerrit"/>
   <!-- ofono 1.14 -> 1.15 https://bugs.tizen.org/jira/browse/TC-1857 -->
   <project name="platform/upstream/ofono" revision="48f0ba1d7222470dcb1096ded59d3b8539877b4b" remote="tizen-gerrit"/>
+  <!-- grep 2.19 https://bugs.tizen.org/jira/browse/TC-1828 -->
+  <project name="platform/upstream/grep" revision="651e5cd9249b5a961cb7809981836cb6e6e8ede3" remote="tizen-gerrit"/>
+  <!-- libpng 1.6.13 https://bugs.tizen.org/jira/browse/TC-1841 -->
+  <project name="platform/upstream/libpng" revision="ebd25024fd2d92f672cc89bb5f728aa4bce3832b" remote="tizen-gerrit"/>
+  <!-- acl 2.2.52 https://bugs.tizen.org/jira/browse/TC-1797 -->
+  <project name="platform/upstream/acl" revision="55b80a724ac4c185cbd25e1ef656a8214fbad45d" remote="tizen-gerrit"/>
 
 </manifest>
