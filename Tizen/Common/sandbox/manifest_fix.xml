@@ -79,5 +79,7 @@
   <project name="platform/upstream/libpng" revision="ebd25024fd2d92f672cc89bb5f728aa4bce3832b" remote="tizen-gerrit"/>
   <!-- acl 2.2.52 https://bugs.tizen.org/jira/browse/TC-1797 -->
   <project name="platform/upstream/acl" revision="55b80a724ac4c185cbd25e1ef656a8214fbad45d" remote="tizen-gerrit"/>
+  <!-- pixman 0.32.6 https://bugs.tizen.org/jira/browse/TC-1863 -->
+  <project name="platform/upstream/pixman" revision="833ca1b811c7d9b6f49158ee33d283d5f93b995e" remote="tizen-gerrit"/>
 
 </manifest>
