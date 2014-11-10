@@ -97,6 +97,8 @@
   <project name="platform/upstream/libpciaccess" revision="69915a5026b3e412613fb0c9889d8537a260b01a" remote="tizen-gerrit"/>
   <!-- tcl 8.6.1 https://bugs.tizen.org/jira/browse/TC-1928 -->
   <project name="platform/upstream/tcl" revision="bb08ccde445ad76d47447a9962bdf34348f1da90" remote="tizen-gerrit"/>
+  <!-- libtasn1 4.0 https://bugs.tizen.org/jira/browse/TC-1926 -->
+  <project name="platform/upstream/libtasn1" revision="b194ac238afae64b3dd35ce7d3bc8f179d6ee9b5" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
