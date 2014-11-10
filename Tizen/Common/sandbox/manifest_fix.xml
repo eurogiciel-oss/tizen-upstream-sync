@@ -95,6 +95,8 @@
   <project name="platform/upstream/coreutils" revision="b235400cab5ee5e0212fc7108fcb7baf6f246e7f" remote="tizen-gerrit"/>
   <!-- libpciaccess 0.13.2 https://bugs.tizen.org/jira/browse/TC-1840 -->
   <project name="platform/upstream/libpciaccess" revision="69915a5026b3e412613fb0c9889d8537a260b01a" remote="tizen-gerrit"/>
+  <!-- tcl 8.6.1 https://bugs.tizen.org/jira/browse/TC-1928 -->
+  <project name="platform/upstream/tcl" revision="bb08ccde445ad76d47447a9962bdf34348f1da90" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
