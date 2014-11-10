@@ -90,4 +90,9 @@
   <!-- avahi 0.6.31 https://bugs.tizen.org/jira/browse/TC-1914 -->
   <project name="platform/upstream/avahi" revision="05f77719ebb4c160452df646701b67a84dff9576" remote="tizen-gerrit"/>
 
+  <!-- Merged not submitted -->
+
+  <!-- util-macros 1.19.0 https://bugs.tizen.org/jira/browse/TC-1877 -->
+  <project name="platform/upstream/util-macros" revision="5eb8f5eba6ee91c9793badd0292c91e5f7d29b30" remote="tizen-gerrit"/>
+
 </manifest>
