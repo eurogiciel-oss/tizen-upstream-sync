@@ -89,6 +89,8 @@
   <project name="platform/upstream/libical" revision="98cd6400601ddc3aff1e48315c7ca74be6517fb4" remote="tizen-gerrit"/>
   <!-- avahi 0.6.31 https://bugs.tizen.org/jira/browse/TC-1914 -->
   <project name="platform/upstream/avahi" revision="05f77719ebb4c160452df646701b67a84dff9576" remote="tizen-gerrit"/>
+  <!-- busybox 1.22.1 https://bugs.tizen.org/jira/browse/TC-1918 -->
+  <project name="platform/upstream/busybox" revision="7a155c3c0ef5854e62afa03ef73800eee922a567" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
