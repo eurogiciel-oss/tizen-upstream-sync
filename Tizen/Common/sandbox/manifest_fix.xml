@@ -107,6 +107,8 @@
   <project name="platform/upstream/libxml2" revision="e578657f3eb32ca58c684bc99657ae5f83af23be" remote="tizen-gerrit"/>
   <!-- lua 0.19.1 https://bugs.tizen.org/jira/browse/TC-1849 -->
   <project name="platform/upstream/lua" revision="c4557ba4ba372fcf2d0d2b037a2da0fdf49b14d8" remote="tizen-gerrit"/>
+  <!-- sudo 1.8.10p3 https://bugs.tizen.org/jira/browse/TC-1871 -->
+  <project name="platform/upstream/sudo" revision="90d110eb185da8fc1aca5d4b3dd79513353fca50" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
