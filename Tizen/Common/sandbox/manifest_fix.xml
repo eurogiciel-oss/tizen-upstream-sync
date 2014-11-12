@@ -101,6 +101,8 @@
   <project name="platform/upstream/libtasn1" revision="b194ac238afae64b3dd35ce7d3bc8f179d6ee9b5" remote="tizen-gerrit"/>
   <!-- libvpx 1.3.0 https://bugs.tizen.org/jira/browse/TC-1845 -->
   <project name="platform/upstream/libvpx" revision="fe18ea2354008bcc37bbe28282ac25bb6d369f17" remote="tizen-gerrit"/>
+  <!-- p11-kit 0.19.1 https://bugs.tizen.org/jira/browse/TC-1927 -->
+  <project name="platform/upstream/p11-kit" revision="16ee29b95970094a2bf0bf2a043ab21754761744" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
