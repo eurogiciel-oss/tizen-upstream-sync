@@ -123,6 +123,8 @@
   <project name="platform/upstream/pango" revision="93b1ae10e1bac5225b05a7091e43f7a137cbcad7" remote="tizen-gerrit"/>
   <!-- nettle 2.7.1 https://bugs.tizen.org/jira/browse/TC-1856 -->
   <project name="platform/upstream/nettle" revision="6ff2c7475a6540897ed1af2dbfcaf9d0de44c5f3" remote="tizen-gerrit"/>
+  <!-- libassuan 2.1.2 https://bugs.tizen.org/jira/browse/TC-1923 -->
+  <project name="platform/upstream/libassuan" revision="577e6f2ff069d3a7df4ce7e84f3f8b2c2a6dc19" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
