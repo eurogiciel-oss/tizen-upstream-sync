@@ -115,6 +115,8 @@
   <project name="platform/upstream/libxslt" revision="974603bce37de7923b080fdd275f31c46520b19b" remote="tizen-gerrit"/>
   <!-- orc 0.4.18 https://bugs.tizen.org/jira/browse/TC-1860 -->
   <project name="platform/upstream/orc" revision="cd51cf3dfd20ed4473c50adb2dd927a611258950" remote="tizen-gerrit"/>
+  <!-- libvorbis 1.3.4 https://bugs.tizen.org/jira/browse/TC-1844 -->
+  <project name="platform/upstream/libvorbis" revision="ab6d45db05b636625a4c7d01373b4bcb3709336b" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
