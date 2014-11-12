@@ -119,6 +119,8 @@
   <project name="platform/upstream/libvorbis" revision="ab6d45db05b636625a4c7d01373b4bcb3709336b" remote="tizen-gerrit"/>
   <!-- sbc 1.2 https://bugs.tizen.org/jira/browse/TC-1868 -->
   <project name="platform/upstream/sbc" revision="b5ea1795db4b4d834e0f69262a1e5182da0d9842" remote="tizen-gerrit"/>
+  <!-- pango 1.36.6 https://bugs.tizen.org/jira/browse/TC-1861 -->
+  <project name="platform/upstream/pango" revision="93b1ae10e1bac5225b05a7091e43f7a137cbcad7" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
