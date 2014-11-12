@@ -103,6 +103,8 @@
   <project name="platform/upstream/libvpx" revision="fe18ea2354008bcc37bbe28282ac25bb6d369f17" remote="tizen-gerrit"/>
   <!-- p11-kit 0.19.1 https://bugs.tizen.org/jira/browse/TC-1927 -->
   <project name="platform/upstream/p11-kit" revision="16ee29b95970094a2bf0bf2a043ab21754761744" remote="tizen-gerrit"/>
+  <!-- libxml2 0.19.1 https://bugs.tizen.org/jira/browse/TC-1847 -->
+  <project name="platform/upstream/libxml2" revision="e578657f3eb32ca58c684bc99657ae5f83af23be" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
