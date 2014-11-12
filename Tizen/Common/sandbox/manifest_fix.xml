@@ -105,6 +105,8 @@
   <project name="platform/upstream/p11-kit" revision="16ee29b95970094a2bf0bf2a043ab21754761744" remote="tizen-gerrit"/>
   <!-- libxml2 0.19.1 https://bugs.tizen.org/jira/browse/TC-1847 -->
   <project name="platform/upstream/libxml2" revision="e578657f3eb32ca58c684bc99657ae5f83af23be" remote="tizen-gerrit"/>
+  <!-- lua 0.19.1 https://bugs.tizen.org/jira/browse/TC-1849 -->
+  <project name="platform/upstream/lua" revision="c4557ba4ba372fcf2d0d2b037a2da0fdf49b14d8" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
