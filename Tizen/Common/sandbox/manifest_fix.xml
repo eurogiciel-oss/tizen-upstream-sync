@@ -113,6 +113,8 @@
   <project name="platform/upstream/iptables" revision="7b236962701986a050ddb9bad288231f56bb5505" remote="tizen-gerrit"/>
   <!-- libxslt 1.1.28 https://bugs.tizen.org/jira/browse/TC-1848 -->
   <project name="platform/upstream/libxslt" revision="974603bce37de7923b080fdd275f31c46520b19b" remote="tizen-gerrit"/>
+  <!-- orc 0.4.18 https://bugs.tizen.org/jira/browse/TC-1860 -->
+  <project name="platform/upstream/orc" revision="cd51cf3dfd20ed4473c50adb2dd927a611258950" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
