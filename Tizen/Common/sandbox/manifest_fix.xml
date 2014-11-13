@@ -141,6 +141,8 @@
   <project name="platform/upstream/alsa-utils" revision="b7ef9e6adf91adbaf1d615cee30c07fb0c306914" remote="tizen-gerrit"/>
   <!-- screen 4.2.0 https://bugs.tizen.org/jira/browse/TC-2059 -->
   <project name="platform/upstream/screen" revision="dc1252d7ced3d79eee14f38e0e71914b43e6714e" remote="tizen-gerrit"/>
+  <!-- poppler 0.26.5 https://bugs.tizen.org/jira/browse/TC-1864 -->
+  <project name="platform/upstream/poppler" revision="02ff9433541a428ad4746bec158b4241606b6d3b" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
