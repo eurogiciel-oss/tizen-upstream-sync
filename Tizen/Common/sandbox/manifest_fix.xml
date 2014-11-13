@@ -127,6 +127,8 @@
   <project name="platform/upstream/libassuan" revision="577e6f2ff069d3a7df4ce7e84f3f8b2c2a6dc19" remote="tizen-gerrit"/>
   <!-- gpg2 2.0.26 https://bugs.tizen.org/jira/browse/TC-1948 -->
   <project name="platform/upstream/gpg2" revision="8e438d0b30903d830cd03ed988fc6b9c73e5049b" remote="tizen-gerrit"/>
+  <!-- libffi 1.3 https://bugs.tizen.org/jira/browse/TC-1834 -->
+  <project name="platform/upstream/libffi" revision="75dc8a01901f9f21d933dd66d3fa28658f76f048" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
