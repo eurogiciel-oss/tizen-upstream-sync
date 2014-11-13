@@ -133,6 +133,8 @@
   <project name="platform/upstream/libusb-compat" revision="6955fa55f642ae133c20e9ba2dbe21744de702c7" remote="tizen-gerrit"/>
   <!-- shared-mime-info 1.3 https://bugs.tizen.org/jira/browse/TC-1870 -->
   <project name="platform/upstream/shared-mime-info" revision="b3d6d91768efdf508c2b8fe2cd069b1334a1c272" remote="tizen-gerrit"/>
+  <!-- less 466 https://bugs.tizen.org/jira/browse/TC-1922 -->
+  <project name="platform/upstream/less" revision="baf876021c8f175f614a417d9fbcf1aa78fcaac4" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
