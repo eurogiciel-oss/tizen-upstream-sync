@@ -143,6 +143,8 @@
   <project name="platform/upstream/screen" revision="dc1252d7ced3d79eee14f38e0e71914b43e6714e" remote="tizen-gerrit"/>
   <!-- poppler 0.26.5 https://bugs.tizen.org/jira/browse/TC-1864 -->
   <project name="platform/upstream/poppler" revision="02ff9433541a428ad4746bec158b4241606b6d3b" remote="tizen-gerrit"/>
+  <!-- openssh 6.6p1 https://bugs.tizen.org/jira/browse/TC-1858 -->
+  <project name="platform/upstream/openssh" revision="c317b93e0951334b4dbc15086798ad16b55f91ca" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
