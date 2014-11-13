@@ -137,6 +137,8 @@
   <project name="platform/upstream/less" revision="baf876021c8f175f614a417d9fbcf1aa78fcaac4" remote="tizen-gerrit"/>
   <!-- alsa-lib 1.0.28 https://bugs.tizen.org/jira/browse/TC-1799 -->
   <project name="platform/upstream/alsa-lib" revision="b1189becbc442c1951c144556e7abb1a1e7ab1d6" remote="tizen-gerrit"/>
+  <!-- alsa-utils 1.0.28 https://bugs.tizen.org/jira/browse/TC-1800 -->
+  <project name="platform/upstream/alsa-utils" revision="b7ef9e6adf91adbaf1d615cee30c07fb0c306914" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
