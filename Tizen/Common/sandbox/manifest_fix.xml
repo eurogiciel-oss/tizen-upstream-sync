@@ -149,6 +149,8 @@
   <project name="platform/upstream/perl" revision="74e383d8f7d6d21a0776cc31fd089535a4bfcbf9" remote="tizen-gerrit"/>
   <!-- python-nose 1.1.2 -> 1.2.1 https://bugs.tizen.org/jira/browse/TC-1866 -->
   <project name="platform/upstream/python-nose" revision="4603c47f1a9aaa7c49ef84f374017758c0422c76" remote="tizen-gerrit"/>
+  <!-- glib 2.40.0 https://bugs.tizen.org/jira/browse/TC-2124 -->
+  <project name="platform/upstream/glib" revision="625ef4fbea40d2f5fe8326cacd2d75f830426619" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
