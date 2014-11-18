@@ -153,6 +153,22 @@
   <project name="platform/upstream/glib" revision="625ef4fbea40d2f5fe8326cacd2d75f830426619" remote="tizen-gerrit"/>
   <!-- git 2.0.1 https://bugs.tizen.org/jira/browse/TC-1823 -->
   <project name="platform/upstream/git" revision="528acbc9b30d83286d786c3671dfecc6b5e17ce1" remote="tizen-gerrit"/>
+  <!-- gstreamer 1.4.1 https://bugs.tizen.org/jira/browse/TC-2108 -->
+  <project name="platform/upstream/gstreamer" revision="d6b04da62a08360bbec3cc87e72669d15309ac94" remote="tizen-gerrit"/>
+  <!-- libva 1.4.1 -->
+  <project name="platform/upstream/libva" revision="b4bc0e83256dc450aa1d459caa1e62c58708bc1a" remote="tizen-gerrit"/>
+  <!-- libva-intel-driver 1.4.1 -->
+  <project name="platform/upstream/libva-intel-driver" revision="d3ed0af4e9238dd29b7f14fd5bd2e06791f02c03" remote="tizen-gerrit"/>
+  <!-- gst-plugins-ugly 1.4.1 -->
+  <project name="platform/upstream/gst-plugins-ugly" revision="ddccc977e811a3241cd33af8e2203e0fa7d3f275" remote="tizen-gerrit"/>
+ <!-- gst-plugins-bad 1.4.1 -->
+  <project name="platform/upstream/gst-plugins-bad" revision="91f401ed996d60578eeab1dc9a93242c3d39a084" remote="tizen-gerrit"/>
+  <!-- tiff 4.0.3 https://bugs.tizen.org/jira/browse/TC-1874 -->
+  <project name="platform/upstream/tiff" revision="a7123bacbef4cf6265a5bde3eb4e65af3962ce12" remote="tizen-gerrit"/>
+  <!-- libogg 1.3.2 https://bugs.tizen.org/jira/browse/TC-1838 -->
+  <project name="platform/upstream/libogg" revision="330d14a7d93f752c7402719d87d64f7c5f1f615b" remote="tizen-gerrit"/>
+  <!-- atk 2.12.0 https://bugs.tizen.org/jira/browse/TC-1801 -->
+  <project name="platform/upstream/atk" revision="f386e9ea5f82977fade8bd906b1654fc98b2c0a3" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
