@@ -161,8 +161,14 @@
   <project name="platform/upstream/libva-intel-driver" revision="d3ed0af4e9238dd29b7f14fd5bd2e06791f02c03" remote="tizen-gerrit"/>
   <!-- gst-plugins-ugly 1.4.1 -->
   <project name="platform/upstream/gst-plugins-ugly" revision="ddccc977e811a3241cd33af8e2203e0fa7d3f275" remote="tizen-gerrit"/>
- <!-- gst-plugins-bad 1.4.1 -->
+  <!-- gst-plugins-bad 1.4.1 -->
   <project name="platform/upstream/gst-plugins-bad" revision="91f401ed996d60578eeab1dc9a93242c3d39a084" remote="tizen-gerrit"/>
+  <!-- gst-plugins-base 1.4.1 -->
+  <project name="platform/upstream/gst-plugins-base" revision="cca79c2edc693fd6aed688c26a88ac79fca3d244" remote="tizen-gerrit"/>
+  <!-- gst-plugins-good 1.4.1 -->
+  <project name="platform/upstream/gst-plugins-good" revision="ac3c6e22e4f1890318daada6f1771a874e7da636" remote="tizen-gerrit"/>
+  <!-- libav 9.16 -->
+  <project name="platform/upstream/libav" revision="550b6f45c52c08d90d89dd4d53c0e82e5d39eed2" remote="tizen-gerrit"/>
   <!-- tiff 4.0.3 https://bugs.tizen.org/jira/browse/TC-1874 -->
   <project name="platform/upstream/tiff" revision="a7123bacbef4cf6265a5bde3eb4e65af3962ce12" remote="tizen-gerrit"/>
   <!-- libogg 1.3.2 https://bugs.tizen.org/jira/browse/TC-1838 -->
