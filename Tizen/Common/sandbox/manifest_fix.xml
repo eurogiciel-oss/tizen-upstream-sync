@@ -65,8 +65,6 @@
   <project name="platform/upstream/sed" revision="3789316d1186bd7ffc8d06873bce1c5c56b322c7" remote="tizen-gerrit"/>
   <!-- usbutils 006 -> 007 https://bugs.tizen.org/jira/browse/TC-1876 -->
   <project name="platform/upstream/usbutils" revision="391665ffa9c37671adad62c87e818cfb95fe699a" remote="tizen-gerrit"/>
-  <!-- dbus 1.6.12 -> 1.6.18 https://bugs.tizen.org/jira/browse/TC-1812 -->
-  <project name="platform/upstream/dbus" revision="d915ac14441fcacca7cc416e5b08b135755e13dd" remote="tizen-gerrit"/>
   <!-- fontconfig 2.10.91 -> 2.11.1 https://bugs.tizen.org/jira/browse/TC-1818 -->
   <project name="platform/upstream/fontconfig" revision="ab1693bb8aaecf2e8e89a764915030ad0e3f9a03" remote="tizen-gerrit"/>
   <!-- ofono 1.14 -> 1.15 https://bugs.tizen.org/jira/browse/TC-1857 -->
@@ -184,5 +182,7 @@
 
   <!-- util-macros 1.19.0 https://bugs.tizen.org/jira/browse/TC-1877 -->
   <project name="platform/upstream/util-macros" revision="5eb8f5eba6ee91c9793badd0292c91e5f7d29b30" remote="tizen-gerrit"/>
+  <!-- dbus 1.6.18 -> 1.8.2 https://bugs.tizen.org/jira/browse/TC-1812 -->
+  <project name="platform/upstream/dbus" revision="7389ee06f05772b67e6f94e9832b1dc9dea7b804" remote="tizen-gerrit"/>
 
 </manifest>
