@@ -167,8 +167,6 @@
   <project name="platform/upstream/gst-plugins-good" revision="ac3c6e22e4f1890318daada6f1771a874e7da636" remote="tizen-gerrit"/>
   <!-- libav 9.16 -->
   <project name="platform/upstream/libav" revision="550b6f45c52c08d90d89dd4d53c0e82e5d39eed2" remote="tizen-gerrit"/>
-  <!-- tiff 4.0.3 https://bugs.tizen.org/jira/browse/TC-1874 -->
-  <project name="platform/upstream/tiff" revision="a7123bacbef4cf6265a5bde3eb4e65af3962ce12" remote="tizen-gerrit"/>
   <!-- libogg 1.3.2 https://bugs.tizen.org/jira/browse/TC-1838 -->
   <project name="platform/upstream/libogg" revision="330d14a7d93f752c7402719d87d64f7c5f1f615b" remote="tizen-gerrit"/>
   <!-- atk 2.12.0 https://bugs.tizen.org/jira/browse/TC-1801 -->
