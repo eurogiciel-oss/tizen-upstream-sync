@@ -142,7 +142,7 @@
   <!-- openssh 6.6p1 https://bugs.tizen.org/jira/browse/TC-1858 -->
   <project name="platform/upstream/openssh" revision="c317b93e0951334b4dbc15086798ad16b55f91ca" remote="tizen-gerrit"/>
   <!-- flex 2.5.39 https://bugs.tizen.org/jira/browse/TC-1817 -->
-  <project name="platform/upstream/flex" revision="3d6fdbb2cbdad8655bd2f3eb5f7b3a6766483ec5" remote="tizen-gerrit"/>
+  <project name="platform/upstream/flex" revision="5b6a4ca3fcbbc0ec54c033aa064ecd67c8c2c5e7" remote="tizen-gerrit"/>
   <!-- perl 5.16.0 -> 5.20.0 https://bugs.tizen.org/jira/browse/TC-1862 -->
   <project name="platform/upstream/perl" revision="74e383d8f7d6d21a0776cc31fd089535a4bfcbf9" remote="tizen-gerrit"/>
   <!-- python-nose 1.1.2 -> 1.2.1 https://bugs.tizen.org/jira/browse/TC-1866 -->
