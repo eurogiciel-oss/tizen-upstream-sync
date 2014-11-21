@@ -189,4 +189,9 @@
   <!-- tiff 4.0.3 https://bugs.tizen.org/jira/browse/TC-1874 -->
   <project name="platform/upstream/tiff" revision="a7123bacbef4cf6265a5bde3eb4e65af3962ce12" remote="tizen-gerrit"/>
 
+  <!-- Corrections on packages that don't need to be updated -->
+
+  <!-- parted [issue with readline 6.3] https://bugs.tizen.org/jira/browse/TC-1867 -->
+  <project name="platform/upstream/parted" revision="b527cbe7d629d2bf3417197932570bed980dafd6" remote="tizen-gerrit"/>
+
 </manifest>
