@@ -175,6 +175,10 @@
   <project name="platform/upstream/swig" revision="eebe437f7bf8dde8ce18ca101343387ef5129c8e" remote="tizen-gerrit"/>
   <!-- libgcrypt 1.6.2 https://bugs.tizen.org/jira/browse/TC-1924 -->
   <project name="platform/upstream/libgcrypt" revision="f506ec655061b273b02ef290072e7bb8d25e7ec4" remote="tizen-gerrit"/>
+  <!-- gupnp 0.20.12 https://bugs.tizen.org/jira/browse/TC-1929 -->
+  <project name="profile/ivi/GUPnP" revision="75b94d9b0e9989afb258247467d94da2adf61fdf" remote="tizen-gerrit"/>
+  <!-- gupnp-av 0.12.6 https://bugs.tizen.org/jira/browse/TC-1930 -->
+  <project name="profile/ivi/GUPnP-AV" revision="ef34736a5e2577b38a985b8d4bd9dce3f7f6c640" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
