@@ -174,7 +174,7 @@
   <!-- swig 3.0.2 https://bugs.tizen.org/jira/browse/TC-1872 -->
   <project name="platform/upstream/swig" revision="eebe437f7bf8dde8ce18ca101343387ef5129c8e" remote="tizen-gerrit"/>
   <!-- libgcrypt 1.6.2 https://bugs.tizen.org/jira/browse/TC-1924 -->
-  <project name="platform/upstream/libgcrypt" revision="6e55da74bf388ba0a648f2f48bdbf2d45eda297c" remote="tizen-gerrit"/>
+  <project name="platform/upstream/libgcrypt" revision="f506ec655061b273b02ef290072e7bb8d25e7ec4" remote="tizen-gerrit"/>
 
   <!-- Merged not submitted -->
 
