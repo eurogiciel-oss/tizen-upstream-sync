@@ -30,7 +30,7 @@
   <!-- kmod 15 -> 18 https://bugs.tizen.org/jira/browse/TC-1921 -->
   <project name="platform/upstream/kmod" revision="a2ef79f3f784c3c04f94bbccb1e8bfb015c6b571" remote="tizen-gerrit"/>
   <!-- bison 2.6.2 -> 2.7.1 https://bugs.tizen.org/jira/browse/TC-1803 -->
-  <project name="platform/upstream/bison" revision="ef3b922060917be175e4e7d8b0624ae4bf02c8d0" remote="tizen-gerrit"/>
+  <project name="platform/upstream/bison" revision="13dcecaf61271ca8463192979beec8cad08be70a" remote="tizen-gerrit"/>
   <!-- gdbm 1.10 -> 1.11 https://bugs.tizen.org/jira/browse/TC-1821 -->
   <project name="platform/upstream/gdbm" revision="0bb6e7e07a3afb3beebda0a3faa3432b7576742d" remote="tizen-gerrit"/>
   <!-- tzdata 2012 -> 2014h https://bugs.tizen.org/jira/browse/TC-1875 -->
