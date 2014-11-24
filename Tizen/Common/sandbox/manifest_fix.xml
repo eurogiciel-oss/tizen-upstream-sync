@@ -171,8 +171,6 @@
   <project name="platform/upstream/atk" revision="f386e9ea5f82977fade8bd906b1654fc98b2c0a3" remote="tizen-gerrit"/>
   <!-- swig 3.0.2 https://bugs.tizen.org/jira/browse/TC-1872 -->
   <project name="platform/upstream/swig" revision="eebe437f7bf8dde8ce18ca101343387ef5129c8e" remote="tizen-gerrit"/>
-  <!-- libgcrypt 1.6.2 https://bugs.tizen.org/jira/browse/TC-1924 -->
-  <project name="platform/upstream/libgcrypt" revision="f506ec655061b273b02ef290072e7bb8d25e7ec4" remote="tizen-gerrit"/>
   <!-- gupnp 0.20.12 https://bugs.tizen.org/jira/browse/TC-1929 -->
   <project name="profile/ivi/GUPnP" revision="75b94d9b0e9989afb258247467d94da2adf61fdf" remote="tizen-gerrit"/>
   <!-- gupnp-av 0.12.6 https://bugs.tizen.org/jira/browse/TC-1930 -->
@@ -186,6 +184,8 @@
   <project name="platform/upstream/dbus" revision="7389ee06f05772b67e6f94e9832b1dc9dea7b804" remote="tizen-gerrit"/>
   <!-- tiff 4.0.3 https://bugs.tizen.org/jira/browse/TC-1874 -->
   <project name="platform/upstream/tiff" revision="a7123bacbef4cf6265a5bde3eb4e65af3962ce12" remote="tizen-gerrit"/>
+  <!-- libgcrypt 1.6.2 https://bugs.tizen.org/jira/browse/TC-1924 -->
+  <project name="platform/upstream/libgcrypt" revision="f506ec655061b273b02ef290072e7bb8d25e7ec4" remote="tizen-gerrit"/>
 
   <!-- Corrections on packages that don't need to be updated -->
 
