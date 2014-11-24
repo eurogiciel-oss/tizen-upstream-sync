@@ -167,8 +167,6 @@
   <project name="platform/upstream/gst-plugins-good" revision="ac3c6e22e4f1890318daada6f1771a874e7da636" remote="tizen-gerrit"/>
   <!-- libav 9.16 -->
   <project name="platform/upstream/libav" revision="550b6f45c52c08d90d89dd4d53c0e82e5d39eed2" remote="tizen-gerrit"/>
-  <!-- atk 2.12.0 https://bugs.tizen.org/jira/browse/TC-1801 -->
-  <project name="platform/upstream/atk" revision="f386e9ea5f82977fade8bd906b1654fc98b2c0a3" remote="tizen-gerrit"/>
   <!-- swig 3.0.2 https://bugs.tizen.org/jira/browse/TC-1872 -->
   <project name="platform/upstream/swig" revision="eebe437f7bf8dde8ce18ca101343387ef5129c8e" remote="tizen-gerrit"/>
   <!-- gupnp 0.20.12 https://bugs.tizen.org/jira/browse/TC-1929 -->
