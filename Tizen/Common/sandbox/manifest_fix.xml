@@ -81,8 +81,6 @@
   <project name="platform/upstream/json-glib" revision="7b14e2e1b7794069656b483462ae689125abeeba" remote="tizen-gerrit"/>
   <!-- libpcap 1.6.1 https://bugs.tizen.org/jira/browse/TC-1839 -->
   <project name="platform/upstream/libpcap" revision="889666f80115d138322ec15b1a3a7c282f939a22" remote="tizen-gerrit"/>
-  <!-- libical 1.0.0 https://bugs.tizen.org/jira/browse/TC-1925 -->
-  <project name="platform/upstream/libical" revision="98cd6400601ddc3aff1e48315c7ca74be6517fb4" remote="tizen-gerrit"/>
   <!-- avahi 0.6.31 https://bugs.tizen.org/jira/browse/TC-1914 -->
   <project name="platform/upstream/avahi" revision="05f77719ebb4c160452df646701b67a84dff9576" remote="tizen-gerrit"/>
   <!-- busybox 1.22.1 https://bugs.tizen.org/jira/browse/TC-1918 -->
