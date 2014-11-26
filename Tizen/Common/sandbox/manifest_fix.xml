@@ -142,7 +142,7 @@
   <!-- python-nose 1.1.2 -> 1.2.1 https://bugs.tizen.org/jira/browse/TC-1866 -->
   <project name="platform/upstream/python-nose" revision="5293a5c5719c142b71f01feacfcea92c0e690e58" remote="tizen-gerrit"/>
   <!-- glib 2.40.0 https://bugs.tizen.org/jira/browse/TC-2124 -->
-  <project name="platform/upstream/glib" revision="625ef4fbea40d2f5fe8326cacd2d75f830426619" remote="tizen-gerrit"/>
+  <project name="platform/upstream/glib" revision="408e2a1cf5e2ea837e49bef231623a5c7346e993" remote="tizen-gerrit"/>
   <!-- git 2.0.1 https://bugs.tizen.org/jira/browse/TC-1823 -->
   <project name="platform/upstream/git" revision="528acbc9b30d83286d786c3671dfecc6b5e17ce1" remote="tizen-gerrit"/>
   <!-- gstreamer 1.4.1 https://bugs.tizen.org/jira/browse/TC-2108 -->
