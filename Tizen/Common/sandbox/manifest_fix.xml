@@ -170,8 +170,6 @@
 
   <!-- util-macros 1.19.0 https://bugs.tizen.org/jira/browse/TC-1877 -->
   <project name="platform/upstream/util-macros" revision="5eb8f5eba6ee91c9793badd0292c91e5f7d29b30" remote="tizen-gerrit"/>
-  <!-- dbus 1.6.18 -> 1.8.2 https://bugs.tizen.org/jira/browse/TC-1812 -->
-  <project name="platform/upstream/dbus" revision="7389ee06f05772b67e6f94e9832b1dc9dea7b804" remote="tizen-gerrit"/>
   <!-- tiff 4.0.3 https://bugs.tizen.org/jira/browse/TC-1874 -->
   <project name="platform/upstream/tiff" revision="a7123bacbef4cf6265a5bde3eb4e65af3962ce12" remote="tizen-gerrit"/>
   <!-- libgcrypt 1.6.2 https://bugs.tizen.org/jira/browse/TC-1924 -->
