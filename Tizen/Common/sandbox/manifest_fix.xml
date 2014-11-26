@@ -114,7 +114,7 @@
   <!-- pango 1.36.6 https://bugs.tizen.org/jira/browse/TC-1861 -->
   <project name="platform/upstream/pango" revision="93b1ae10e1bac5225b05a7091e43f7a137cbcad7" remote="tizen-gerrit"/>
   <!-- nettle 2.7.1 https://bugs.tizen.org/jira/browse/TC-1856 -->
-  <project name="platform/upstream/nettle" revision="7ebbf2b2236f0291a9031cf048db89c886c0014a" remote="tizen-gerrit"/>
+  <project name="platform/upstream/nettle" revision="d5c8f4b1699ce358233856d4d7f25ae7f8822852" remote="tizen-gerrit"/>
   <!-- libassuan 2.1.2 https://bugs.tizen.org/jira/browse/TC-1923 -->
   <project name="platform/upstream/libassuan" revision="577e6f2ff069d3a7df4ce7e84f3f8b2c2a6dc19" remote="tizen-gerrit"/>
   <!-- gpg2 2.0.26 https://bugs.tizen.org/jira/browse/TC-1948 -->
