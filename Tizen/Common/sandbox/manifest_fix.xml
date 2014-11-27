@@ -11,8 +11,6 @@
   
   <!-- file 5.11 -> 5.18 https://bugs.tizen.org/jira/browse/TC-1814 -->
   <project name="platform/upstream/file" revision="bc5cddb477b34ecfca4b717e616b67dea6d0d038" remote="tizen-gerrit"/>
-  <!-- elfutils 0.155 -> 0.158 https://bugs.tizen.org/jira/browse/TC-1947 -->
-  <project name="platform/upstream/elfutils" revision="5a80b233c939d45e03ab6fe3a80399b67ed535cb" remote="tizen-gerrit"/>
   <!-- readline 5.2 -> 6.3 https://bugs.tizen.org/jira/browse/TC-1867 -->
   <project name="platform/upstream/readline" revision="e30358efdbb9c8f655cb83ed2207f6e52820ce75" remote="tizen-gerrit"/>
   <!-- curl 7.32.0 -> 7.37.1 https://bugs.tizen.org/jira/browse/TC-1807 -->
@@ -141,8 +139,6 @@
   <project name="platform/upstream/perl" revision="74e383d8f7d6d21a0776cc31fd089535a4bfcbf9" remote="tizen-gerrit"/>
   <!-- python-nose 1.1.2 -> 1.2.1 https://bugs.tizen.org/jira/browse/TC-1866 -->
   <project name="platform/upstream/python-nose" revision="5293a5c5719c142b71f01feacfcea92c0e690e58" remote="tizen-gerrit"/>
-  <!-- glib 2.40.0 https://bugs.tizen.org/jira/browse/TC-2124 -->
-  <project name="platform/upstream/glib" revision="408e2a1cf5e2ea837e49bef231623a5c7346e993" remote="tizen-gerrit"/>
   <!-- git 2.0.1 https://bugs.tizen.org/jira/browse/TC-1823 -->
   <project name="platform/upstream/git" revision="528acbc9b30d83286d786c3671dfecc6b5e17ce1" remote="tizen-gerrit"/>
   <!-- gstreamer 1.4.1 https://bugs.tizen.org/jira/browse/TC-2108 -->
