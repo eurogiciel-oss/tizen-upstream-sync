@@ -6,7 +6,7 @@
   <default remote="tizen-gerrit"/>
 
   <!-- #{ pcoval -->
-  <project name="platform/upstream/automake" revision="b591f562b4e6ff2de7797a4103398a73d517dd8a" />
+  <project name="platform/upstream/automake" revision="54218ab95ee0801f29e06759bb208fbe87dc114a" />
 
   <!--
   <project name="platform/upstream/efl" revision="2dec2b9dcbf4329ad06ed87a8bc34c067be3c55d" />
