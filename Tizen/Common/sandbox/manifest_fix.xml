@@ -9,8 +9,6 @@
   
   <!-- Packages updates for Tizen-Yocto alignment -->
   
-  <!-- file 5.11 -> 5.18 https://bugs.tizen.org/jira/browse/TC-1814 -->
-  <project name="platform/upstream/file" revision="bc5cddb477b34ecfca4b717e616b67dea6d0d038" remote="tizen-gerrit"/>
   <!-- readline 5.2 -> 6.3 https://bugs.tizen.org/jira/browse/TC-1867 -->
   <project name="platform/upstream/readline" revision="e30358efdbb9c8f655cb83ed2207f6e52820ce75" remote="tizen-gerrit"/>
   <!-- curl 7.32.0 -> 7.37.1 https://bugs.tizen.org/jira/browse/TC-1807 -->
@@ -27,8 +25,6 @@
   <project name="platform/upstream/gnome-common" revision="18fac0ee1e0fe1758d1d92450e6f287475dcfb5f" remote="tizen-gerrit"/>
   <!-- kmod 15 -> 18 https://bugs.tizen.org/jira/browse/TC-1921 -->
   <project name="platform/upstream/kmod" revision="a2ef79f3f784c3c04f94bbccb1e8bfb015c6b571" remote="tizen-gerrit"/>
-  <!-- bison 2.6.2 -> 2.7.1 https://bugs.tizen.org/jira/browse/TC-1803 -->
-  <project name="platform/upstream/bison" revision="13dcecaf61271ca8463192979beec8cad08be70a" remote="tizen-gerrit"/>
   <!-- gdbm 1.10 -> 1.11 https://bugs.tizen.org/jira/browse/TC-1821 -->
   <project name="platform/upstream/gdbm" revision="0bb6e7e07a3afb3beebda0a3faa3432b7576742d" remote="tizen-gerrit"/>
   <!-- tzdata 2012 -> 2014h https://bugs.tizen.org/jira/browse/TC-1875 -->
@@ -57,8 +53,6 @@
   <project name="platform/upstream/boost" revision="03087a87dc4586a5dd1ed43db88ed52c22327c88" remote="tizen-gerrit"/>
   <!-- docbook-xsl-stylesheets 1.77.1 -> 1.78.1 https://bugs.tizen.org/jira/browse/TC-1915 -->
   <project name="platform/upstream/docbook-xsl-stylesheets" revision="d278c2ef3ca0ba1a9c2fdc423705c74e02f2d67a" remote="tizen-gerrit"/>
-  <!-- dbus-python 1.1.1 -> 1.2.0 https://bugs.tizen.org/jira/browse/TC-1946 -->
-  <project name="platform/upstream/dbus-python" revision="0e094639e715a6d4b8dee0736fdc305b9d31776b" remote="tizen-gerrit"/>
   <!-- sed 4.2.1 -> 4.2.2 https://bugs.tizen.org/jira/browse/TC-1869 -->
   <project name="platform/upstream/sed" revision="3789316d1186bd7ffc8d06873bce1c5c56b322c7" remote="tizen-gerrit"/>
   <!-- usbutils 006 -> 007 https://bugs.tizen.org/jira/browse/TC-1876 -->
@@ -81,8 +75,6 @@
   <project name="platform/upstream/libpcap" revision="889666f80115d138322ec15b1a3a7c282f939a22" remote="tizen-gerrit"/>
   <!-- avahi 0.6.31 https://bugs.tizen.org/jira/browse/TC-1914 -->
   <project name="platform/upstream/avahi" revision="05f77719ebb4c160452df646701b67a84dff9576" remote="tizen-gerrit"/>
-  <!-- busybox 1.22.1 https://bugs.tizen.org/jira/browse/TC-1918 -->
-  <project name="platform/upstream/busybox" revision="7a155c3c0ef5854e62afa03ef73800eee922a567" remote="tizen-gerrit"/>
   <!-- coreutils 8.21 -> 8.22 https://bugs.tizen.org/jira/browse/TC-1806 -->
   <project name="platform/upstream/coreutils" revision="b235400cab5ee5e0212fc7108fcb7baf6f246e7f" remote="tizen-gerrit"/>
   <!-- libpciaccess 0.13.2 https://bugs.tizen.org/jira/browse/TC-1840 -->
