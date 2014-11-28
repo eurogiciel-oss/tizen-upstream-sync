@@ -149,6 +149,8 @@
   <project name="platform/upstream/gst-plugins-good" revision="ac3c6e22e4f1890318daada6f1771a874e7da636" remote="tizen-gerrit"/>
   <!-- swig 3.0.2 https://bugs.tizen.org/jira/browse/TC-1872 -->
   <project name="platform/upstream/swig" revision="eebe437f7bf8dde8ce18ca101343387ef5129c8e" remote="tizen-gerrit"/>
+  <!-- automake 1.14.1 -->
+  <project name="platform/upstream/automake" revision="b591f562b4e6ff2de7797a4103398a73d517dd8a" />
   <!-- gupnp 0.20.12 https://bugs.tizen.org/jira/browse/TC-1929 -->
   <!--<project name="profile/ivi/GUPnP" revision="75b94d9b0e9989afb258247467d94da2adf61fdf" remote="tizen-gerrit"/>
   <!-- gupnp-av 0.12.6 https://bugs.tizen.org/jira/browse/TC-1930 -->
