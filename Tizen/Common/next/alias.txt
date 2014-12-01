@@ -1,0 +1,8 @@
+libxml2 python-libxml2
+dbus libdbus
+file python-magic
+qemu-accel qemu-accel-armv7l qemu-accel-aarch64
+gcc49 cross-aarch64-gcc49 cross-armv7hl-gcc49 cross-armv7l-gcc49
+binutils cross-arm-binutils cross-aarch64-binutils
+crosswalk crosswalk-bin
+linux-3.10 odroid-linux-kernel rinato-linux-kernel

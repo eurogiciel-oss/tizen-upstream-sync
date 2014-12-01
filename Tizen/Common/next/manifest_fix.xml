@@ -1,0 +1,11 @@
+<manifest xmlns:tz="http://tizen.org">
+  <remote fetch="ssh://review.tizen.org" name="tizen-gerrit" review="https://review.tizen.org/gerrit"/>
+  <remote fetch="ssh://git@github.com" name="github"/>
+  <remote fetch="https://git.gitorious.org" name="gitorious-https"/>
+  
+  <default remote="tizen-gerrit"/>
+
+  <project name="Tarnyko/uselessd" revision="2ad36b765da0d5b9f1242125c474b963be4c0685" remote="github"/>
+  <project name="Tarnyko/eudev" revision="f4c0f6048dce1813c80e32994e6fe7aeff59c270" remote="github"/>
+  
+</manifest>
