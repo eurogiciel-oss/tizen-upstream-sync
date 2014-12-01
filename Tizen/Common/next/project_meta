@@ -15,6 +15,10 @@ This project is synchronized with upstream project https://build.tizen.org/proje
     <disable arch="x86_64" repository="arm-wayland"/>
     <disable arch="x86_64" repository="arm-x11"/>
     <enable/>
+    <disable repository="emulator32-wayland"/>
+    <disable repository="ia32-wayland"/>
+    <disable repository="ia32-x11"/>
+    <disable repository="x86_64-x11"/>
   </build>
   <debuginfo>
     <enable/>
