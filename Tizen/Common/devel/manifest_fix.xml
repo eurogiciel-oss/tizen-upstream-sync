@@ -7,7 +7,7 @@
 
   <!-- #{ pcoval -->
   <project name="platform/upstream/automake" revision="54218ab95ee0801f29e06759bb208fbe87dc114a" />
-
+  <project name="platform/upstream/libsecret" revision="115bcbe47059371f172286c68d730d7c59f9e8fc" />
   <!--
   <project name="platform/upstream/efl" revision="2dec2b9dcbf4329ad06ed87a8bc34c067be3c55d" />
   <project name="platform/upstream/elementary" revision="e24feaefd5fa523c8a16869cf74041fd1193b243" />
