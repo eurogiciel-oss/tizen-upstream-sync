@@ -26,9 +26,8 @@ Prefer: libpci-devel
 
 ############################# REPLACE SYSTEMD, NOW #############################
 
-Prefer: uselessd libuselessd uselessd-devel
-Prefer: eudev libeudev libeudev-devel libgudev1 libgudev1-devel
 Substitute: systemd uselessd
+Substitute: libsystemd libuselessd
 
 ############################# profile definition ###############################
 
