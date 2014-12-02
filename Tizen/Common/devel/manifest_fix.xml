@@ -28,4 +28,12 @@
   <project name="profile/ivi/Modello_Phone" revision="2aae49875dba76afbefac8b76d6ce505f94be9ab" />
   <project name="profile/ivi/Modello_SDL" revision="ca736df169a33e30e7bdb2a7b37307a67d3d7ba7" />
   
+  <!-- #{ elebideau -->
+  <project name="platform/upstream/gstreamer" revision="4add506e9924debb553fb9e0e7242fb5563cd0b3" />
+  <project name="platform/upstream/gst-plugins-base" revision="9a2673bca2e4b8812a8908170ee9fe4e1bba42da" />
+  <project name="platform/upstream/gst-plugins-good" revision="075a576f7c85f970f814dd88648b443d49c4fb40" />
+  <project name="platform/upstream/gst-plugins-bad" revision="d122b33add289685870150d0b93b4984d6b325c4" />
+  <project name="platform/upstream/gst-plugins-ugly" revision="39a00b34a0bfb81e6226c73a831227c01a6a2293" />
+  <project name="platform/upstream/gst-libav" revision="26905a94e526fb550b99ec9c845aa93966045424" />
+  <!-- #} elebideau -->
 </manifest>
