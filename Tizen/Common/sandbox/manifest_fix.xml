@@ -105,8 +105,6 @@
   <!-- <project name="platform/upstream/pango" revision="93b1ae10e1bac5225b05a7091e43f7a137cbcad7" remote="tizen-gerrit"/>
   <!-- nettle 2.7.1 https://bugs.tizen.org/jira/browse/TC-1856 -->
   <!-- <project name="platform/upstream/nettle" revision="d5c8f4b1699ce358233856d4d7f25ae7f8822852" remote="tizen-gerrit"/>
-  <!-- libassuan 2.1.2 https://bugs.tizen.org/jira/browse/TC-1923 -->
-  <!-- <project name="platform/upstream/libassuan" revision="577e6f2ff069d3a7df4ce7e84f3f8b2c2a6dc19" remote="tizen-gerrit"/>
   <!-- gpg2 2.0.26 https://bugs.tizen.org/jira/browse/TC-1948 -->
   <!--<project name="platform/upstream/gpg2" revision="8e438d0b30903d830cd03ed988fc6b9c73e5049b" remote="tizen-gerrit"/>
   <!-- libusb-compat 0.1.5 https://bugs.tizen.org/jira/browse/TC-1843 -->
@@ -171,6 +169,8 @@
   <!-- <project name="platform/upstream/libgcrypt" revision="f506ec655061b273b02ef290072e7bb8d25e7ec4" remote="tizen-gerrit"/>
   <!-- openssl -->
   <!-- <project name="platform/upstream/openssl" revision="8b0a7425a704956f5a447cf00296a98f4c223a5e" remote="tizen-gerrit"/>
+  <!-- libassuan 2.1.2 https://bugs.tizen.org/jira/browse/TC-1923 -->
+  <!-- <project name="platform/upstream/libassuan" revision="577e6f2ff069d3a7df4ce7e84f3f8b2c2a6dc19" remote="tizen-gerrit"/>
 
   <!-- Corrections on packages that don't need to be updated -->
 
