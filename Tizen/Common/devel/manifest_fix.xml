@@ -9,7 +9,7 @@
   <project name="platform/upstream/automake" revision="54218ab95ee0801f29e06759bb208fbe87dc114a" />
   <project name="platform/upstream/libsecret" revision="115bcbe47059371f172286c68d730d7c59f9e8fc" />
   <project name="platform/upstream/gnutls" revision="473ee91f42f69086ffd778e28a5b79019900c203" />
-  <project name="platform/upstream/sgml-common" revision="e6b1f0b6d882cceb686432424111733db12d3dba" />
+  <project name="platform/upstream/sgml-common" revision="8235d0c84f24813fc2260c8750bf2c84ea011f66" />
   <!--
   <project name="platform/upstream/efl" revision="2dec2b9dcbf4329ad06ed87a8bc34c067be3c55d" />
   <project name="platform/upstream/elementary" revision="e24feaefd5fa523c8a16869cf74041fd1193b243" />
