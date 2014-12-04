@@ -78,7 +78,9 @@
   <project name="platform/upstream/libtirpc" revision="96a4bd07f66a802c13bfde21f667e3ba9beb60d0" remote="tizen-gerrit"/>
   }-->
   <!-- boost 1.51.0 -> 1.56.0 https://bugs.tizen.org/jira/browse/TC-1804 -->
+  <!--{
   <project name="platform/upstream/boost" revision="03087a87dc4586a5dd1ed43db88ed52c22327c88" remote="tizen-gerrit"/>
+  }-->
   <!-- docbook-xsl-stylesheets 1.77.1 -> 1.78.1 https://bugs.tizen.org/jira/browse/TC-1915 -->
   <project name="platform/upstream/docbook-xsl-stylesheets" revision="d278c2ef3ca0ba1a9c2fdc423705c74e02f2d67a" remote="tizen-gerrit"/>
   <!-- sed 4.2.1 -> 4.2.2 https://bugs.tizen.org/jira/browse/TC-1869 -->
@@ -94,7 +96,9 @@
   <project name="platform/upstream/ofono" revision="48f0ba1d7222470dcb1096ded59d3b8539877b4b" remote="tizen-gerrit"/>
   }-->
   <!-- grep 2.19 https://bugs.tizen.org/jira/browse/TC-1828 -->
+  <!--{
   <project name="platform/upstream/grep" revision="651e5cd9249b5a961cb7809981836cb6e6e8ede3" remote="tizen-gerrit"/>
+  }-->
   <!-- libpng 1.6.13 https://bugs.tizen.org/jira/browse/TC-1841 -->
   <!--{
   <project name="platform/upstream/libpng" revision="beafe281146a93ae4025d0333d2ee7d3fcf6768d" remote="tizen-gerrit"/>
@@ -184,7 +188,7 @@
   <!-- alsa-lib 1.0.28 https://bugs.tizen.org/jira/browse/TC-1799 -->
   <project name="platform/upstream/alsa-lib" revision="b1189becbc442c1951c144556e7abb1a1e7ab1d6" remote="tizen-gerrit"/>
   <!-- alsa-utils 1.0.28 https://bugs.tizen.org/jira/browse/TC-1800 -->
-  <project name="platform/upstream/alsa-utils" revision="b7ef9e6adf91adbaf1d615cee30c07fb0c306914" remote="tizen-gerrit"/>
+  <project name="platform/upstream/alsa-utils" revision="93bf5c3d4ca7661120bff4e97d378227cb7be36a" remote="tizen-gerrit"/>
   <!-- screen 4.2.0 https://bugs.tizen.org/jira/browse/TC-2059 -->
   <!--{
   <project name="platform/upstream/screen" revision="dc1252d7ced3d79eee14f38e0e71914b43e6714e" remote="tizen-gerrit"/>
@@ -214,9 +218,13 @@
   <!-- gstreamer 1.4.1 https://bugs.tizen.org/jira/browse/TC-2108 -->
   <project name="platform/upstream/gstreamer" revision="4add506e9924debb553fb9e0e7242fb5563cd0b3" remote="tizen-gerrit"/>
   <!-- libva 1.4.1 -->
+  <!--{
   <project name="platform/upstream/libva" revision="b4bc0e83256dc450aa1d459caa1e62c58708bc1a" remote="tizen-gerrit"/>
+  }-->
   <!-- libva-intel-driver 1.4.1 -->
+  <!--{
   <project name="platform/upstream/libva-intel-driver" revision="d3ed0af4e9238dd29b7f14fd5bd2e06791f02c03" remote="tizen-gerrit"/>
+  }-->
   <!-- gst-plugins-ugly 1.4.1 -->
   <project name="platform/upstream/gst-plugins-ugly" revision="39a00b34a0bfb81e6226c73a831227c01a6a2293" remote="tizen-gerrit"/>
   <!-- gst-plugins-bad 1.4.1 -->
