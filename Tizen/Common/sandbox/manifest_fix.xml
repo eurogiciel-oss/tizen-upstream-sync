@@ -5,7 +5,9 @@
 
   <default remote="tizen-gerrit"/>
 
+  <!--Toybox {
   <project name="eurogiciel-oss/toybox" revision="9ed73eb6fee46464f875947527c894617ab7e868" remote="github"/>
+  }-->
 
   <!-- Packages updates for Tizen-Yocto alignment -->
 
