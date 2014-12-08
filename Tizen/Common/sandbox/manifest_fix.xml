@@ -152,9 +152,7 @@
   <project name="platform/upstream/pango" revision="93b1ae10e1bac5225b05a7091e43f7a137cbcad7" remote="tizen-gerrit"/>
   }-->
   <!-- nettle 2.7.1 https://bugs.tizen.org/jira/browse/TC-1856 -->
-  <!--{
   <project name="platform/upstream/nettle" revision="d5c8f4b1699ce358233856d4d7f25ae7f8822852" remote="tizen-gerrit"/>
-  }-->
   <!-- gpg2 2.0.26 https://bugs.tizen.org/jira/browse/TC-1948 -->
   <project name="platform/upstream/gpg2" revision="8e438d0b30903d830cd03ed988fc6b9c73e5049b" remote="tizen-gerrit"/>
   <!-- libusb-compat 0.1.5 https://bugs.tizen.org/jira/browse/TC-1843 -->
@@ -178,9 +176,7 @@
   <project name="platform/upstream/poppler" revision="02ff9433541a428ad4746bec158b4241606b6d3b" remote="tizen-gerrit"/>
   }-->
   <!-- openssh 6.6p1 https://bugs.tizen.org/jira/browse/TC-1858 -->
-  <!--{
   <project name="platform/upstream/openssh" revision="c317b93e0951334b4dbc15086798ad16b55f91ca" remote="tizen-gerrit"/>
-  }-->
   <!-- flex 2.5.39 https://bugs.tizen.org/jira/browse/TC-1817 -->
   <!--{
   <project name="platform/upstream/flex" revision="5b6a4ca3fcbbc0ec54c033aa064ecd67c8c2c5e7" remote="tizen-gerrit"/>
@@ -235,17 +231,11 @@
   <!-- tiff 4.0.3 https://bugs.tizen.org/jira/browse/TC-1874 -->
   <project name="platform/upstream/tiff" revision="a7123bacbef4cf6265a5bde3eb4e65af3962ce12" remote="tizen-gerrit"/>
   <!-- libgcrypt 1.6.2 https://bugs.tizen.org/jira/browse/TC-1924 -->
-  <!--{
   <project name="platform/upstream/libgcrypt" revision="f506ec655061b273b02ef290072e7bb8d25e7ec4" remote="tizen-gerrit"/>
-  }-->
   <!-- openssl -->
-  <!--{
   <project name="platform/upstream/openssl" revision="8b0a7425a704956f5a447cf00296a98f4c223a5e" remote="tizen-gerrit"/>
-  }-->
   <!-- libassuan 2.1.2 https://bugs.tizen.org/jira/browse/TC-1923 -->
-  <!--{
   <project name="platform/upstream/libassuan" revision="577e6f2ff069d3a7df4ce7e84f3f8b2c2a6dc19" remote="tizen-gerrit"/>
-  }-->
   <!-- iptables 1.8.10p3 https://bugs.tizen.org/jira/browse/TC-1830 -->
   <project name="platform/upstream/iptables" revision="7b236962701986a050ddb9bad288231f56bb5505" remote="tizen-gerrit"/>
 
