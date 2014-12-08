@@ -18,6 +18,8 @@
   <project name="platform/upstream/elementary" revision="e24feaefd5fa523c8a16869cf74041fd1193b243" />
   <project name="platform/core/uifw/efl-theme-tizen" revision="ee4ff756099f8f29cd782bca81e1c35925128e41" />
   -->
+  
+  <project name="platform/core/multimedia/media-server" revision="1ca2a80b79c5b5153d46a8e722730882e7fa7efb" />
   <!-- #} pcoval -->
 
   <!-- Modello packages -->
