@@ -11,6 +11,7 @@
   <project name="platform/upstream/gnutls" revision="3d709db854a30325e262ddf20e70543191ae0dc1" />
   <!-- project name="platform/upstream/sgml-common" revision="8235d0c84f24813fc2260c8750bf2c84ea011f66" -->
   <project name="platform/upstream/nettle" revision="d5c8f4b1699ce358233856d4d7f25ae7f8822852" />
+  <project name="platform/upstream/xorg-launch-helper" revision="d5c8f4b1699ce358233856d4d7f25ae7f8822852" />
   <project name="platform/core/location/libslp-location" revision="ae7068a66179d52f94d9f7a5964885a54f5057e9" />
   <!--
   <project name="platform/upstream/efl" revision="2dec2b9dcbf4329ad06ed87a8bc34c067be3c55d" />
