@@ -158,7 +158,7 @@
   <!-- gst-plugins-ugly 1.4.1 -->
   <project name="platform/upstream/gst-plugins-ugly" revision="39a00b34a0bfb81e6226c73a831227c01a6a2293" remote="tizen-gerrit"/>
   <!-- gst-plugins-bad 1.4.1 -->
-  <project name="platform/upstream/gst-plugins-bad" revision="d122b33add289685870150d0b93b4984d6b325c4" remote="tizen-gerrit"/>
+  <project name="platform/upstream/gst-plugins-bad" revision="59e214a472f0e8adf6107addcd44f66e77805b83" remote="tizen-gerrit"/>
   <!-- gst-plugins-base 1.4.1 -->
   <project name="platform/upstream/gst-plugins-base" revision="9a2673bca2e4b8812a8908170ee9fe4e1bba42da" remote="tizen-gerrit"/>
   <!-- gst-plugins-good 1.4.1 -->
