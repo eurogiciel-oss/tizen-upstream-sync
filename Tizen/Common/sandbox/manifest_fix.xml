@@ -196,8 +196,11 @@
   <!-- Corrections on packages that don't need to be updated -->
 
   <!-- parted [issue with readline 6.3] https://bugs.tizen.org/jira/browse/TC-1867 -->
-  <!--{
-  <project name="platform/upstream/parted" revision="b527cbe7d629d2bf3417197932570bed980dafd6" remote="tizen-gerrit"/>
-  }-->
+  <project name="platform/upstream/parted" revision="e8ba66d7d4cca81a5cc671da79e82a43fa6bf3b0" remote="tizen-gerrit"/>
+  <!-- php [issue with libpng 1.6] https://bugs.tizen.org/jira/browse/TC-1841 -->
+  <project name="platform/upstream/php" revision="ebc1218eb1b1082c6cd5a23f7bf8c2ce5af12fb4" remote="tizen-gerrit"/>
+  <!-- iproute2 [issue with libpng 1.6] https://bugs.tizen.org/jira/browse/TC-1841 -->
+  <project name="platform/upstream/iproute2" revision="9be16ded28cee6c6a822e9b5a30cf781e414c9a3" remote="tizen-gerrit"/>
+
 
 </manifest>
