@@ -132,21 +132,15 @@
   <project name="platform/upstream/flex" revision="5b6a4ca3fcbbc0ec54c033aa064ecd67c8c2c5e7" remote="tizen-gerrit"/>
   }-->
   <!-- perl 5.16.0 -> 5.20.0 https://bugs.tizen.org/jira/browse/TC-1862 -->
-  <!--{
   <project name="platform/upstream/perl" revision="74e383d8f7d6d21a0776cc31fd089535a4bfcbf9" remote="tizen-gerrit"/>
-  }-->
   <!-- python-nose 1.1.2 -> 1.2.1 https://bugs.tizen.org/jira/browse/TC-1866 -->
   <project name="platform/upstream/python-nose" revision="5293a5c5719c142b71f01feacfcea92c0e690e58" remote="tizen-gerrit"/>
   <!-- gstreamer 1.4.1 https://bugs.tizen.org/jira/browse/TC-2108 -->
   <project name="platform/upstream/gstreamer" revision="4add506e9924debb553fb9e0e7242fb5563cd0b3" remote="tizen-gerrit"/>
   <!-- libva 1.4.1 -->
-  <!--{
   <project name="platform/upstream/libva" revision="b4bc0e83256dc450aa1d459caa1e62c58708bc1a" remote="tizen-gerrit"/>
-  }-->
   <!-- libva-intel-driver 1.4.1 -->
-  <!--{
   <project name="platform/upstream/libva-intel-driver" revision="d3ed0af4e9238dd29b7f14fd5bd2e06791f02c03" remote="tizen-gerrit"/>
-  }-->
   <!-- gst-plugins-ugly 1.4.1 -->
   <project name="platform/upstream/gst-plugins-ugly" revision="39a00b34a0bfb81e6226c73a831227c01a6a2293" remote="tizen-gerrit"/>
   <!-- gst-plugins-bad 1.4.1 -->
