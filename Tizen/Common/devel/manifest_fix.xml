@@ -6,22 +6,22 @@
   <default remote="tizen-gerrit"/>
 
   <!-- #{ pcoval -->
-  <project name="platform/upstream/c-ares" revision="tizen" />
+  <!-- project name="platform/upstream/c-ares" revision="tizen" / -->
   <project name="platform/upstream/automake" revision="54218ab95ee0801f29e06759bb208fbe87dc114a" />
-  <project name="platform/upstream/libsecret" revision="115bcbe47059371f172286c68d730d7c59f9e8fc" />
+  <!-- project name="platform/upstream/libsecret" revision="tizen" / -->
   <project name="platform/upstream/gnutls" revision="3d709db854a30325e262ddf20e70543191ae0dc1" />
   <!-- project name="platform/upstream/sgml-common" revision="8235d0c84f24813fc2260c8750bf2c84ea011f66" -->
   <project name="platform/upstream/nettle" revision="d5c8f4b1699ce358233856d4d7f25ae7f8822852" />
-  <project name="platform/upstream/xorg-launch-helper" revision="tizen" />
-  <project name="platform/core/location/libslp-location" revision="tizen" />
-  <project name="platform/upstream/uw-imap-toolkit" revision="tizen" />
+  <!-- project name="platform/upstream/xorg-launch-helper" revision="tizen" / -->
+  <!-- project name="platform/core/location/libslp-location" revision="tizen" / -->
+  <!-- project name="platform/upstream/uw-imap-toolkit" revision="tizen" / -->
   <!--
   <project name="platform/upstream/efl" revision="2dec2b9dcbf4329ad06ed87a8bc34c067be3c55d" />
   <project name="platform/upstream/elementary" revision="e24feaefd5fa523c8a16869cf74041fd1193b243" />
   <project name="platform/core/uifw/efl-theme-tizen" revision="ee4ff756099f8f29cd782bca81e1c35925128e41" />
   -->
   
-  <project name="platform/core/multimedia/media-server" revision="tizen" />
+  <!-- project name="platform/core/multimedia/media-server" revision="tizen" / -->
   <!-- #} pcoval -->
 
   <!-- Modello packages -->
