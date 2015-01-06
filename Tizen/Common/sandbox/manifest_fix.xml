@@ -51,19 +51,10 @@
   <!--{
   <project name="platform/upstream/cmake" revision="a7e476f59dc74e2fe4cb3102b8af33ce08f159bc" remote="tizen-gerrit"/>
   }-->
-  <!-- libksba 1.3.0 -> 1.3.1 https://bugs.tizen.org/jira/browse/TC-2159 -->
-  <!--{
-  <project name="platform/upstream/libksba" revision="2bc00a11543c2ec34581e956f97925c7b8024209" remote="tizen-gerrit"/>
-  }-->
   <!-- makedepend 1.0.4 -> 1.0.5 https://bugs.tizen.org/jira/browse/TC-2239 -->
   <!--{
   <project name="platform/upstream/makedepend" revision="688f63d6504a12ca436e958e39d90d642b48cd9a" remote="tizen-gerrit"/>
   }-->
-  <!-- gawk 4.0.1 -> 4.1.1 https://bugs.tizen.org/jira/browse/TC-1819 -->
-  <!--{
-  <project name="platform/upstream/gawk" revision="770e3e71df4071efcb5189dec520af2b716d091e" remote="tizen-gerrit"/>
-  }-->
-
 
   <!-- Packages updates for Tizen-Yocto alignment -->
 
@@ -77,6 +68,11 @@
   <project name="platform/upstream/make" revision="adb2e03a0a86819a88e9cfc601918d1ae20b7624" remote="tizen-gerrit"/>
   <!-- libsecret 0.15 -> 0.18 https://bugs.tizen.org/jira/browse/TC-2236 -->
   <project name="platform/upstream/libsecret" revision="1f82ff16d775ef58b27b1c01fbd39b231ed31bd7" remote="tizen-gerrit"/>
+
+  <!-- libksba 1.3.0 -> 1.3.1 https://bugs.tizen.org/jira/browse/TC-2159 -->
+  <project name="platform/upstream/libksba" revision="2bc00a11543c2ec34581e956f97925c7b8024209" remote="tizen-gerrit"/>
+  <!-- gawk 4.0.1 -> 4.1.1 https://bugs.tizen.org/jira/browse/TC-1819 -->
+  <project name="platform/upstream/gawk" revision="770e3e71df4071efcb5189dec520af2b716d091e" remote="tizen-gerrit"/>
 
   <!-- Create issues -->
 
@@ -149,8 +145,6 @@
   <project name="platform/upstream/screen" revision="dc1252d7ced3d79eee14f38e0e71914b43e6714e" remote="tizen-gerrit"/>
   <!-- poppler 0.26.5 https://bugs.tizen.org/jira/browse/TC-1864 -->
   <project name="platform/upstream/poppler" revision="02ff9433541a428ad4746bec158b4241606b6d3b" remote="tizen-gerrit"/>
-  <!-- openssh 6.6p1 https://bugs.tizen.org/jira/browse/TC-1858 -->
-  <project name="platform/upstream/openssh" revision="c317b93e0951334b4dbc15086798ad16b55f91ca" remote="tizen-gerrit"/>
   <!-- gstreamer 1.4.1 https://bugs.tizen.org/jira/browse/TC-2108 -->
   <project name="platform/upstream/gstreamer" revision="4add506e9924debb553fb9e0e7242fb5563cd0b3" remote="tizen-gerrit"/>
   <!-- gst-plugins-ugly 1.4.1 -->
