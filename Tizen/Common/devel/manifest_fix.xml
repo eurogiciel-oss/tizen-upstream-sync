@@ -7,7 +7,7 @@
 
   <!-- #{ pcoval -->
   <!-- project name="platform/upstream/c-ares" revision="tizen" / -->
-  <project name="platform/upstream/automake" revision="54218ab95ee0801f29e06759bb208fbe87dc114a" />
+  <!-- project name="platform/upstream/automake" revision="tizen" / -->
   <!-- project name="platform/upstream/libsecret" revision="tizen" / -->
   <project name="platform/upstream/gnutls" revision="3d709db854a30325e262ddf20e70543191ae0dc1" />
   <!-- project name="platform/upstream/sgml-common" revision="8235d0c84f24813fc2260c8750bf2c84ea011f66" -->
