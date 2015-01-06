@@ -11,49 +11,9 @@
 
   <!-- Missing upstream tags -->
 
-  <!-- acpid 2.0.1 -> 2.0.22 https://bugs.tizen.org/jira/browse/TC-1798 -->
-  <!--{
-  <project name="platform/upstream/acpid" revision="f3993a6dba55ea577e2947f98e8ac5480e912e3c" remote="tizen-gerrit"/>
-  }-->
-  <!-- vala 0.20 -> 0.26.1 https://bugs.tizen.org/jira/browse/TC-2244 -->
-  <!--{
-  <project name="platform/upstream/vala" revision="424e6541d29a42426fea4f620a60dc491ff046c1" remote="tizen-gerrit"/>
-  }-->
-  <!-- strace 4.8 -> 4.9 https://bugs.tizen.org/jira/browse/TC-2160 -->
-  <!--{
-  <project name="platform/upstream/strace" revision="ad92bdd9aafa96499ac29eb85d53ddefea1b02c9" remote="tizen-gerrit"/>
-  }-->
-  <!-- unifdef 2.8 -> 2.10 https://bugs.tizen.org/jira/browse/TC-2243 -->
-  <!--{
-  <project name="platform/upstream/unifdef" revision="6dbb9a5795dfd898d28e9b6e6fd7315f2227d11c" remote="tizen-gerrit"/>
-  }-->
-  <!-- python-distribute 0.6.30 -> 0.6.32 https://bugs.tizen.org/jira/browse/TC-2241 -->
-  <!--{
-  <project name="platform/upstream/python-distribute" revision="90e64e63a9b2eaaae76e86bb69315ec3b83aa37a" remote="tizen-gerrit"/>
-  }-->
-  <!-- groff 1.21 -> 1.22.2 https://bugs.tizen.org/jira/browse/TC-2234 -->
-  <!--{
-  <project name="platform/upstream/groff" revision="60766eb964a5ef1f1cc7042edd7a4fedc2f8e923" remote="tizen-gerrit"/>
-  }-->
   <!-- libjpeg-turbo 1.2.1 -> 1.3.1 https://bugs.tizen.org/jira/browse/TC-2158 -->
   <!--{
   <project name="platform/upstream/libjpeg-turbo" revision="0892c93f8c3205e6af5662634c29ce51f07faf60" remote="tizen-gerrit"/>
-  }-->
-  <!-- libunistring 0.9.3 -> 0.9.4 https://bugs.tizen.org/jira/browse/TC-2237 -->
-  <!--{
-  <project name="platform/upstream/libunistring" revision="ee79fd98e371249a335153517f1e7237dc3322eb" remote="tizen-gerrit"/>
-  }-->
-  <!-- edbus 1.7.8 -> 1.7.9 https://bugs.tizen.org/jira/browse/TC-2231 -->
-  <!--{
-  <project name="platform/upstream/edbus" revision="46117bc226c355bc7ed95b03945e7841dc76ae04" remote="tizen-gerrit"/>
-  }-->
-  <!-- cmake 2.8.11.2 -> 2.8.12.2 https://bugs.tizen.org/jira/browse/TC-2230 -->
-  <!--{
-  <project name="platform/upstream/cmake" revision="a7e476f59dc74e2fe4cb3102b8af33ce08f159bc" remote="tizen-gerrit"/>
-  }-->
-  <!-- makedepend 1.0.4 -> 1.0.5 https://bugs.tizen.org/jira/browse/TC-2239 -->
-  <!--{
-  <project name="platform/upstream/makedepend" revision="688f63d6504a12ca436e958e39d90d642b48cd9a" remote="tizen-gerrit"/>
   }-->
 
   <!-- Packages updates for Tizen-Yocto alignment -->
@@ -64,8 +24,6 @@
   <project name="platform/upstream/gnutls" revision="e8edb8e14566d0073d6855a3964ac0a46556e4b1" remote="tizen-gerrit"/>
   <!-- perl 5.16.0 -> 5.20.0 https://bugs.tizen.org/jira/browse/TC-1862 -->
   <project name="platform/upstream/perl" revision="74e383d8f7d6d21a0776cc31fd089535a4bfcbf9" remote="tizen-gerrit"/>
-  <!-- make 3.82 -> 4.0 https://bugs.tizen.org/jira/browse/TC-1851 -->
-  <project name="platform/upstream/make" revision="adb2e03a0a86819a88e9cfc601918d1ae20b7624" remote="tizen-gerrit"/>
   <!-- libsecret 0.15 -> 0.18 https://bugs.tizen.org/jira/browse/TC-2236 -->
   <project name="platform/upstream/libsecret" revision="1f82ff16d775ef58b27b1c01fbd39b231ed31bd7" remote="tizen-gerrit"/>
 
@@ -107,16 +65,10 @@
 
   <!-- OBS build validated -->
 
-  <!-- xz 5.0.3 -> 5.1.3 https://bugs.tizen.org/jira/browse/TC-1880 -->
-  <project name="platform/upstream/xz" revision="64df9112fd85138dd285114eda4df8661fae1ffb" remote="tizen-gerrit"/>
-  <!-- zlib 1.2.7 -> 1.2.8 https://bugs.tizen.org/jira/browse/TC-1882 -->
-  <project name="platform/upstream/zlib" revision="730695c0bc4b8371dea3d2d290d8d38753a55561" remote="tizen-gerrit"/>
   <!-- zeromq 3.1.0 -> 4.0.4 https://bugs.tizen.org/jira/browse/TC-1881 -->
   <project name="platform/upstream/zeromq" revision="249ee52211d66d03896ddc4dd8e8eab4593d536a" remote="tizen-gerrit"/>
   <!-- xkeyboard-config 2.11 -> 2.12 https://bugs.tizen.org/jira/browse/TC-1879 -->
   <project name="platform/upstream/xkeyboard-config" revision="9160dd8fffa5b93efe9a8fc24803adb78694b0de" remote="tizen-gerrit"/>
-  <!-- usbutils 006 -> 007 https://bugs.tizen.org/jira/browse/TC-1876 -->
-  <project name="platform/upstream/usbutils" revision="391665ffa9c37671adad62c87e818cfb95fe699a" remote="tizen-gerrit"/>
   <!-- ofono 1.14 -> 1.15 https://bugs.tizen.org/jira/browse/TC-1857 -->
   <project name="platform/upstream/ofono" revision="48f0ba1d7222470dcb1096ded59d3b8539877b4b" remote="tizen-gerrit"/>
   <!-- libpng 1.6.13 https://bugs.tizen.org/jira/browse/TC-1841 -->
@@ -125,24 +77,12 @@
   <project name="platform/upstream/pixman" revision="833ca1b811c7d9b6f49158ee33d283d5f93b995e" remote="tizen-gerrit"/>
   <!-- coreutils 8.21 -> 8.22 https://bugs.tizen.org/jira/browse/TC-1806 -->
   <project name="platform/upstream/coreutils" revision="b235400cab5ee5e0212fc7108fcb7baf6f246e7f" remote="tizen-gerrit"/>
-  <!-- libpciaccess 0.13.2 https://bugs.tizen.org/jira/browse/TC-1840 -->
-  <project name="platform/upstream/libpciaccess" revision="69915a5026b3e412613fb0c9889d8537a260b01a" remote="tizen-gerrit"/>
-  <!-- tcl 8.6.1 https://bugs.tizen.org/jira/browse/TC-1928 -->
-  <project name="platform/upstream/tcl" revision="bb08ccde445ad76d47447a9962bdf34348f1da90" remote="tizen-gerrit"/>
   <!-- libtasn1 4.0 https://bugs.tizen.org/jira/browse/TC-1926 -->
   <project name="platform/upstream/libtasn1" revision="2bd8053f139263b61fadb12c90a3fdd88d261b07" remote="tizen-gerrit"/>
   <!-- libxml2 0.19.1 https://bugs.tizen.org/jira/browse/TC-1847 -->
   <project name="platform/upstream/libxml2" revision="e578657f3eb32ca58c684bc99657ae5f83af23be" remote="tizen-gerrit"/>
-  <!-- orc 0.4.18 https://bugs.tizen.org/jira/browse/TC-1860 -->
-  <project name="platform/upstream/orc" revision="cd51cf3dfd20ed4473c50adb2dd927a611258950" remote="tizen-gerrit"/>
-  <!-- sbc 1.2 https://bugs.tizen.org/jira/browse/TC-1868 -->
-  <project name="platform/upstream/sbc" revision="b5ea1795db4b4d834e0f69262a1e5182da0d9842" remote="tizen-gerrit"/>
   <!-- pango 1.36.6 https://bugs.tizen.org/jira/browse/TC-1861 -->
   <project name="platform/upstream/pango" revision="93b1ae10e1bac5225b05a7091e43f7a137cbcad7" remote="tizen-gerrit"/>
-  <!-- shared-mime-info 1.3 https://bugs.tizen.org/jira/browse/TC-1870 -->
-  <project name="platform/upstream/shared-mime-info" revision="b3d6d91768efdf508c2b8fe2cd069b1334a1c272" remote="tizen-gerrit"/>
-  <!-- screen 4.2.0 https://bugs.tizen.org/jira/browse/TC-2059 -->
-  <project name="platform/upstream/screen" revision="dc1252d7ced3d79eee14f38e0e71914b43e6714e" remote="tizen-gerrit"/>
   <!-- poppler 0.26.5 https://bugs.tizen.org/jira/browse/TC-1864 -->
   <project name="platform/upstream/poppler" revision="02ff9433541a428ad4746bec158b4241606b6d3b" remote="tizen-gerrit"/>
   <!-- gstreamer 1.4.1 https://bugs.tizen.org/jira/browse/TC-2108 -->
