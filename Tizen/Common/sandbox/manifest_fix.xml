@@ -9,13 +9,6 @@
   <project name="eurogiciel-oss/toybox" revision="9ed73eb6fee46464f875947527c894617ab7e868" remote="github"/>
   }-->
 
-  <!-- Missing upstream tags -->
-
-  <!-- libjpeg-turbo 1.2.1 -> 1.3.1 https://bugs.tizen.org/jira/browse/TC-2158 -->
-  <!--{
-  <project name="platform/upstream/libjpeg-turbo" revision="0892c93f8c3205e6af5662634c29ce51f07faf60" remote="tizen-gerrit"/>
-  }-->
-
   <!-- Packages updates for Tizen-Yocto alignment -->
 
   <!-- Being tested -->
@@ -26,13 +19,14 @@
   <project name="platform/upstream/perl" revision="74e383d8f7d6d21a0776cc31fd089535a4bfcbf9" remote="tizen-gerrit"/>
   <!-- libsecret 0.15 -> 0.18 https://bugs.tizen.org/jira/browse/TC-2236 -->
   <project name="platform/upstream/libsecret" revision="1f82ff16d775ef58b27b1c01fbd39b231ed31bd7" remote="tizen-gerrit"/>
-
   <!-- libksba 1.3.0 -> 1.3.1 https://bugs.tizen.org/jira/browse/TC-2159 -->
   <project name="platform/upstream/libksba" revision="2bc00a11543c2ec34581e956f97925c7b8024209" remote="tizen-gerrit"/>
   <!-- gawk 4.0.1 -> 4.1.1 https://bugs.tizen.org/jira/browse/TC-1819 -->
   <project name="platform/upstream/gawk" revision="770e3e71df4071efcb5189dec520af2b716d091e" remote="tizen-gerrit"/>
 
   <!-- Create issues -->
+
+  <!-- libxml2 -->
 
   <!-- readline 5.2 -> 6.3 https://bugs.tizen.org/jira/browse/TC-1867 -->
   <!--{
@@ -47,28 +41,14 @@
   <project name="platform/upstream/grep" revision="651e5cd9249b5a961cb7809981836cb6e6e8ede3" remote="tizen-gerrit"/>
   }-->
   <!-- lua 0.19.1 https://bugs.tizen.org/jira/browse/TC-1849 -->
-  <!--{
   <project name="platform/upstream/lua" revision="c4557ba4ba372fcf2d0d2b037a2da0fdf49b14d8" remote="tizen-gerrit"/>
-  }-->
   <!-- flex 2.5.39 https://bugs.tizen.org/jira/browse/TC-1817 -->
   <!--{
   <project name="platform/upstream/flex" revision="5b6a4ca3fcbbc0ec54c033aa064ecd67c8c2c5e7" remote="tizen-gerrit"/>
   }-->
-  <!-- libva 1.4.1 -->
-  <!--{
-  <project name="platform/upstream/libva" revision="b4bc0e83256dc450aa1d459caa1e62c58708bc1a" remote="tizen-gerrit"/>
-  }-->
-  <!-- libva-intel-driver 1.4.1 -->
-  <!--{
-  <project name="platform/upstream/libva-intel-driver" revision="d3ed0af4e9238dd29b7f14fd5bd2e06791f02c03" remote="tizen-gerrit"/>
-  }-->
 
   <!-- OBS build validated -->
 
-  <!-- zeromq 3.1.0 -> 4.0.4 https://bugs.tizen.org/jira/browse/TC-1881 -->
-  <project name="platform/upstream/zeromq" revision="249ee52211d66d03896ddc4dd8e8eab4593d536a" remote="tizen-gerrit"/>
-  <!-- xkeyboard-config 2.11 -> 2.12 https://bugs.tizen.org/jira/browse/TC-1879 -->
-  <project name="platform/upstream/xkeyboard-config" revision="9160dd8fffa5b93efe9a8fc24803adb78694b0de" remote="tizen-gerrit"/>
   <!-- ofono 1.14 -> 1.15 https://bugs.tizen.org/jira/browse/TC-1857 -->
   <project name="platform/upstream/ofono" revision="48f0ba1d7222470dcb1096ded59d3b8539877b4b" remote="tizen-gerrit"/>
   <!-- libpng 1.6.13 https://bugs.tizen.org/jira/browse/TC-1841 -->
@@ -79,12 +59,6 @@
   <project name="platform/upstream/coreutils" revision="b235400cab5ee5e0212fc7108fcb7baf6f246e7f" remote="tizen-gerrit"/>
   <!-- libtasn1 4.0 https://bugs.tizen.org/jira/browse/TC-1926 -->
   <project name="platform/upstream/libtasn1" revision="2bd8053f139263b61fadb12c90a3fdd88d261b07" remote="tizen-gerrit"/>
-  <!-- libxml2 0.19.1 https://bugs.tizen.org/jira/browse/TC-1847 -->
-  <project name="platform/upstream/libxml2" revision="e578657f3eb32ca58c684bc99657ae5f83af23be" remote="tizen-gerrit"/>
-  <!-- pango 1.36.6 https://bugs.tizen.org/jira/browse/TC-1861 -->
-  <project name="platform/upstream/pango" revision="93b1ae10e1bac5225b05a7091e43f7a137cbcad7" remote="tizen-gerrit"/>
-  <!-- poppler 0.26.5 https://bugs.tizen.org/jira/browse/TC-1864 -->
-  <project name="platform/upstream/poppler" revision="02ff9433541a428ad4746bec158b4241606b6d3b" remote="tizen-gerrit"/>
   <!-- gstreamer 1.4.1 https://bugs.tizen.org/jira/browse/TC-2108 -->
   <project name="platform/upstream/gstreamer" revision="4add506e9924debb553fb9e0e7242fb5563cd0b3" remote="tizen-gerrit"/>
   <!-- gst-plugins-ugly 1.4.1 -->
