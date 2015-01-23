@@ -5,10 +5,4 @@
   
   <default remote="tizen-gerrit"/>
   
-  <!--<project name="platform/framework/web/crosswalk" revision="8a1e374e12de145c4cfb2eb84474f71fc8eae1a9" />-->
-  <!--Add fix certDB-->
-  <project name="platform/core/appfw/app-svc" revision="8773b1ce4a8d23a431631469e269ecb75d4fe8c9" />
-  <project name="platform/core/appfw/pkgmgr-info" revision="3e65a74e336cd6728fb8129a480c915931f2b5cd" />
-  <project name="platform/core/appfw/slp-pkgmgr" revision="542f6c8e1335de82b1afd9652b9be9d802d6b430" />
-
 </manifest>
