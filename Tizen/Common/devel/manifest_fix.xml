@@ -7,9 +7,6 @@
 
   <!-- sdx { -->
 
-	<project name="profile/common/kernel-common" revision="c7a2ca6d9338825628ad5f7be257ba21173ecd86" />
-	<project name="profile/extras/i2c-tools" revision="b19d79bf9028f58e3e4226bd9410b59f19fe3c8d"/>
-
 	<!-- sandbox/sdx/iot -->
 	<project name="profile/common/meta" revision="5c006363f87b58de8040679722fc5a7c1f2b6708"/>
 
