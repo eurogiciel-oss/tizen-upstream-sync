@@ -10,6 +10,9 @@
 	<!-- sandbox/sdx/iot -->
 	<project name="profile/common/meta" revision="5c006363f87b58de8040679722fc5a7c1f2b6708"/>
 
+	<project name="kooltux/fbcat" revision="8a191767dff95da766bf51babad04cd6c49dcfae" remote="github"/>
+	<project name="xavrock/mpu9250_sample" revision="a022e254c886e9589df2a94a73df49e4fe53ee1c" remote="github"/>
+
   <!-- } -->
 
 </manifest>
