@@ -13,6 +13,10 @@
 	<project name="kooltux/fbcat" revision="8a191767dff95da766bf51babad04cd6c49dcfae" remote="github"/>
 	<project name="xavrock/mpu9250_sample" revision="a022e254c886e9589df2a94a73df49e4fe53ee1c" remote="github"/>
 
+	<project name="contrib/mraa" revision="de65fccd9ff42943eb240ecc47510a6135c49872"/>
+	<project name="contrib/upm" revision="88eaced5a23c23d1cfe3badfe8deeedda582ae50"/>
+	<project name="contrib/iotivity" revision="abd78803c92e45b9d6382ef2e1007a587388b074"/>
+
   <!-- } -->
 
 </manifest>
