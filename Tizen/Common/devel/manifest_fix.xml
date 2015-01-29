@@ -11,7 +11,7 @@
 	<project name="profile/common/meta" revision="5c006363f87b58de8040679722fc5a7c1f2b6708"/>
 
 	<project name="kooltux/fbcat" revision="c70ea1c673f56a7ad4aee33a73ce61cf05d7a2bf" remote="github"/>
-	<project name="xavrock/mpu9250_sample" revision="a022e254c886e9589df2a94a73df49e4fe53ee1c" remote="github"/>
+	<project name="kooltux/mpu9250_sample" revision="c786b8fddc9bb29f81a94b77e4cef7a55f79968b" remote="github"/>
 
 	<project name="contrib/mraa" revision="de65fccd9ff42943eb240ecc47510a6135c49872"/>
 	<project name="contrib/upm" revision="ff493ae6b98ff3d4c66e822fbafc95f4b30bf05f"/>
