@@ -16,7 +16,7 @@
 	<project name="contrib/mraa" revision="de65fccd9ff42943eb240ecc47510a6135c49872"/>
 	<project name="contrib/upm" revision="ff493ae6b98ff3d4c66e822fbafc95f4b30bf05f"/>
 	<project name="contrib/iotivity" revision="3c1b472df1becd5f88d821c4058ad368f79e92b7"/>
-
+	<project name="tizen/iotivitity-example" revision="9d458b5fc6cffe1c48302a3ed4eea57f123f9208" remote="gitorious-https"/>
   <!-- } -->
 
 </manifest>
