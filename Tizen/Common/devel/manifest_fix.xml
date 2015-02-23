@@ -19,4 +19,11 @@
 	<project name="tizen/iotivitity-example" revision="9d458b5fc6cffe1c48302a3ed4eea57f123f9208" remote="gitorious-https"/>
   <!-- } -->
 
+  <!-- mbachmann { -->
+
+	<!-- sandbox/mbachmann/efl1130 -->
+	<project name="platform/upstream/efl" revision="7b9dab1f73515e9232998702d54b38cd3c58e458"/>
+	<project name="platform/upstream/elementary" revision="4895a6f2009c47c5c4828623c40c64018c16a2a7"/>
+	<project name="platform/upstream/enlightenment" revision="ca0600d36629c8b6b0bef7ef9a1095350206be9c"/>
+
 </manifest>
