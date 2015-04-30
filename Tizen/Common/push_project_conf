@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PROJECT=${1:-Tizen:Common}
+
+osc api -X PUT /source/$PROJECT/_config -f project_config
